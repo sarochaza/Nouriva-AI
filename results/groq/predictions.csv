@@ -1,0 +1,559 @@
+﻿image_path,ground_truth_th,predicted_th,correct,model,status,raw_response
+images/FriedChicken/001.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/002.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/003.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/004.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/005.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/006.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/007.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/008.jpg,ไก่ทอด,UNKNOWN,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""UNKNOWN""}
+```"
+images/FriedChicken/009.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/010.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/011.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/012.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/013.jpg,ไก่ทอด,UNKNOWN,False,qwen/qwen3.8-27b,OK,"{""food_name"": ""UNKNOWN""}"
+images/FriedChicken/014.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/015.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/016.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/017.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/FriedChicken/018.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/019.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/FriedChicken/020.jpg,ไก่ทอด,ไก่ทอด,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ไก่ทอด""}
+```"
+images/GaengKeawWan/001.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/002.jpg,แกงเขียวหวาน,UNKNOWN,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""UNKNOWN""}
+```"
+images/GaengKeawWan/003.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/004.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/005.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/006.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/007.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/008.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/009.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/010.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/011.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/012.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/013.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/014.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/015.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/016.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/017.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/018.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""แกงเขียวหวาน""}
+```"
+images/GaengKeawWan/019.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"{
+  ""food_name"": ""แกงเขียวหวาน""
+}"
+images/GaengKeawWan/020.jpg,แกงเขียวหวาน,แกงเขียวหวาน,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""แกงเขียวหวาน""}
+```"
+images/KaoManGai/001.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/002.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/003.jpg,ข้าวมันไก่,ไก่ทอด,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/KaoManGai/004.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/005.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/006.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/007.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/008.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/009.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/010.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/011.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/012.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ข้าวมันไก่""}
+```"
+images/KaoManGai/013.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/014.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/015.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/016.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/017.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/018.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/019.jpg,ข้าวมันไก่,ข้าวมันไก่,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/KaoManGai/020.jpg,ข้าวมันไก่,ไก่ทอด,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ไก่ทอด""}
+```"
+images/KhaoNiewMaMuang/001.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/002.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวเหนียวมะม่วง""}"
+images/KhaoNiewMaMuang/003.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/004.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/005.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/006.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/007.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/008.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/009.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/010.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/011.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/012.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/013.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/014.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/015.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/016.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/017.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวเหนียวมะม่วง""}"
+images/KhaoNiewMaMuang/018.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/019.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวเหนียวมะม่วง""}
+```"
+images/KhaoNiewMaMuang/020.jpg,ข้าวเหนียวมะม่วง,ข้าวเหนียวมะม่วง,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวเหนียวมะม่วง""}"
+images/KuayTeowReua/001.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/002.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/003.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/004.jpg,ก๋วยเตี๋ยวเรือ,UNKNOWN,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""UNKNOWN""}
+```"
+images/KuayTeowReua/005.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/006.jpg,ก๋วยเตี๋ยวเรือ,UNKNOWN,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""UNKNOWN""}
+```"
+images/KuayTeowReua/007.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"{
+  ""food_name"": ""ก๋วยเตี๋ยวเรือ""
+}"
+images/KuayTeowReua/008.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ก๋วยเตี๋ยวเรือ""}"
+images/KuayTeowReua/009.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/010.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/011.jpg,ก๋วยเตี๋ยวเรือ,ผัดกะเพรา,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/KuayTeowReua/012.jpg,ก๋วยเตี๋ยวเรือ,ผัดกะเพรา,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/KuayTeowReua/013.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/014.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ก๋วยเตี๋ยวเรือ""}"
+images/KuayTeowReua/015.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/016.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/017.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/018.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/019.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/KuayTeowReua/020.jpg,ก๋วยเตี๋ยวเรือ,ก๋วยเตี๋ยวเรือ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ก๋วยเตี๋ยวเรือ""}
+```"
+images/PadThai/001.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดไทย""}
+```"
+images/PadThai/002.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/003.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดไทย""}
+```"
+images/PadThai/004.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดไทย""}
+```"
+images/PadThai/005.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/006.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/007.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/008.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/009.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/010.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/011.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/012.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดไทย""}
+```"
+images/PadThai/013.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดไทย""}
+```"
+images/PadThai/014.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ผัดไทย""}"
+images/PadThai/015.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/016.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/017.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/018.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ผัดไทย""}"
+images/PadThai/019.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/PadThai/020.jpg,ผัดไทย,ผัดไทย,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ผัดไทย""}"
+images/PhatKaphrao/001.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/002.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/003.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/004.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ผัดกะเพรา""}"
+images/PhatKaphrao/005.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/006.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/007.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/008.jpg,ผัดกะเพรา,ส้มตำ,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/PhatKaphrao/009.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/010.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/011.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/012.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/013.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/014.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/015.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/016.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/017.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/018.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ผัดกะเพรา""}"
+images/PhatKaphrao/019.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดกะเพรา""}
+```"
+images/PhatKaphrao/020.jpg,ผัดกะเพรา,ผัดกะเพรา,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดกะเพรา""}
+```"
+images/Somtam/001.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/002.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/003.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/004.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/005.jpg,ส้มตำ,ผัดไทย,False,qwen/qwen3.8-27b,OK,"{""food_name"":""ผัดไทย""}"
+images/Somtam/006.jpg,ส้มตำ,ผัดไทย,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ผัดไทย""}
+```"
+images/Somtam/007.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/008.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/009.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/010.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/011.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/012.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"{
+  ""food_name"": ""ส้มตำ""
+}"
+images/Somtam/013.jpg,ส้มตำ,UNKNOWN,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""UNKNOWN""}
+```"
+images/Somtam/014.jpg,ส้มตำ,ผัดไทย,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ผัดไทย""}
+```"
+images/Somtam/015.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/016.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/017.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/018.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/019.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/Somtam/020.jpg,ส้มตำ,ส้มตำ,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ส้มตำ""}
+```"
+images/StewedPorkLeg/001.jpg,ข้าวขาหมู,UNKNOWN,False,qwen/qwen3.8-27b,OK,"{""food_name"": ""UNKNOWN""}"
+images/StewedPorkLeg/002.jpg,ข้าวขาหมู,ข้าวมันไก่,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/StewedPorkLeg/003.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/004.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/005.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวขาหมู""}"
+images/StewedPorkLeg/006.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{
+  ""food_name"": ""ข้าวขาหมู""
+}"
+images/StewedPorkLeg/007.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/008.jpg,ข้าวขาหมู,UNKNOWN,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""UNKNOWN""}
+```"
+images/StewedPorkLeg/009.jpg,ข้าวขาหมู,ข้าวมันไก่,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/StewedPorkLeg/010.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวขาหมู""}"
+images/StewedPorkLeg/011.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/012.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวขาหมู""}"
+images/StewedPorkLeg/013.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/014.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{""food_name"": ""ข้าวขาหมู""}"
+images/StewedPorkLeg/015.jpg,ข้าวขาหมู,ข้าวมันไก่,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/StewedPorkLeg/016.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/017.jpg,ข้าวขาหมู,ข้าวมันไก่,False,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวมันไก่""}
+```"
+images/StewedPorkLeg/018.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ข้าวขาหมู""}
+```"
+images/StewedPorkLeg/019.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{
+  ""food_name"": ""ข้าวขาหมู""
+}"
+images/StewedPorkLeg/020.jpg,ข้าวขาหมู,ข้าวขาหมู,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ข้าวขาหมู""}"
+images/TomYumGoong/001.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/002.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/003.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/004.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/005.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/006.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/007.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/008.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/009.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ต้มยำกุ้ง""}"
+images/TomYumGoong/010.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/011.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/012.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ต้มยำกุ้ง""}"
+images/TomYumGoong/013.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"{""food_name"":""ต้มยำกุ้ง""}"
+images/TomYumGoong/014.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/015.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/016.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/017.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/018.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/019.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"": ""ต้มยำกุ้ง""}
+```"
+images/TomYumGoong/020.jpg,ต้มยำกุ้ง,ต้มยำกุ้ง,True,qwen/qwen3.8-27b,OK,"```json
+{""food_name"":""ต้มยำกุ้ง""}
+```"

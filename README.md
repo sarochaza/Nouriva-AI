@@ -38,7 +38,7 @@ Single และ Ensemble2 เป็น **วิธีทางเลือก�
 
 ## ฐานข้อมูลวัตถุดิบ
 
-ไฟล์: [`nutrition_database/ingredients.sqlite`](nutrition_database/ingredients.sqlite)
+ไฟล์: [`nutrition_database/ingredients.sqlite`](experiments/nutrition-candidates-v3/nutrition_database/ingredients.sqlite)
 
 | แหล่งข้อมูล | จำนวนรายการ |
 | --- | ---: |
@@ -96,15 +96,15 @@ Expected มาจาก labels ของชุดข้อมูล ไม่�
 
 ## ภาพที่ใช้ทดสอบ
 
-ไฟล์ต้นฉบับอยู่ใน [`results/real/smoke-real-v3/test-images/`](results/real/smoke-real-v3/test-images/)
+ไฟล์ต้นฉบับอยู่ใน [`results/real/smoke-real-v3/test-images/`](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/)
 
 | Dish ID | ภาพ |
 | --- | --- |
-| `dish_1560368944` | ![dish_1560368944](results/real/smoke-real-v3/test-images/dish_1560368944.png) |
-| `dish_1561491121` | ![dish_1561491121](results/real/smoke-real-v3/test-images/dish_1561491121.png) |
-| `dish_1561654374` | ![dish_1561654374](results/real/smoke-real-v3/test-images/dish_1561654374.png) |
-| `dish_1563555605` | ![dish_1563555605](results/real/smoke-real-v3/test-images/dish_1563555605.png) |
-| `dish_1563900205` | ![dish_1563900205](results/real/smoke-real-v3/test-images/dish_1563900205.png) |
+| `dish_1560368944` | ![dish_1560368944](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/dish_1560368944.png) |
+| `dish_1561491121` | ![dish_1561491121](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/dish_1561491121.png) |
+| `dish_1561654374` | ![dish_1561654374](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/dish_1561654374.png) |
+| `dish_1563555605` | ![dish_1563555605](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/dish_1563555605.png) |
+| `dish_1563900205` | ![dish_1563900205](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/dish_1563900205.png) |
 
 ## การตัดสินผู้ชนะ
 
@@ -137,15 +137,15 @@ Expected มาจาก labels ของชุดข้อมูล ไม่�
 
 | ไฟล์/โฟลเดอร์ | เนื้อหา |
 | --- | --- |
-| [report.html](results/real/smoke-real-v3/comparison/report.html) | รายงาน HTML เปิดใน browser หลังดาวน์โหลด/clone |
-| [report.md](results/real/smoke-real-v3/comparison/report.md) | รายงานอ่านบน GitHub |
-| [per_evaluation.csv](results/real/smoke-real-v3/comparison/per_evaluation.csv) | Expected และผลทำนายครบทุกภาพ/รอบ/วิธี |
-| [ingredient_breakdown.csv](results/real/smoke-real-v3/comparison/ingredient_breakdown.csv) | วัตถุดิบ น้ำหนัก และแหล่งค่ารายสารอาหาร |
-| [summary.json](results/real/smoke-real-v3/comparison/summary.json) | ตัวชี้วัดรวมและ cohort |
-| [winner_selection.json](results/real/smoke-real-v3/comparison/winner_selection.json) | เกณฑ์และผลเลือกวิธี |
-| [records/](results/real/smoke-real-v3/records/) | Trial JSON และประวัติ retry |
-| [frozen.json](results/real/smoke-real-v3/frozen.json) | Configuration และ hashes ของชุดทดลอง |
-| [test-images/](results/real/smoke-real-v3/test-images/) | ภาพทดสอบต้นฉบับ 5 ภาพ |
+| [report.html](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/comparison/report.html) | รายงาน HTML เปิดใน browser หลังดาวน์โหลด/clone |
+| [report.md](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/comparison/report.md) | รายงานอ่านบน GitHub |
+| [per_evaluation.csv](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/comparison/per_evaluation.csv) | Expected และผลทำนายครบทุกภาพ/รอบ/วิธี |
+| [ingredient_breakdown.csv](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/comparison/ingredient_breakdown.csv) | วัตถุดิบ น้ำหนัก และแหล่งค่ารายสารอาหาร |
+| [summary.json](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/comparison/summary.json) | ตัวชี้วัดรวมและ cohort |
+| [winner_selection.json](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/comparison/winner_selection.json) | เกณฑ์และผลเลือกวิธี |
+| [records/](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/records/) | Trial JSON และประวัติ retry |
+| [frozen.json](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/frozen.json) | Configuration และ hashes ของชุดทดลอง |
+| [test-images/](experiments/nutrition-candidates-v3/results/real/smoke-real-v3/test-images/) | ภาพทดสอบต้นฉบับ 5 ภาพ |
 
 ชุดหลักฐานที่นำมาสรุปมี Expected totals ในไฟล์ประเมิน แต่ไม่มี `ground_truth.json` ฉบับเต็มและ prepared manifest ต้นฉบับ จึงไม่สร้าง expected ingredient labels ขึ้นใหม่จากคำตอบ AI
 
@@ -155,4 +155,4 @@ Expected มาจาก labels ของชุดข้อมูล ไม่�
 - Nutrition5k: https://github.com/google-research-datasets/Nutrition5k
 - เอกสารฐานข้อมูล USDA FoodData Central: https://fdc.nal.usda.gov/data-documentation/
 
-README นี้สรุปผลจากไฟล์หลักฐานของ `smoke-real-v3` และควรวางในโฟลเดอร์ `experiments/nutrition-candidates-v3/` เพื่อให้ลิงก์ภาพและผลทดลองทำงานบน GitHub
+README นี้สรุปผลจากไฟล์หลักฐานของ `smoke-real-v3` และจัดลิงก์สำหรับวางเป็น `README.md` ที่หน้าหลัก repository โดยชุดทดลองอยู่ใน `experiments/nutrition-candidates-v3/`

@@ -102,7 +102,7 @@
 
 ### Confusion Matrix
 
-![Confusion Matrix — Groq/Qwen 200 Images](results/groq/confusion_matrix.png)
+![Confusion Matrix — Groq/Qwen 200 Images]([results/groq/confusion_matrix.png](https://github.com/sarochaza/Nouriva-AI/blob/ai-response-testing/results/groq/confusion_matrix_latest.png))
 
 - **แถว (True label)** คือชื่ออาหารตามเฉลย
 - **คอลัมน์ (Predicted label)** คือชื่ออาหารที่ AI ทำนาย

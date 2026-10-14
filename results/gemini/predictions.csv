@@ -1,3 +1,0 @@
-﻿image_path,ground_truth_th,predicted_th,correct,model,status,raw_response
-images/FriedChicken/001.jpg,ไก่ทอด,ไก่ทอด,True,gemini-3.8-flash,OK,"{""food_name"":""ไก่ทอด""}"
-images/FriedChicken/002.jpg,ไก่ทอด,,,gemini-3.8-flash,ERROR,"ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"

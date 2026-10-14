@@ -1,0 +1,1345 @@
+{
+  "input_food_rows": 13661,
+  "foods": 13661,
+  "complete_core_foods": 13590,
+  "missing_core_foods": 71,
+  "missing_by_column": {
+    "kcal_100g": 60,
+    "protein_g_100g": 13,
+    "carbs_g_100g": 71,
+    "fat_g_100g": 25
+  },
+  "source_counts": {
+    "SR_Legacy:2018-04": 7793,
+    "Foundation:2025-12": 436,
+    "FNDDS:2021-2023": 5432
+  },
+  "state_counts": {
+    "unspecified": 8437,
+    "dried": 552,
+    "baked": 175,
+    "fried": 332,
+    "raw": 1685,
+    "cooked": 1360,
+    "boiled": 385,
+    "roasted": 487,
+    "steamed": 30,
+    "grilled": 218
+  },
+  "duplicate_source_ids_collapsed": 0,
+  "duplicate_normalized_name_groups": [
+    {
+      "normalized_name": "almond milk unsweetened plain shelf stable",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "apples fuji with skin raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "apples gala with skin raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "apples granny smith with skin raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "apples honeycrisp with skin raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "apples red delicious with skin raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "applesauce unsweetened with added vitamin c",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "asparagus raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "bananas overripe raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "bananas ripe and slightly ripe raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry black 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry brown 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry carioca 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry cranberry 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry dark red kidney 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry flor de mayo 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry great northern 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry light red kidney 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry light tan 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry medium red 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry navy 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry pink 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry pinto 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry red 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry small red 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry small white 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans dry tan 0 moisture",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans snap green canned regular pack drained solids",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "beans snap green raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "beef ground 80 lean meat 20 fat raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "beef ground 90 lean meat 10 fat raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "beef loin tenderloin roast separable lean only boneless trimmed to 0 fat select cooked roasted",
+      "state": "roasted",
+      "records": 3
+    },
+    {
+      "normalized_name": "beef loin top loin steak boneless lip on separable lean only trimmed to 1 8 fat choice raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "beef round eye of round roast boneless separable lean only trimmed to 0 fat select raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "beef round top round roast boneless separable lean only trimmed to 0 fat select raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "beef short loin porterhouse steak separable lean only trimmed to 1 8 fat select raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "beef short loin t bone steak bone in separable lean only trimmed to 1 8 fat choice cooked grilled",
+      "state": "grilled",
+      "records": 3
+    },
+    {
+      "normalized_name": "beet greens raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "beets raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "blackberries raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "blood sausage",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "blueberries raw",
+      "state": "raw",
+      "records": 4
+    },
+    {
+      "normalized_name": "bread cheese",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread cinnamon",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread french or vienna whole wheat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread oat bran",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread oat bran toasted",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread oatmeal",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread oatmeal toasted",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread pita whole wheat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread potato",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread pumpernickel",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread rye",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread rye toasted",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "bread whole wheat commercially prepared",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "broccoli chinese cooked",
+      "state": "cooked",
+      "records": 2
+    },
+    {
+      "normalized_name": "broccoli chinese raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "broccoli raab cooked",
+      "state": "cooked",
+      "records": 2
+    },
+    {
+      "normalized_name": "broccoli raab raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "broccoli raw",
+      "state": "raw",
+      "records": 4
+    },
+    {
+      "normalized_name": "brussels sprouts raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "cabbage green raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "cabbage red raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "carrots baby raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "carrots frozen unprepared includes foods for usda s food distribution program",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "carrots raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "cauliflower raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "celery raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "cheese american nonfat or fat free",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese brick",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese brie",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese camembert",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese cheddar",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese cheddar nonfat or fat free",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese colby",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese cottage creamed large or small curd",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese cottage lowfat 2 milkfat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese cottage with vegetables",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese dry white queso seco",
+      "state": "dried",
+      "records": 3
+    },
+    {
+      "normalized_name": "cheese feta",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese fontina",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese gruyere",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese limburger",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese mexican blend",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese mexican blend reduced fat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese monterey",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese mozzarella low moisture part skim",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese muenster",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese parmesan dry grated reduced fat",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese parmesan grated",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese parmesan hard",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese provolone",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese provolone reduced fat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese ricotta whole milk",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "cheese spread american or cheddar cheese base reduced fat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cheese swiss",
+      "state": "unspecified",
+      "records": 4
+    },
+    {
+      "normalized_name": "cheese swiss nonfat or fat free",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "chewing gum",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "chicken broiler or fryers breast skinless boneless meat only cooked braised",
+      "state": "cooked",
+      "records": 2
+    },
+    {
+      "normalized_name": "chicken meatless breaded fried",
+      "state": "fried",
+      "records": 2
+    },
+    {
+      "normalized_name": "chives raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "collards raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "cookie butter or sugar with chocolate icing or filling",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cookie chocolate with icing or coating",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cookie vanilla with caramel coconut and chocolate coating",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cookie with peanut butter filling chocolate coated",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "crackers cheese reduced fat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "crackers cheese whole grain",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "crackers milk",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "crackers multigrain",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "crackers wheat reduced fat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cranberries raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "cream half and half fat free",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cream heavy",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cream puff eclair custard or cream filled iced",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "cucumber with peel raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "dandelion greens raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "dulce de leche",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "egg white dried",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "egg white raw frozen pasteurized",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "egg whole dried",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "egg yolk dried",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "egg yolk raw frozen pasteurized",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "eggnog",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "eggplant pickled",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "eggplant raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "fennel bulb raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "figs dried uncooked",
+      "state": "dried",
+      "records": 3
+    },
+    {
+      "normalized_name": "fish haddock raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "frankfurter beef unheated",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "garlic raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "grapefruit juice white canned or bottled unsweetened",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "grapes green seedless raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "grapes red seedless raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "ham salad spread",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "ham sliced pre packaged deli meat 96 fat free water added",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "honey",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "hummus commercial",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "ice cream cookie sandwich",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "ice cream soft serve chocolate",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "kale frozen cooked boiled drained without salt",
+      "state": "boiled",
+      "records": 2
+    },
+    {
+      "normalized_name": "kale raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "kiwifruit green raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "kohlrabi raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "lamb ground raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "lard",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "lettuce cos or romaine raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "mayonnaise reduced fat with olive oil",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "melons cantaloupe raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "melons honeydew raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "milk lowfat fluid 1 milkfat with added vitamin a and vitamin d",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "milk nonfat fluid with added vitamin a and vitamin d fat free or skim",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "milk reduced fat fluid 2 milkfat with added vitamin a and vitamin d",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "milk whole 3 25 milkfat with added vitamin d",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "miso",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "molasses",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "mushroom lion s mane",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "mushroom oyster",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "mushrooms shiitake",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "mushrooms white button",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "mustard greens raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "mustard prepared yellow",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "natto",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "nectarines raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "nuts almonds dry roasted with salt added",
+      "state": "roasted",
+      "records": 2
+    },
+    {
+      "normalized_name": "nuts cashew nuts raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "nuts macadamia nuts raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "nuts pistachio nuts raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "oil canola",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "oil coconut",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "onion rings breaded par fried frozen prepared heated in oven",
+      "state": "fried",
+      "records": 2
+    },
+    {
+      "normalized_name": "onions raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "oranges raw navels includes foods for usda s food distribution program",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "pancakes plain reduced fat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "pancakes whole wheat dry mix incomplete",
+      "state": "dried",
+      "records": 2
+    },
+    {
+      "normalized_name": "parsnips raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "peaches yellow raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "pears raw bartlett includes foods for usda s food distribution program",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "peppers sweet green raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "peppers sweet red raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "pickles cucumber dill or kosher dill",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "pie peach",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "pineapple raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "radicchio raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "raspberries raw",
+      "state": "raw",
+      "records": 4
+    },
+    {
+      "normalized_name": "ravioli meat filled with tomato sauce or meat sauce canned",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "restaurant chinese fried rice without meat",
+      "state": "fried",
+      "records": 2
+    },
+    {
+      "normalized_name": "restaurant chinese sweet and sour pork",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "restaurant latino pupusas con frijoles pupusas bean",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "restaurant latino tamale pork",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "rice noodles cooked",
+      "state": "cooked",
+      "records": 2
+    },
+    {
+      "normalized_name": "salt table iodized",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "sauce pasta spaghetti marinara ready to serve",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "sauce salsa ready to serve",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "sausage breakfast sausage beef pre cooked unprepared",
+      "state": "cooked",
+      "records": 3
+    },
+    {
+      "normalized_name": "sausage italian pork mild cooked pan fried",
+      "state": "fried",
+      "records": 3
+    },
+    {
+      "normalized_name": "sausage pork chorizo link or ground cooked pan fried",
+      "state": "fried",
+      "records": 2
+    },
+    {
+      "normalized_name": "sausage turkey breakfast links mild raw",
+      "state": "raw",
+      "records": 3
+    },
+    {
+      "normalized_name": "seeds sunflower seed kernels dry roasted with salt added",
+      "state": "roasted",
+      "records": 2
+    },
+    {
+      "normalized_name": "sour cream fat free",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "sour cream light",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "soy milk unsweetened plain shelf stable",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "soybean curd cheese",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "spinach baby",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "spinach mature",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "spinach raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "spinach souffle",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "squash winter acorn raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "squash winter butternut raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "strawberries raw",
+      "state": "raw",
+      "records": 6
+    },
+    {
+      "normalized_name": "strudel apple",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "sugars granulated",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "tomato roma",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "tomatoes crushed canned",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "turkey ground 93 lean 7 fat pan broiled crumbles",
+      "state": "unspecified",
+      "records": 3
+    },
+    {
+      "normalized_name": "turkey ground 93 lean 7 fat raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "turnips raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "watercress raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "watermelon raw",
+      "state": "raw",
+      "records": 2
+    },
+    {
+      "normalized_name": "yeast extract spread",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "yogurt greek plain whole milk",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "yogurt greek strawberry nonfat",
+      "state": "unspecified",
+      "records": 2
+    },
+    {
+      "normalized_name": "yogurt plain whole milk",
+      "state": "unspecified",
+      "records": 2
+    }
+  ],
+  "measure_rows": 9816,
+  "recipe_component_rows": 18584,
+  "recipe_unit_counts": {
+    "GM": 14137,
+    "C": 1105,
+    "FO": 160,
+    "": 1125,
+    "TB": 664,
+    "TS": 897,
+    "PT": 2,
+    "LB": 250,
+    "WO": 126,
+    "CP": 117,
+    "QT": 1
+  },
+  "recipe_components_linked_by_ndb": 14079,
+  "aliases": 46,
+  "quarantined_values": [
+    {
+      "food_id": "Foundation:2025-12:2727566",
+      "field": "carbs_g_100g",
+      "original_value": -0.47505,
+      "reason": "negative_source_value",
+      "row": 8182
+    },
+    {
+      "food_id": "Foundation:2025-12:2727567",
+      "field": "carbs_g_100g",
+      "original_value": -0.17255,
+      "reason": "negative_source_value",
+      "row": 8183
+    },
+    {
+      "food_id": "Foundation:2025-12:2727568",
+      "field": "carbs_g_100g",
+      "original_value": -0.45875,
+      "reason": "negative_source_value",
+      "row": 8184
+    },
+    {
+      "food_id": "Foundation:2025-12:2727569",
+      "field": "carbs_g_100g",
+      "original_value": -0.42825,
+      "reason": "negative_source_value",
+      "row": 8185
+    },
+    {
+      "food_id": "Foundation:2025-12:2727570",
+      "field": "carbs_g_100g",
+      "original_value": -0.2508,
+      "reason": "negative_source_value",
+      "row": 8186
+    },
+    {
+      "food_id": "Foundation:2025-12:2727571",
+      "field": "carbs_g_100g",
+      "original_value": -0.14955,
+      "reason": "negative_source_value",
+      "row": 8187
+    },
+    {
+      "food_id": "Foundation:2025-12:2727575",
+      "field": "carbs_g_100g",
+      "original_value": -0.5625,
+      "reason": "negative_source_value",
+      "row": 8191
+    },
+    {
+      "food_id": "Foundation:2025-12:2727576",
+      "field": "carbs_g_100g",
+      "original_value": -0.705,
+      "reason": "negative_source_value",
+      "row": 8192
+    },
+    {
+      "food_id": "Foundation:2025-12:2747656",
+      "field": "carbs_g_100g",
+      "original_value": -0.0602,
+      "reason": "negative_source_value",
+      "row": 8210
+    },
+    {
+      "food_id": "Foundation:2025-12:2747673",
+      "field": "carbs_g_100g",
+      "original_value": -0.1045,
+      "reason": "negative_source_value",
+      "row": 8227
+    }
+  ],
+  "csv_column_types": {
+    "name_en": {
+      "str": 13661
+    },
+    "fdc_id": {
+      "str": 13661
+    },
+    "release": {
+      "str": 13661
+    },
+    "fat_g_100g": {
+      "str": 13661
+    },
+    "kcal_100g": {
+      "str": 13661
+    },
+    "source": {
+      "str": 13661
+    },
+    "protein_g_100g": {
+      "str": 13661
+    },
+    "carbs_g_100g": {
+      "str": 13661
+    }
+  },
+  "sqlite_columns": {
+    "foods": [
+      {
+        "name": "food_id",
+        "type": "TEXT"
+      },
+      {
+        "name": "source_id",
+        "type": "TEXT"
+      },
+      {
+        "name": "source_food_id",
+        "type": "TEXT"
+      },
+      {
+        "name": "name_en",
+        "type": "TEXT"
+      },
+      {
+        "name": "name_th",
+        "type": "TEXT"
+      },
+      {
+        "name": "normalized_name",
+        "type": "TEXT"
+      },
+      {
+        "name": "state",
+        "type": "TEXT"
+      },
+      {
+        "name": "state_evidence",
+        "type": "TEXT"
+      },
+      {
+        "name": "kcal_100g",
+        "type": "REAL"
+      },
+      {
+        "name": "protein_g_100g",
+        "type": "REAL"
+      },
+      {
+        "name": "carbs_g_100g",
+        "type": "REAL"
+      },
+      {
+        "name": "fat_g_100g",
+        "type": "REAL"
+      },
+      {
+        "name": "energy_method",
+        "type": "TEXT"
+      },
+      {
+        "name": "provenance",
+        "type": "TEXT"
+      },
+      {
+        "name": "basis_g",
+        "type": "REAL"
+      }
+    ]
+  },
+  "input_hashes": {
+    "ausnut_2023_food_measures_only.csv": "835633cd2089d92d373c28825898cbd97b2153ab5177d9244b82b26165c4b61b",
+    "FoodData_Central_foundation_food_csv_2025-12-18.zip": "3850de85effd6d9aa471f48aab2a76c20f9bc5feb3f2f52c8ce693f9cf75d52b",
+    "import_audit.json": "52e8f91d80f4100117b51d904c895ce5db69a7ddaba6df354820d3f76db294bb",
+    "original_nutrition.sqlite": "700bb18a0936528b169c8dfe699f2d264214ec95f2002500903bef081a1b2e20",
+    "ndb_crosswalk.json": "8994eb888d2b2d7124fd1fabfaf28c8499bd2c2339313b6859ceda0dcfa74f60",
+    "source_manifest.json": "11ea6438e18b1f13e36b337d34756a98b3cc266d846d2b1afe640a6d7ab3c3e2",
+    "fndds_recipe_ingredients.csv": "8ae2ab4b79c4a6f583d44a2a2173453d2f21607657fc520d07ad2c8f7fcda04a",
+    "nouriva_usda_food_nutrition.csv": "8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57",
+    "FoodData_Central_survey_food_csv_2024-10-31.zip": "5ccc25ec2777a8982fbb61378a42f415316173eb11e48c9a8ba4cb19f5a4f29c",
+    "FoodData_Central_sr_legacy_food_csv_2018-04.zip": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+  },
+  "notes": [
+    "No missing nutrient is converted to zero. Exact duplicate IDs collapse only if values agree.",
+    "Same-name foods from different sources remain separately addressable, never summed or merged.",
+    "Preparation is reclassified from description. Original SQLite state labeled many fried/boiled foods only cooked.",
+    "FNDDS recipe grams are source ingredient recipe weights, not a measured test-plate ground truth.",
+    "AUSNUT public food keys are not USDA IDs. Conversion requires explicit measure ID or a reviewed food link."
+  ]
+}

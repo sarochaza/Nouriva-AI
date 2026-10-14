@@ -1,0 +1,410 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "single",
+  "dish_id": "dish_1561491121",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T10:32:20.505846+00:00",
+  "prediction": {
+    "dish_name": "Cooked spinach with vegetables",
+    "ingredients": [
+      {
+        "name": "Spinach",
+        "name_th": "ผักโขม",
+        "state": "cooked",
+        "grams": 30.0,
+        "evidence": "visible",
+        "confidence": 0.8,
+        "uncertainty": "Mass estimated from visual area on the plate",
+        "estimated_per_100g": {
+          "kcal": 23.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4
+        }
+      },
+      {
+        "name": "Onions",
+        "name_th": "หอมใหญ่",
+        "state": "cooked",
+        "grams": 15.0,
+        "evidence": "visible",
+        "confidence": 0.6,
+        "uncertainty": "Identity is likely onion or shallot based on shape and color; mass is a visual estimate",
+        "estimated_per_100g": {
+          "kcal": 40.0,
+          "protein_g": 1.1,
+          "carbs_g": 9.3,
+          "fat_g": 0.1
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "น้ำมัน",
+        "state": "unspecified",
+        "grams": 2.0,
+        "evidence": "inferred",
+        "confidence": 0.5,
+        "uncertainty": "Sheen on leaves suggests a small amount of oil (e.g., olive or canola) was used for sautéing",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 30.58,
+      "protein_g": 1.035,
+      "carbs_g": 2.475,
+      "fat_g": 2.135
+    },
+    "partial_nutrients": {
+      "kcal": 30.58,
+      "protein_g": 1.035,
+      "carbs_g": 2.475,
+      "fat_g": 2.135
+    },
+    "ingredients": [
+      {
+        "identity": "spinach|cooked",
+        "prediction": {
+          "name": "Spinach",
+          "name_th": "ผักโขม",
+          "state": "cooked",
+          "grams": 30.0,
+          "evidence": "visible",
+          "confidence": 0.8,
+          "uncertainty": "Mass estimated from visual area on the plate",
+          "estimated_per_100g": {
+            "kcal": 23.0,
+            "protein_g": 2.9,
+            "carbs_g": 3.6,
+            "fat_g": 0.4
+          }
+        },
+        "grams": 30.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:169400",
+            "name": "Malabar spinach, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4828
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168912",
+            "name": "Spaghetti, spinach, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4516
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707370",
+            "name": "Pink beans, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4167
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168917",
+            "name": "Quinoa, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710791",
+            "name": "Spinach, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.4
+          }
+        ],
+        "per_100g": {
+          "kcal": 23.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 6.8999999999999995,
+          "protein_g": 0.87,
+          "carbs_g": 1.08,
+          "fat_g": 0.12
+        },
+        "uncertainty": "Mass estimated from visual area on the plate"
+      },
+      {
+        "identity": "onion|cooked",
+        "prediction": {
+          "name": "Onions",
+          "name_th": "หอมใหญ่",
+          "state": "cooked",
+          "grams": 15.0,
+          "evidence": "visible",
+          "confidence": 0.6,
+          "uncertainty": "Identity is likely onion or shallot based on shape and color; mass is a visual estimate",
+          "estimated_per_100g": {
+            "kcal": 40.0,
+            "protein_g": 1.1,
+            "carbs_g": 9.3,
+            "fat_g": 0.1
+          }
+        },
+        "grams": 15.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709953",
+            "name": "Onions, green, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4348
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709952",
+            "name": "Onions, pearl, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4348
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709951",
+            "name": "Onions, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.3704
+          }
+        ],
+        "per_100g": {
+          "kcal": 40.0,
+          "protein_g": 1.1,
+          "carbs_g": 9.3,
+          "fat_g": 0.1
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 6.0,
+          "protein_g": 0.165,
+          "carbs_g": 1.395,
+          "fat_g": 0.015
+        },
+        "uncertainty": "Identity is likely onion or shallot based on shape and color; mass is a visual estimate"
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "น้ำมัน",
+          "state": "unspecified",
+          "grams": 2.0,
+          "evidence": "inferred",
+          "confidence": 0.5,
+          "uncertainty": "Sheen on leaves suggests a small amount of oil (e.g., olive or canola) was used for sautéing",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 2.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 17.68,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 2.0
+        },
+        "uncertainty": "Sheen on leaves suggests a small amount of oil (e.g., olive or canola) was used for sautéing"
+      }
+    ],
+    "total_estimated_mass_g": 47.0,
+    "database_mass_coverage": 0.0,
+    "database_only_mass_coverage": 0.0,
+    "fallback_ingredient_count": 3,
+    "predicted_ingredient_count": 3
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 4,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:49:39.607276+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "PREDICTION_ERROR",
+      "prompt_tokens": 2741,
+      "completion_tokens": 458,
+      "total_tokens": 3199,
+      "cost_usd": null,
+      "latency_seconds": 1.7126339999958873,
+      "response_id": "chatcmpl-ade0a2d5-c1cf-4678-b7eb-45822737fb63",
+      "validation_error": "Invalid or missing preparation state"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:21:23.367947+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.41494889999739826,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:28:30.562517+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4402655999874696,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:32:20.512997+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.387098800012609,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 25.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:32:45.905506+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 457,
+      "total_tokens": 3198,
+      "cost_usd": null,
+      "latency_seconds": 2.056264699989697,
+      "response_id": "chatcmpl-0f46535c-c643-4037-be30-1dc6c3f48a7b"
+    }
+  ],
+  "latency_seconds": 27.539195699995616,
+  "cumulative_latency_seconds": 30.174340199970175,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 2
+}

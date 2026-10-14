@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "mode": "MOCK",
+  "seed": 20261014,
+  "image_count": 5,
+  "images": [
+    {
+      "dish_id": "mock_0000",
+      "image_path": "C:\\Users\\CHOMP2O\\Downloads\\Noura-Repaired\\Noura-Nutrition-Agent-Candidates-v3\\fixtures\\dataset\\test\\mock_0000.png",
+      "image_sha256": "71b961bbc2e8f08bf84541134ce9f5fe5b4c863b9044e5243151e7b7424b9393"
+    },
+    {
+      "dish_id": "mock_0001",
+      "image_path": "C:\\Users\\CHOMP2O\\Downloads\\Noura-Repaired\\Noura-Nutrition-Agent-Candidates-v3\\fixtures\\dataset\\test\\mock_0001.png",
+      "image_sha256": "41d6120aa8bbbb0ac3488375b67b02138bf51b6cb22361ff9f886e3907ac74c5"
+    },
+    {
+      "dish_id": "mock_0002",
+      "image_path": "C:\\Users\\CHOMP2O\\Downloads\\Noura-Repaired\\Noura-Nutrition-Agent-Candidates-v3\\fixtures\\dataset\\test\\mock_0002.png",
+      "image_sha256": "d9ff83303e42ece7a868f87d886c07eed51020a423c2f0bb1e6b746a0a96601f"
+    },
+    {
+      "dish_id": "mock_0003",
+      "image_path": "C:\\Users\\CHOMP2O\\Downloads\\Noura-Repaired\\Noura-Nutrition-Agent-Candidates-v3\\fixtures\\dataset\\test\\mock_0003.png",
+      "image_sha256": "3585b3ea005da5f4f3a09328e2026531b3e68c8595dd2ff33ef2f9a700ed9e4f"
+    },
+    {
+      "dish_id": "mock_0004",
+      "image_path": "C:\\Users\\CHOMP2O\\Downloads\\Noura-Repaired\\Noura-Nutrition-Agent-Candidates-v3\\fixtures\\dataset\\test\\mock_0004.png",
+      "image_sha256": "bf14d347b00d7a15ecfefcfc94af92195f177139b9586d8c8c86913d2727e9be"
+    }
+  ]
+}

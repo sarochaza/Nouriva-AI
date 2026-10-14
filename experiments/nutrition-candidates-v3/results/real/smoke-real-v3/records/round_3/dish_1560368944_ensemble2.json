@@ -1,0 +1,2152 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 3,
+  "method": "ensemble2",
+  "dish_id": "dish_1560368944",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T10:10:40.652053+00:00",
+  "prediction": {
+    "dish_name": "Plate of cooked white rice and a piece of cooked meat with dark green leafy vegetables",
+    "ingredients": [
+      {
+        "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+        "name_th": "เนื้อไก่",
+        "state": "cooked",
+        "grams": 15.0,
+        "evidence": "uncertain",
+        "confidence": 0.4,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate.",
+        "estimated_per_100g": {
+          "kcal": 165.0,
+          "protein_g": 30.999999999999996,
+          "carbs_g": 0.0,
+          "fat_g": 3.6
+        }
+      },
+      {
+        "name": "Cooked meat",
+        "name_th": "",
+        "state": "cooked",
+        "grams": 22.5,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image.",
+        "estimated_per_100g": {
+          "kcal": 180.0,
+          "protein_g": 25.0,
+          "carbs_g": 0.0,
+          "fat_g": 8.5
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "",
+        "state": "unspecified",
+        "grams": 1.5,
+        "evidence": "uncertain",
+        "confidence": 0.25,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed.",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Rice, white, long-grain, regular, enriched, cooked",
+        "name_th": "ข้าวสวย",
+        "state": "cooked",
+        "grams": 22.5,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated visually from portion size; identity is consistent with standard white rice.",
+        "estimated_per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.69,
+          "carbs_g": 28.17,
+          "fat_g": 0.2800000000000001
+        }
+      },
+      {
+        "name": "Garlic, raw",
+        "name_th": "กระเทียม",
+        "state": "unspecified",
+        "grams": 1.0,
+        "evidence": "uncertain",
+        "confidence": 0.35,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Small visible bits suggest garlic as a garnish or ingredient; mass is negligible.",
+        "estimated_per_100g": {
+          "kcal": 149.0,
+          "protein_g": 6.4,
+          "carbs_g": 33.0,
+          "fat_g": 0.5
+        }
+      },
+      {
+        "name": "Green leafy vegetable (unspecified)",
+        "name_th": "ผักใบเขียว",
+        "state": "cooked",
+        "grams": 5.0,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Exact species cannot be identified from the image; mass is estimated from the small visible amount.",
+        "estimated_per_100g": {
+          "kcal": 23.000000000000004,
+          "protein_g": 2.8999999999999995,
+          "carbs_g": 4.4,
+          "fat_g": 0.5
+        }
+      },
+      {
+        "name": "Leafy greens",
+        "name_th": "",
+        "state": "cooked",
+        "grams": 7.5,
+        "evidence": "uncertain",
+        "confidence": 0.35,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable.",
+        "estimated_per_100g": {
+          "kcal": 20.0,
+          "protein_g": 1.4999999999999998,
+          "carbs_g": 2.9999999999999996,
+          "fat_g": 0.2
+        }
+      },
+      {
+        "name": "White long-grain rice",
+        "name_th": "ข้าวขาว",
+        "state": "cooked",
+        "grams": 30.0,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice.",
+        "estimated_per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.7,
+          "carbs_g": 28.199999999999996,
+          "fat_g": 0.3
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 150.9,
+      "protein_g": 12.01175,
+      "carbs_g": 15.57325,
+      "fat_g": 4.1505
+    },
+    "partial_nutrients": {
+      "kcal": 150.9,
+      "protein_g": 12.01175,
+      "carbs_g": 15.57325,
+      "fat_g": 4.1505
+    },
+    "ingredients": [
+      {
+        "identity": "chicken broilers or fryers breast meat only cooked roasted|cooked",
+        "prediction": {
+          "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+          "name_th": "เนื้อไก่",
+          "state": "cooked",
+          "grams": 15.0,
+          "evidence": "uncertain",
+          "confidence": 0.4,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate.",
+          "estimated_per_100g": {
+            "kcal": 165.0,
+            "protein_g": 30.999999999999996,
+            "carbs_g": 0.0,
+            "fat_g": 3.6
+          }
+        },
+        "grams": 15.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "name_state_conflict",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 165.0,
+          "protein_g": 30.999999999999996,
+          "carbs_g": 0.0,
+          "fat_g": 3.6
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 24.75,
+          "protein_g": 4.6499999999999995,
+          "carbs_g": 0.0,
+          "fat_g": 0.54
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "chicken broilers or fryers breast meat only cooked roasted|cooked",
+            "prediction": {
+              "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+              "name_th": "เนื้อไก่",
+              "state": "cooked",
+              "grams": 30.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate.",
+              "estimated_per_100g": {
+                "kcal": 165.0,
+                "protein_g": 31.0,
+                "carbs_g": 0.0,
+                "fat_g": 3.6
+              }
+            },
+            "grams": 30.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "name_state_conflict",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 165.0,
+              "protein_g": 31.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.6
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 49.5,
+              "protein_g": 9.299999999999999,
+              "carbs_g": 0.0,
+              "fat_g": 1.08
+            },
+            "uncertainty": "Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate."
+          }
+        ]
+      },
+      {
+        "identity": "cooked meat|cooked",
+        "prediction": {
+          "name": "Cooked meat",
+          "name_th": "",
+          "state": "cooked",
+          "grams": 22.5,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image.",
+          "estimated_per_100g": {
+            "kcal": 180.0,
+            "protein_g": 25.0,
+            "carbs_g": 0.0,
+            "fat_g": 8.5
+          }
+        },
+        "grams": 22.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2706137",
+            "name": "Duck, cooked, skin eaten",
+            "state": "cooked",
+            "lexical_score": 0.6061
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709909",
+            "name": "Corn, cooked, from restaurant",
+            "state": "cooked",
+            "lexical_score": 0.5789
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172185",
+            "name": "Egg, whole, cooked, omelet",
+            "state": "cooked",
+            "lexical_score": 0.5714
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:170543",
+            "name": "Taro, cooked, with salt",
+            "state": "cooked",
+            "lexical_score": 0.5625
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:174244",
+            "name": "Fish, spot, cooked, dry heat",
+            "state": "cooked",
+            "lexical_score": 0.5556
+          }
+        ],
+        "per_100g": {
+          "kcal": 180.0,
+          "protein_g": 25.0,
+          "carbs_g": 0.0,
+          "fat_g": 8.5
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 40.5,
+          "protein_g": 5.625,
+          "carbs_g": 0.0,
+          "fat_g": 1.9125
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "cooked meat|cooked",
+            "prediction": {
+              "name": "Cooked meat",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image.",
+              "estimated_per_100g": {
+                "kcal": 180.0,
+                "protein_g": 25.0,
+                "carbs_g": 0.0,
+                "fat_g": 8.5
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2706137",
+                "name": "Duck, cooked, skin eaten",
+                "state": "cooked",
+                "lexical_score": 0.6061
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709909",
+                "name": "Corn, cooked, from restaurant",
+                "state": "cooked",
+                "lexical_score": 0.5789
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172185",
+                "name": "Egg, whole, cooked, omelet",
+                "state": "cooked",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170543",
+                "name": "Taro, cooked, with salt",
+                "state": "cooked",
+                "lexical_score": 0.5625
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:174244",
+                "name": "Fish, spot, cooked, dry heat",
+                "state": "cooked",
+                "lexical_score": 0.5556
+              }
+            ],
+            "per_100g": {
+              "kcal": 180.0,
+              "protein_g": 25.0,
+              "carbs_g": 0.0,
+              "fat_g": 8.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 81.0,
+              "protein_g": 11.25,
+              "carbs_g": 0.0,
+              "fat_g": 3.825
+            },
+            "uncertainty": "Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "",
+          "state": "unspecified",
+          "grams": 1.5,
+          "evidence": "uncertain",
+          "confidence": 0.25,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed.",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 1.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 13.26,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 1.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "cooking oil|unspecified",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 3.0,
+              "evidence": "inferred",
+              "confidence": 0.5,
+              "uncertainty": "Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 3.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710183",
+                "name": "Corn oil",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710182",
+                "name": "Coconut oil",
+                "state": "unspecified",
+                "lexical_score": 0.7273
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707968",
+                "name": "Cookie, animal",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710184",
+                "name": "Cottonseed oil",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707945",
+                "name": "Cookie, oatmeal",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              }
+            ],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 26.52,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.0
+            },
+            "uncertainty": "Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:168878",
+        "prediction": {
+          "name": "Rice, white, long-grain, regular, enriched, cooked",
+          "name_th": "ข้าวสวย",
+          "state": "cooked",
+          "grams": 22.5,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated visually from portion size; identity is consistent with standard white rice.",
+          "estimated_per_100g": {
+            "kcal": 130.0,
+            "protein_g": 2.69,
+            "carbs_g": 28.17,
+            "fat_g": 0.2800000000000001
+          }
+        },
+        "grams": 22.5,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:168878",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "168878",
+        "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+        "reference_state": "cooked",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.69,
+          "carbs_g": 28.17,
+          "fat_g": 0.2800000000000001
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 29.25,
+          "protein_g": 0.60525,
+          "carbs_g": 6.33825,
+          "fat_g": 0.06300000000000001
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated visually from portion size; identity is consistent with standard white rice.",
+        "database_fraction": 1.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "food:SR_Legacy:2018-04:168878",
+            "prediction": {
+              "name": "Rice, white, long-grain, regular, enriched, cooked",
+              "name_th": "ข้าวสวย",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimated visually from portion size; identity is consistent with standard white rice.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.0,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:168878",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "168878",
+            "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.69,
+              "carbs_g": 28.17,
+              "fat_g": 0.28
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 58.5,
+              "protein_g": 1.2105,
+              "carbs_g": 12.6765,
+              "fat_g": 0.12600000000000003
+            },
+            "uncertainty": "Mass estimated visually from portion size; identity is consistent with standard white rice."
+          }
+        ]
+      },
+      {
+        "identity": "garlic raw|unspecified",
+        "prediction": {
+          "name": "Garlic, raw",
+          "name_th": "กระเทียม",
+          "state": "unspecified",
+          "grams": 1.0,
+          "evidence": "uncertain",
+          "confidence": 0.35,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Small visible bits suggest garlic as a garnish or ingredient; mass is negligible.",
+          "estimated_per_100g": {
+            "kcal": 149.0,
+            "protein_g": 6.4,
+            "carbs_g": 33.0,
+            "fat_g": 0.5
+          }
+        },
+        "grams": 1.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "name_state_conflict",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 149.0,
+          "protein_g": 6.4,
+          "carbs_g": 33.0,
+          "fat_g": 0.5
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 1.49,
+          "protein_g": 0.064,
+          "carbs_g": 0.33,
+          "fat_g": 0.005
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Small visible bits suggest garlic as a garnish or ingredient; mass is negligible.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "garlic raw|unspecified",
+            "prediction": {
+              "name": "Garlic, raw",
+              "name_th": "กระเทียม",
+              "state": "unspecified",
+              "grams": 2.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "Small visible bits suggest garlic as a garnish or ingredient; mass is negligible.",
+              "estimated_per_100g": {
+                "kcal": 149.0,
+                "protein_g": 6.4,
+                "carbs_g": 33.0,
+                "fat_g": 0.5
+              }
+            },
+            "grams": 2.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "name_state_conflict",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 149.0,
+              "protein_g": 6.4,
+              "carbs_g": 33.0,
+              "fat_g": 0.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.98,
+              "protein_g": 0.128,
+              "carbs_g": 0.66,
+              "fat_g": 0.01
+            },
+            "uncertainty": "Small visible bits suggest garlic as a garnish or ingredient; mass is negligible."
+          }
+        ]
+      },
+      {
+        "identity": "green leafy vegetable unspecified|cooked",
+        "prediction": {
+          "name": "Green leafy vegetable (unspecified)",
+          "name_th": "ผักใบเขียว",
+          "state": "cooked",
+          "grams": 5.0,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Exact species cannot be identified from the image; mass is estimated from the small visible amount.",
+          "estimated_per_100g": {
+            "kcal": 23.000000000000004,
+            "protein_g": 2.8999999999999995,
+            "carbs_g": 4.4,
+            "fat_g": 0.5
+          }
+        },
+        "grams": 5.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2708351",
+            "name": "Pasta, vegetable, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5455
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168904",
+            "name": "Macaroni, vegetable, enriched, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5075
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:170285",
+            "name": "Barley, pearled, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4815
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710036",
+            "name": "Asian stir fry vegetables, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.48
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710035",
+            "name": "Asian stir fry vegetables, cooked, no added fat",
+            "state": "cooked",
+            "lexical_score": 0.4615
+          }
+        ],
+        "per_100g": {
+          "kcal": 23.000000000000004,
+          "protein_g": 2.8999999999999995,
+          "carbs_g": 4.4,
+          "fat_g": 0.5
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 1.1500000000000001,
+          "protein_g": 0.145,
+          "carbs_g": 0.22000000000000003,
+          "fat_g": 0.025
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Exact species cannot be identified from the image; mass is estimated from the small visible amount.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "green leafy vegetable unspecified|cooked",
+            "prediction": {
+              "name": "Green leafy vegetable (unspecified)",
+              "name_th": "ผักใบเขียว",
+              "state": "cooked",
+              "grams": 10.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Exact species cannot be identified from the image; mass is estimated from the small visible amount.",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 2.9,
+                "carbs_g": 4.4,
+                "fat_g": 0.5
+              }
+            },
+            "grams": 10.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2708351",
+                "name": "Pasta, vegetable, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168904",
+                "name": "Macaroni, vegetable, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5075
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170285",
+                "name": "Barley, pearled, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4815
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710036",
+                "name": "Asian stir fry vegetables, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.48
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710035",
+                "name": "Asian stir fry vegetables, cooked, no added fat",
+                "state": "cooked",
+                "lexical_score": 0.4615
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 4.4,
+              "fat_g": 0.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.3000000000000003,
+              "protein_g": 0.29,
+              "carbs_g": 0.44000000000000006,
+              "fat_g": 0.05
+            },
+            "uncertainty": "Exact species cannot be identified from the image; mass is estimated from the small visible amount."
+          }
+        ]
+      },
+      {
+        "identity": "leafy greens|cooked",
+        "prediction": {
+          "name": "Leafy greens",
+          "name_th": "",
+          "state": "cooked",
+          "grams": 7.5,
+          "evidence": "uncertain",
+          "confidence": 0.35,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable.",
+          "estimated_per_100g": {
+            "kcal": 20.0,
+            "protein_g": 1.4999999999999998,
+            "carbs_g": 2.9999999999999996,
+            "fat_g": 0.2
+          }
+        },
+        "grams": 7.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709612",
+            "name": "Poke greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5333
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709571",
+            "name": "Beet greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5333
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710805",
+            "name": "Celery, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.4615
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709589",
+            "name": "Dandelion greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4571
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710802",
+            "name": "Eggplant, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.439
+          }
+        ],
+        "per_100g": {
+          "kcal": 20.0,
+          "protein_g": 1.4999999999999998,
+          "carbs_g": 2.9999999999999996,
+          "fat_g": 0.2
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 1.5,
+          "protein_g": 0.11249999999999999,
+          "carbs_g": 0.22499999999999998,
+          "fat_g": 0.015
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "leafy greens|cooked",
+            "prediction": {
+              "name": "Leafy greens",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable.",
+              "estimated_per_100g": {
+                "kcal": 20.0,
+                "protein_g": 1.5,
+                "carbs_g": 3.0,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709612",
+                "name": "Poke greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5333
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709571",
+                "name": "Beet greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5333
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710805",
+                "name": "Celery, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.4615
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709589",
+                "name": "Dandelion greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4571
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710802",
+                "name": "Eggplant, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.439
+              }
+            ],
+            "per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.0,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 3.0,
+              "protein_g": 0.22499999999999998,
+              "carbs_g": 0.44999999999999996,
+              "fat_g": 0.03
+            },
+            "uncertainty": "The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "white long grain rice|cooked",
+        "prediction": {
+          "name": "White long-grain rice",
+          "name_th": "ข้าวขาว",
+          "state": "cooked",
+          "grams": 30.0,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice.",
+          "estimated_per_100g": {
+            "kcal": 130.0,
+            "protein_g": 2.7,
+            "carbs_g": 28.199999999999996,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 30.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:168878",
+            "name": "Rice, white, long-grain, regular, enriched, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6364
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169708",
+            "name": "Rice, white, long-grain, parboiled, enriched, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6176
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168882",
+            "name": "Rice, white, short-grain, enriched, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6102
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169759",
+            "name": "Rice, white, long-grain, parboiled, unenriched, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168932",
+            "name": "Rice, white, short-grain, cooked, unenriched",
+            "state": "cooked",
+            "lexical_score": 0.5902
+          }
+        ],
+        "per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.7,
+          "carbs_g": 28.199999999999996,
+          "fat_g": 0.3
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 39.0,
+          "protein_g": 0.81,
+          "carbs_g": 8.459999999999999,
+          "fat_g": 0.09
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "white long grain rice|cooked",
+            "prediction": {
+              "name": "White long-grain rice",
+              "name_th": "ข้าวขาว",
+              "state": "cooked",
+              "grams": 60.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.2,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 60.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:168878",
+                "name": "Rice, white, long-grain, regular, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169708",
+                "name": "Rice, white, long-grain, parboiled, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6176
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168882",
+                "name": "Rice, white, short-grain, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6102
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169759",
+                "name": "Rice, white, long-grain, parboiled, unenriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168932",
+                "name": "Rice, white, short-grain, cooked, unenriched",
+                "state": "cooked",
+                "lexical_score": 0.5902
+              }
+            ],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.7,
+              "carbs_g": 28.2,
+              "fat_g": 0.3
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 78.0,
+              "protein_g": 1.62,
+              "carbs_g": 16.919999999999998,
+              "fat_g": 0.18
+            },
+            "uncertainty": "Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice."
+          },
+          null
+        ]
+      }
+    ],
+    "total_estimated_mass_g": 105.0,
+    "database_mass_coverage": 0.21428571428571427,
+    "database_only_mass_coverage": 0.21428571428571427,
+    "fallback_ingredient_count": 7,
+    "predicted_ingredient_count": 8
+  },
+  "nominal_model_calls": 2,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:10:40.658054+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4505197000107728,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 34.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:11:15.114668+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 660,
+      "total_tokens": 3401,
+      "cost_usd": null,
+      "latency_seconds": 2.426062799990177,
+      "response_id": "chatcmpl-4da64fc6-7cb0-435b-afe9-6b159c45972c"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:11:17.553724+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.45015310001326725,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 37.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:11:55.010100+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 633,
+      "total_tokens": 3374,
+      "cost_usd": null,
+      "latency_seconds": 2.0871905999956653,
+      "response_id": "chatcmpl-7d9e4a1a-9881-493a-be26-f9a04654698b"
+    }
+  ],
+  "latency_seconds": 76.92068979999749,
+  "cumulative_latency_seconds": 76.92068979999749,
+  "members": [
+    {
+      "prediction": {
+        "dish_name": "Plate of cooked white rice and a piece of cooked meat with dark green leafy vegetables",
+        "ingredients": [
+          {
+            "name": "White long-grain rice",
+            "name_th": "ข้าวขาว",
+            "state": "cooked",
+            "grams": 60.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice.",
+            "estimated_per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.7,
+              "carbs_g": 28.2,
+              "fat_g": 0.3
+            }
+          },
+          {
+            "name": "Cooked meat",
+            "name_th": "",
+            "state": "cooked",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.6,
+            "uncertainty": "Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image.",
+            "estimated_per_100g": {
+              "kcal": 180.0,
+              "protein_g": 25.0,
+              "carbs_g": 0.0,
+              "fat_g": 8.5
+            }
+          },
+          {
+            "name": "Leafy greens",
+            "name_th": "",
+            "state": "cooked",
+            "grams": 15.0,
+            "evidence": "visible",
+            "confidence": 0.7,
+            "uncertainty": "The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable.",
+            "estimated_per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.0,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Cooking oil",
+            "name_th": "",
+            "state": "unspecified",
+            "grams": 3.0,
+            "evidence": "inferred",
+            "confidence": 0.5,
+            "uncertainty": "Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed.",
+            "estimated_per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 188.52,
+          "protein_g": 13.095,
+          "carbs_g": 17.37,
+          "fat_g": 7.035
+        },
+        "partial_nutrients": {
+          "kcal": 188.52,
+          "protein_g": 13.095,
+          "carbs_g": 17.37,
+          "fat_g": 7.035
+        },
+        "ingredients": [
+          {
+            "identity": "white long grain rice|cooked",
+            "prediction": {
+              "name": "White long-grain rice",
+              "name_th": "ข้าวขาว",
+              "state": "cooked",
+              "grams": 60.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.2,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 60.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:168878",
+                "name": "Rice, white, long-grain, regular, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169708",
+                "name": "Rice, white, long-grain, parboiled, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6176
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168882",
+                "name": "Rice, white, short-grain, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6102
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169759",
+                "name": "Rice, white, long-grain, parboiled, unenriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168932",
+                "name": "Rice, white, short-grain, cooked, unenriched",
+                "state": "cooked",
+                "lexical_score": 0.5902
+              }
+            ],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.7,
+              "carbs_g": 28.2,
+              "fat_g": 0.3
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 78.0,
+              "protein_g": 1.62,
+              "carbs_g": 16.919999999999998,
+              "fat_g": 0.18
+            },
+            "uncertainty": "Mass is visually estimated based on the pile size; identity is consistent with the local catalog item for cooked white rice."
+          },
+          {
+            "identity": "cooked meat|cooked",
+            "prediction": {
+              "name": "Cooked meat",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image.",
+              "estimated_per_100g": {
+                "kcal": 180.0,
+                "protein_g": 25.0,
+                "carbs_g": 0.0,
+                "fat_g": 8.5
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2706137",
+                "name": "Duck, cooked, skin eaten",
+                "state": "cooked",
+                "lexical_score": 0.6061
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709909",
+                "name": "Corn, cooked, from restaurant",
+                "state": "cooked",
+                "lexical_score": 0.5789
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172185",
+                "name": "Egg, whole, cooked, omelet",
+                "state": "cooked",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170543",
+                "name": "Taro, cooked, with salt",
+                "state": "cooked",
+                "lexical_score": 0.5625
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:174244",
+                "name": "Fish, spot, cooked, dry heat",
+                "state": "cooked",
+                "lexical_score": 0.5556
+              }
+            ],
+            "per_100g": {
+              "kcal": 180.0,
+              "protein_g": 25.0,
+              "carbs_g": 0.0,
+              "fat_g": 8.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 81.0,
+              "protein_g": 11.25,
+              "carbs_g": 0.0,
+              "fat_g": 3.825
+            },
+            "uncertainty": "Identity is uncertain; it appears to be a single piece of poultry or light-colored meat with a browned surface. The specific cut and species cannot be identified from the image."
+          },
+          {
+            "identity": "leafy greens|cooked",
+            "prediction": {
+              "name": "Leafy greens",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable.",
+              "estimated_per_100g": {
+                "kcal": 20.0,
+                "protein_g": 1.5,
+                "carbs_g": 3.0,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709612",
+                "name": "Poke greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5333
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709571",
+                "name": "Beet greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5333
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710805",
+                "name": "Celery, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.4615
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709589",
+                "name": "Dandelion greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4571
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710802",
+                "name": "Eggplant, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.439
+              }
+            ],
+            "per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.0,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 3.0,
+              "protein_g": 0.22499999999999998,
+              "carbs_g": 0.44999999999999996,
+              "fat_g": 0.03
+            },
+            "uncertainty": "The leaves appear dark and wilted, consistent with cooked vegetables like basil, spinach, or parsley, but the specific variety is unidentifiable."
+          },
+          {
+            "identity": "cooking oil|unspecified",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 3.0,
+              "evidence": "inferred",
+              "confidence": 0.5,
+              "uncertainty": "Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 3.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710183",
+                "name": "Corn oil",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710182",
+                "name": "Coconut oil",
+                "state": "unspecified",
+                "lexical_score": 0.7273
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707968",
+                "name": "Cookie, animal",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710184",
+                "name": "Cottonseed oil",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707945",
+                "name": "Cookie, oatmeal",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              }
+            ],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 26.52,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.0
+            },
+            "uncertainty": "Inferred from the glistening surface of the meat and the presence of small oil droplets on the plate. Not directly weighed."
+          }
+        ],
+        "total_estimated_mass_g": 123.0,
+        "database_mass_coverage": 0.0,
+        "database_only_mass_coverage": 0.0,
+        "fallback_ingredient_count": 4,
+        "predicted_ingredient_count": 4
+      }
+    },
+    {
+      "prediction": {
+        "dish_name": "Cooked rice with chicken and leafy greens",
+        "ingredients": [
+          {
+            "name": "Rice, white, long-grain, regular, enriched, cooked",
+            "name_th": "ข้าวสวย",
+            "state": "cooked",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Mass estimated visually from portion size; identity is consistent with standard white rice.",
+            "estimated_per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.7,
+              "carbs_g": 28.0,
+              "fat_g": 0.3
+            }
+          },
+          {
+            "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+            "name_th": "เนื้อไก่",
+            "state": "cooked",
+            "grams": 30.0,
+            "evidence": "visible",
+            "confidence": 0.8,
+            "uncertainty": "Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate.",
+            "estimated_per_100g": {
+              "kcal": 165.0,
+              "protein_g": 31.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.6
+            }
+          },
+          {
+            "name": "Green leafy vegetable (unspecified)",
+            "name_th": "ผักใบเขียว",
+            "state": "cooked",
+            "grams": 10.0,
+            "evidence": "visible",
+            "confidence": 0.6,
+            "uncertainty": "Exact species cannot be identified from the image; mass is estimated from the small visible amount.",
+            "estimated_per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 4.4,
+              "fat_g": 0.5
+            }
+          },
+          {
+            "name": "Garlic, raw",
+            "name_th": "กระเทียม",
+            "state": "unspecified",
+            "grams": 2.0,
+            "evidence": "visible",
+            "confidence": 0.7,
+            "uncertainty": "Small visible bits suggest garlic as a garnish or ingredient; mass is negligible.",
+            "estimated_per_100g": {
+              "kcal": 149.0,
+              "protein_g": 6.4,
+              "carbs_g": 33.0,
+              "fat_g": 0.5
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 113.28,
+          "protein_g": 10.9285,
+          "carbs_g": 13.7765,
+          "fat_g": 1.266
+        },
+        "partial_nutrients": {
+          "kcal": 113.28,
+          "protein_g": 10.9285,
+          "carbs_g": 13.7765,
+          "fat_g": 1.266
+        },
+        "ingredients": [
+          {
+            "identity": "food:SR_Legacy:2018-04:168878",
+            "prediction": {
+              "name": "Rice, white, long-grain, regular, enriched, cooked",
+              "name_th": "ข้าวสวย",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimated visually from portion size; identity is consistent with standard white rice.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.0,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:168878",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "168878",
+            "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.69,
+              "carbs_g": 28.17,
+              "fat_g": 0.28
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 58.5,
+              "protein_g": 1.2105,
+              "carbs_g": 12.6765,
+              "fat_g": 0.12600000000000003
+            },
+            "uncertainty": "Mass estimated visually from portion size; identity is consistent with standard white rice."
+          },
+          {
+            "identity": "chicken broilers or fryers breast meat only cooked roasted|cooked",
+            "prediction": {
+              "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+              "name_th": "เนื้อไก่",
+              "state": "cooked",
+              "grams": 30.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate.",
+              "estimated_per_100g": {
+                "kcal": 165.0,
+                "protein_g": 31.0,
+                "carbs_g": 0.0,
+                "fat_g": 3.6
+              }
+            },
+            "grams": 30.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "name_state_conflict",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 165.0,
+              "protein_g": 31.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.6
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 49.5,
+              "protein_g": 9.299999999999999,
+              "carbs_g": 0.0,
+              "fat_g": 1.08
+            },
+            "uncertainty": "Identity is estimated as chicken breast due to fiber and color; mass is a visual estimate."
+          },
+          {
+            "identity": "green leafy vegetable unspecified|cooked",
+            "prediction": {
+              "name": "Green leafy vegetable (unspecified)",
+              "name_th": "ผักใบเขียว",
+              "state": "cooked",
+              "grams": 10.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Exact species cannot be identified from the image; mass is estimated from the small visible amount.",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 2.9,
+                "carbs_g": 4.4,
+                "fat_g": 0.5
+              }
+            },
+            "grams": 10.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2708351",
+                "name": "Pasta, vegetable, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168904",
+                "name": "Macaroni, vegetable, enriched, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5075
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170285",
+                "name": "Barley, pearled, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4815
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710036",
+                "name": "Asian stir fry vegetables, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.48
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710035",
+                "name": "Asian stir fry vegetables, cooked, no added fat",
+                "state": "cooked",
+                "lexical_score": 0.4615
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 4.4,
+              "fat_g": 0.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.3000000000000003,
+              "protein_g": 0.29,
+              "carbs_g": 0.44000000000000006,
+              "fat_g": 0.05
+            },
+            "uncertainty": "Exact species cannot be identified from the image; mass is estimated from the small visible amount."
+          },
+          {
+            "identity": "garlic raw|unspecified",
+            "prediction": {
+              "name": "Garlic, raw",
+              "name_th": "กระเทียม",
+              "state": "unspecified",
+              "grams": 2.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "Small visible bits suggest garlic as a garnish or ingredient; mass is negligible.",
+              "estimated_per_100g": {
+                "kcal": 149.0,
+                "protein_g": 6.4,
+                "carbs_g": 33.0,
+                "fat_g": 0.5
+              }
+            },
+            "grams": 2.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "name_state_conflict",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 149.0,
+              "protein_g": 6.4,
+              "carbs_g": 33.0,
+              "fat_g": 0.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.98,
+              "protein_g": 0.128,
+              "carbs_g": 0.66,
+              "fat_g": 0.01
+            },
+            "uncertainty": "Small visible bits suggest garlic as a garnish or ingredient; mass is negligible."
+          }
+        ],
+        "total_estimated_mass_g": 87.0,
+        "database_mass_coverage": 0.5172413793103449,
+        "database_only_mass_coverage": 0.5172413793103449,
+        "fallback_ingredient_count": 3,
+        "predicted_ingredient_count": 4
+      }
+    }
+  ],
+  "merge_trace": [
+    {
+      "identity": "chicken broilers or fryers breast meat only cooked roasted|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        30.0
+      ],
+      "mean_grams": 15.0
+    },
+    {
+      "identity": "cooked meat|cooked",
+      "support_count": 1,
+      "member_grams": [
+        45.0,
+        0
+      ],
+      "mean_grams": 22.5
+    },
+    {
+      "identity": "cooking oil|unspecified",
+      "support_count": 1,
+      "member_grams": [
+        3.0,
+        0
+      ],
+      "mean_grams": 1.5
+    },
+    {
+      "identity": "food:SR_Legacy:2018-04:168878",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        45.0
+      ],
+      "mean_grams": 22.5
+    },
+    {
+      "identity": "garlic raw|unspecified",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        2.0
+      ],
+      "mean_grams": 1.0
+    },
+    {
+      "identity": "green leafy vegetable unspecified|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        10.0
+      ],
+      "mean_grams": 5.0
+    },
+    {
+      "identity": "leafy greens|cooked",
+      "support_count": 1,
+      "member_grams": [
+        15.0,
+        0
+      ],
+      "mean_grams": 7.5
+    },
+    {
+      "identity": "white long grain rice|cooked",
+      "support_count": 1,
+      "member_grams": [
+        60.0,
+        0
+      ],
+      "mean_grams": 30.0
+    }
+  ],
+  "current_attempt_call_count": 4
+}

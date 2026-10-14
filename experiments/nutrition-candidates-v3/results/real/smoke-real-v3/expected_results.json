@@ -1,0 +1,471 @@
+{
+  "mode": "REAL",
+  "source": "LOCAL_FOOD_NUTRIENTS_METADATA",
+  "metadata_sha256": "77401dbd6f7e75fde017cc3f6efec24cb144e52abbe0cec2b52164451c4dec53",
+  "schema_mapping": {
+    "image": "file_name",
+    "id": "id",
+    "ingredients": "ingredients",
+    "kcal": "total_calories",
+    "mass_g": "total_mass",
+    "fat_g": "total_fat",
+    "carbs_g": "total_carb",
+    "protein_g": "total_protein"
+  },
+  "records": [
+    {
+      "dish_id": "dish_1560368944",
+      "ingredients": [
+        {
+          "id": "ingr_0000000462",
+          "name": "pork",
+          "grams": 50.965252,
+          "kcal": 121.29729976,
+          "fat_g": 7.13513528,
+          "carbs_g": 0.0,
+          "protein_g": 13.25096552
+        },
+        {
+          "id": "ingr_0000000521",
+          "name": "basil",
+          "grams": 0.169884,
+          "kcal": 0.04077216,
+          "fat_g": 0.0,
+          "carbs_g": 0.00339768,
+          "protein_g": 0.00679536
+        },
+        {
+          "id": "ingr_0000000520",
+          "name": "lemon juice",
+          "grams": 0.339768,
+          "kcal": 0.05776056,
+          "fat_g": 0.0,
+          "carbs_g": 0.019027008,
+          "protein_g": 0.001359072
+        },
+        {
+          "id": "ingr_0000000161",
+          "name": "olive oil",
+          "grams": 1.359073,
+          "kcal": 12.01420532,
+          "fat_g": 1.359073,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000122",
+          "name": "garlic",
+          "grams": 0.679537,
+          "kcal": 1.01251013,
+          "fat_g": 0.003397685,
+          "carbs_g": 0.22424721,
+          "protein_g": 0.043490368
+        },
+        {
+          "id": "ingr_0000000133",
+          "name": "shallots",
+          "grams": 0.339768,
+          "kcal": 0.0679536,
+          "fat_g": 0.000679536,
+          "carbs_g": 0.011212344,
+          "protein_g": 0.00509652
+        },
+        {
+          "id": "ingr_0000000291",
+          "name": "salt",
+          "grams": 0.084942,
+          "kcal": 0.0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000027",
+          "name": "broccoli",
+          "grams": 1.698842,
+          "kcal": 0.5945947,
+          "fat_g": 0.006795368,
+          "carbs_g": 0.11891894,
+          "protein_g": 0.040772208
+        },
+        {
+          "id": "ingr_0000000471",
+          "name": "cherry tomatoes",
+          "grams": 1.698842,
+          "kcal": 0.30579156,
+          "fat_g": 0.003397684,
+          "carbs_g": 0.066254838,
+          "protein_g": 0.015289578
+        },
+        {
+          "id": "ingr_0000000312",
+          "name": "pepper",
+          "grams": 0.679537,
+          "kcal": 0.2718148,
+          "fat_g": 0.001359074,
+          "carbs_g": 0.063196941,
+          "protein_g": 0.01359074
+        },
+        {
+          "id": "ingr_0000000189",
+          "name": "vinegar",
+          "grams": 0.339768,
+          "kcal": 0.0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000524",
+          "name": "parsley",
+          "grams": 0.169884,
+          "kcal": 0.063026964,
+          "fat_g": 0.001359072,
+          "carbs_g": 0.010872576,
+          "protein_g": 0.004926636
+        },
+        {
+          "id": "ingr_0000000094",
+          "name": "onions",
+          "grams": 0.679537,
+          "kcal": 0.2718148,
+          "fat_g": 0.000679537,
+          "carbs_g": 0.06115833,
+          "protein_g": 0.007474907
+        },
+        {
+          "id": "ingr_0000000023",
+          "name": "brown rice",
+          "grams": 6.795367,
+          "kcal": 7.54285737,
+          "fat_g": 0.061158303,
+          "carbs_g": 1.56293441,
+          "protein_g": 0.176679542
+        }
+      ],
+      "kcal": 143.540421,
+      "mass_g": 66.0,
+      "fat_g": 8.573035,
+      "carbs_g": 2.14122,
+      "protein_g": 13.56644,
+      "metadata_line": 860,
+      "label_sum_discrepancy": {
+        "kcal": 1.9276000017498518e-05,
+        "fat_g": 4.610000008398174e-07,
+        "carbs_g": -2.7699999982644385e-07,
+        "protein_g": -4.510000000124137e-07
+      }
+    },
+    {
+      "dish_id": "dish_1561491121",
+      "ingredients": [
+        {
+          "id": "ingr_0000000291",
+          "name": "salt",
+          "grams": 0.088608,
+          "kcal": 0.0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000122",
+          "name": "garlic",
+          "grams": 0.088608,
+          "kcal": 0.13202592,
+          "fat_g": 0.00044304,
+          "carbs_g": 0.02924064,
+          "protein_g": 0.005670912
+        },
+        {
+          "id": "ingr_0000000161",
+          "name": "olive oil",
+          "grams": 2.835443,
+          "kcal": 25.06531612,
+          "fat_g": 2.835443,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000126",
+          "name": "mustard",
+          "grams": 0.177215,
+          "kcal": 0.108632795,
+          "fat_g": 0.005848095,
+          "carbs_g": 0.0106329,
+          "protein_g": 0.006556955
+        },
+        {
+          "id": "ingr_0000000201",
+          "name": "blueberries",
+          "grams": 2.835443,
+          "kcal": 1.621873396,
+          "fat_g": 0.008506329,
+          "carbs_g": 0.408303792,
+          "protein_g": 0.019848101
+        },
+        {
+          "id": "ingr_0000000189",
+          "name": "vinegar",
+          "grams": 1.417722,
+          "kcal": 0.0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000036",
+          "name": "spinach (raw)",
+          "grams": 17.721519,
+          "kcal": 4.07594937,
+          "fat_g": 0.070886076,
+          "carbs_g": 0.637974684,
+          "protein_g": 0.513924051
+        },
+        {
+          "id": "ingr_0000000073",
+          "name": "radishes",
+          "grams": 2.835443,
+          "kcal": 0.45367088,
+          "fat_g": 0.002835443,
+          "carbs_g": 0.096405062,
+          "protein_g": 0.019848101
+        }
+      ],
+      "kcal": 31.45747,
+      "mass_g": 28.0,
+      "fat_g": 2.923962,
+      "carbs_g": 1.182557,
+      "protein_g": 0.565848,
+      "metadata_line": 1155,
+      "label_sum_discrepancy": {
+        "kcal": 1.5190000013376448e-06,
+        "fat_g": 1.6999999630229468e-08,
+        "carbs_g": -7.80000000144554e-08,
+        "protein_g": -1.200000000478596e-07
+      }
+    },
+    {
+      "dish_id": "dish_1561654374",
+      "ingredients": [
+        {
+          "id": "ingr_0000000041",
+          "name": "blackberries",
+          "grams": 2.967742,
+          "kcal": 1.27612906,
+          "fat_g": 0.01483871,
+          "carbs_g": 0.273032264,
+          "protein_g": 0.041548388
+        },
+        {
+          "id": "ingr_0000000029",
+          "name": "mixed greens",
+          "grams": 29.677418,
+          "kcal": 8.30967704,
+          "fat_g": 0.118709672,
+          "carbs_g": 1.572903154,
+          "protein_g": 0.652903196
+        },
+        {
+          "id": "ingr_0000000040",
+          "name": "raspberries",
+          "grams": 2.967742,
+          "kcal": 1.57290326,
+          "fat_g": 0.020774194,
+          "carbs_g": 0.35612904,
+          "protein_g": 0.035612904
+        },
+        {
+          "id": "ingr_0000000008",
+          "name": "scrambled eggs",
+          "grams": 167.0,
+          "kcal": 247.16,
+          "fat_g": 18.37,
+          "carbs_g": 2.672,
+          "protein_g": 16.7
+        },
+        {
+          "id": "ingr_0000000016",
+          "name": "brussels sprouts",
+          "grams": 37.392376,
+          "kcal": 16.07872168,
+          "fat_g": 0.112177128,
+          "carbs_g": 3.36531384,
+          "protein_g": 1.271340784
+        },
+        {
+          "id": "ingr_0000000161",
+          "name": "olive oil",
+          "grams": 0.373924,
+          "kcal": 3.30548816,
+          "fat_g": 0.373924,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000312",
+          "name": "pepper",
+          "grams": 0.04674,
+          "kcal": 0.018696,
+          "fat_g": 9.348e-05,
+          "carbs_g": 0.00434682,
+          "protein_g": 0.0009348
+        },
+        {
+          "id": "ingr_0000000291",
+          "name": "salt",
+          "grams": 0.186962,
+          "kcal": 0.0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000338",
+          "name": "vinaigrette",
+          "grams": 2.967742,
+          "kcal": 13.81483901,
+          "fat_g": 1.537290356,
+          "carbs_g": 0.077161292,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000294",
+          "name": "granola",
+          "grams": 7.419354,
+          "kcal": 34.819028322,
+          "fat_g": 1.513548216,
+          "carbs_g": 4.800322038,
+          "protein_g": 0.7419354
+        }
+      ],
+      "kcal": 326.35553,
+      "mass_g": 251.0,
+      "fat_g": 22.061356,
+      "carbs_g": 13.121208,
+      "protein_g": 19.444277,
+      "metadata_line": 1277,
+      "label_sum_discrepancy": {
+        "kcal": 4.7467999991113174e-05,
+        "fat_g": 2.4399999887236845e-07,
+        "carbs_g": -4.480000015405494e-07,
+        "protein_g": 1.5280000020823081e-06
+      }
+    },
+    {
+      "dish_id": "dish_1563555605",
+      "ingredients": [
+        {
+          "id": "ingr_0000000008",
+          "name": "scrambled eggs",
+          "grams": 131.0,
+          "kcal": 193.88,
+          "fat_g": 14.41,
+          "carbs_g": 2.096,
+          "protein_g": 13.1
+        },
+        {
+          "id": "ingr_0000000038",
+          "name": "pineapple",
+          "grams": 149.0,
+          "kcal": 74.5,
+          "fat_g": 0.149,
+          "carbs_g": 19.37,
+          "protein_g": 0.745
+        },
+        {
+          "id": "ingr_0000000433",
+          "name": "roasted potatoes",
+          "grams": 99.0,
+          "kcal": 139.59,
+          "fat_g": 6.732,
+          "carbs_g": 17.82,
+          "protein_g": 2.079
+        },
+        {
+          "id": "ingr_0000000004",
+          "name": "bacon",
+          "grams": 24.0,
+          "kcal": 129.84,
+          "fat_g": 10.08,
+          "carbs_g": 0.336,
+          "protein_g": 8.88
+        }
+      ],
+      "kcal": 537.809998,
+      "mass_g": 403.0,
+      "fat_g": 31.371,
+      "carbs_g": 39.622002,
+      "protein_g": 24.804001,
+      "metadata_line": 2134,
+      "label_sum_discrepancy": {
+        "kcal": -1.9999999949504854e-06,
+        "fat_g": 0.0,
+        "carbs_g": 2.0000000020559128e-06,
+        "protein_g": 9.999999974752427e-07
+      }
+    },
+    {
+      "dish_id": "dish_1563900205",
+      "ingredients": [
+        {
+          "id": "ingr_0000000437",
+          "name": "sweet potato",
+          "grams": 47.804878,
+          "kcal": 36.33170728,
+          "fat_g": 0.0,
+          "carbs_g": 8.60487804,
+          "protein_g": 0.47804878
+        },
+        {
+          "id": "ingr_0000000027",
+          "name": "broccoli",
+          "grams": 44.878052,
+          "kcal": 15.7073182,
+          "fat_g": 0.179512208,
+          "carbs_g": 3.14146364,
+          "protein_g": 1.077073248
+        },
+        {
+          "id": "ingr_0000000161",
+          "name": "olive oil",
+          "grams": 2.317073,
+          "kcal": 20.48292532,
+          "fat_g": 2.317073,
+          "carbs_g": 0.0,
+          "protein_g": 0.0
+        },
+        {
+          "id": "ingr_0000000008",
+          "name": "scrambled eggs",
+          "grams": 105.0,
+          "kcal": 155.4,
+          "fat_g": 11.55,
+          "carbs_g": 1.68,
+          "protein_g": 10.5
+        },
+        {
+          "id": "ingr_0000000037",
+          "name": "cantaloupe",
+          "grams": 101.0,
+          "kcal": 34.34,
+          "fat_g": 0.202,
+          "carbs_g": 8.08,
+          "protein_g": 0.808
+        }
+      ],
+      "kcal": 262.261963,
+      "mass_g": 301.0,
+      "fat_g": 14.248585,
+      "carbs_g": 21.506342,
+      "protein_g": 12.863122,
+      "metadata_line": 2260,
+      "label_sum_discrepancy": {
+        "kcal": 1.2199999957829277e-05,
+        "fat_g": -2.080000012227856e-07,
+        "carbs_g": 3.2000000160792297e-07,
+        "protein_g": -2.799999876401671e-08
+      }
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "single",
+  "dish_id": "dish_1563555605",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:53:06.062956+00:00",
+  "prediction": {
+    "dish_name": "Breakfast plate with scrambled eggs, bacon, potatoes, and fruit",
+    "ingredients": [
+      {
+        "name": "Potatoes, cooked",
+        "name_th": "มันฝรั่ง",
+        "state": "fried",
+        "grams": 110.0,
+        "evidence": "visible",
+        "confidence": 0.8,
+        "uncertainty": "Identity is certain, but specific potato variety is unknown. Mass is estimated from the volume of diced pieces.",
+        "estimated_per_100g": {
+          "kcal": 120.0,
+          "protein_g": 2.5,
+          "carbs_g": 25.0,
+          "fat_g": 0.5
+        }
+      },
+      {
+        "name": "Bacon",
+        "name_th": "เบคอน",
+        "state": "fried",
+        "grams": 40.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Mass is estimated based on the number of strips and their thickness.",
+        "estimated_per_100g": {
+          "kcal": 541.0,
+          "protein_g": 37.0,
+          "carbs_g": 1.4,
+          "fat_g": 42.0
+        }
+      },
+      {
+        "name": "Egg, whole, scrambled",
+        "name_th": "ไข่คน",
+        "state": "cooked",
+        "grams": 50.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Consistent with approximately one large egg. Mass is estimated from visual volume.",
+        "estimated_per_100g": {
+          "kcal": 155.0,
+          "protein_g": 13.5,
+          "carbs_g": 1.5,
+          "fat_g": 11.0
+        }
+      },
+      {
+        "name": "Banana, raw",
+        "name_th": "กล้วย",
+        "state": "raw",
+        "grams": 90.0,
+        "evidence": "visible",
+        "confidence": 0.95,
+        "uncertainty": "The specific variety (e.g., Cavendish) cannot be determined, but the identity as a banana is certain.",
+        "estimated_per_100g": {
+          "kcal": 89.0,
+          "protein_g": 1.1,
+          "carbs_g": 22.8,
+          "fat_g": 0.3
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "น้ำมันพืช",
+        "state": "fried",
+        "grams": 5.0,
+        "evidence": "inferred",
+        "confidence": 0.8,
+        "uncertainty": "The specific type of oil (canola, soybean, etc.) is not identifiable. This represents the residual oil from frying the potatoes and bacon.",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 557.4,
+      "protein_g": 24.966,
+      "carbs_g": 49.249,
+      "fat_g": 28.102
+    },
+    "partial_nutrients": {
+      "kcal": 557.4,
+      "protein_g": 24.966,
+      "carbs_g": 49.249,
+      "fat_g": 28.102
+    },
+    "ingredients": [
+      {
+        "identity": "potatoes cooked|fried",
+        "prediction": {
+          "name": "Potatoes, cooked",
+          "name_th": "มันฝรั่ง",
+          "state": "fried",
+          "grams": 110.0,
+          "evidence": "visible",
+          "confidence": 0.8,
+          "uncertainty": "Identity is certain, but specific potato variety is unknown. Mass is estimated from the volume of diced pieces.",
+          "estimated_per_100g": {
+            "kcal": 120.0,
+            "protein_g": 2.5,
+            "carbs_g": 25.0,
+            "fat_g": 0.5
+          }
+        },
+        "grams": 110.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "name_state_conflict",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 120.0,
+          "protein_g": 2.5,
+          "carbs_g": 25.0,
+          "fat_g": 0.5
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 132.0,
+          "protein_g": 2.75,
+          "carbs_g": 27.500000000000004,
+          "fat_g": 0.55
+        },
+        "uncertainty": "Identity is certain, but specific potato variety is unknown. Mass is estimated from the volume of diced pieces."
+      },
+      {
+        "identity": "bacon|fried",
+        "prediction": {
+          "name": "Bacon",
+          "name_th": "เบคอน",
+          "state": "fried",
+          "grams": 40.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Mass is estimated based on the number of strips and their thickness.",
+          "estimated_per_100g": {
+            "kcal": 541.0,
+            "protein_g": 37.0,
+            "carbs_g": 1.4,
+            "fat_g": 42.0
+          }
+        },
+        "grams": 40.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "UNMATCHED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 541.0,
+          "protein_g": 37.0,
+          "carbs_g": 1.4,
+          "fat_g": 42.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 216.4,
+          "protein_g": 14.8,
+          "carbs_g": 0.5599999999999999,
+          "fat_g": 16.8
+        },
+        "uncertainty": "Mass is estimated based on the number of strips and their thickness."
+      },
+      {
+        "identity": "eggs whole scrambled|cooked",
+        "prediction": {
+          "name": "Egg, whole, scrambled",
+          "name_th": "ไข่คน",
+          "state": "cooked",
+          "grams": 50.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Consistent with approximately one large egg. Mass is estimated from visual volume.",
+          "estimated_per_100g": {
+            "kcal": 155.0,
+            "protein_g": 13.5,
+            "carbs_g": 1.5,
+            "fat_g": 11.0
+          }
+        },
+        "grams": 50.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:172187",
+            "name": "Egg, whole, cooked, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.8511
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172185",
+            "name": "Egg, whole, cooked, omelet",
+            "state": "cooked",
+            "lexical_score": 0.6818
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:173272",
+            "name": "Fast foods, egg, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.6222
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172186",
+            "name": "Egg, whole, cooked, poached",
+            "state": "cooked",
+            "lexical_score": 0.6222
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707205",
+            "name": "Egg omelet or scrambled egg, no added fat",
+            "state": "cooked",
+            "lexical_score": 0.5806
+          }
+        ],
+        "per_100g": {
+          "kcal": 155.0,
+          "protein_g": 13.5,
+          "carbs_g": 1.5,
+          "fat_g": 11.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 77.5,
+          "protein_g": 6.75,
+          "carbs_g": 0.75,
+          "fat_g": 5.5
+        },
+        "uncertainty": "Consistent with approximately one large egg. Mass is estimated from visual volume."
+      },
+      {
+        "identity": "food:FNDDS:2021-2023:2709224",
+        "prediction": {
+          "name": "Banana, raw",
+          "name_th": "กล้วย",
+          "state": "raw",
+          "grams": 90.0,
+          "evidence": "visible",
+          "confidence": 0.95,
+          "uncertainty": "The specific variety (e.g., Cavendish) cannot be determined, but the identity as a banana is certain.",
+          "estimated_per_100g": {
+            "kcal": 89.0,
+            "protein_g": 1.1,
+            "carbs_g": 22.8,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 90.0,
+        "basis_g": 100,
+        "food_id": "FNDDS:2021-2023:2709224",
+        "source_id": "FNDDS:2021-2023",
+        "source_food_id": "2709224",
+        "reference_name": "Banana, raw",
+        "reference_state": "raw",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 12072, \"record_origin\": \"USDA FDC ID 2709224\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 97.0,
+          "protein_g": 0.74,
+          "carbs_g": 22.71,
+          "fat_g": 0.28
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 87.3,
+          "protein_g": 0.666,
+          "carbs_g": 20.439,
+          "fat_g": 0.25200000000000006
+        },
+        "uncertainty": "The specific variety (e.g., Cavendish) cannot be determined, but the identity as a banana is certain."
+      },
+      {
+        "identity": "cooking oil|fried",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "น้ำมันพืช",
+          "state": "fried",
+          "grams": 5.0,
+          "evidence": "inferred",
+          "confidence": 0.8,
+          "uncertainty": "The specific type of oil (canola, soybean, etc.) is not identifiable. This represents the residual oil from frying the potatoes and bacon.",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 5.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2708051",
+            "name": "Pastry, cookie type, fried",
+            "state": "fried",
+            "lexical_score": 0.4
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710055",
+            "name": "Fried onion rings",
+            "state": "fried",
+            "lexical_score": 0.3571
+          }
+        ],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 44.2,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 5.0
+        },
+        "uncertainty": "The specific type of oil (canola, soybean, etc.) is not identifiable. This represents the residual oil from frying the potatoes and bacon."
+      }
+    ],
+    "total_estimated_mass_g": 295.0,
+    "database_mass_coverage": 0.3050847457627119,
+    "database_only_mass_coverage": 0.3050847457627119,
+    "fallback_ingredient_count": 4,
+    "predicted_ingredient_count": 5
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:53:06.071438+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.40055049999500625,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 46.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:53:52.478128+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 789,
+      "total_tokens": 3530,
+      "cost_usd": null,
+      "latency_seconds": 2.3860753000190016,
+      "response_id": "chatcmpl-1441aca8-6f67-433c-bfa2-eda4ce785b66"
+    }
+  ],
+  "latency_seconds": 48.8296594999847,
+  "cumulative_latency_seconds": 48.8296594999847,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 2
+}

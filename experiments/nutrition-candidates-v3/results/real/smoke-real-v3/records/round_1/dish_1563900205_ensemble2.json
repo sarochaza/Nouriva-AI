@@ -1,0 +1,2995 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "ensemble2",
+  "dish_id": "dish_1563900205",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:54:42.099516+00:00",
+  "prediction": {
+    "dish_name": "Plate of scrambled eggs, broccoli, roasted potatoes, and cantaloupe",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "name_th": "บรอกโคลี",
+        "state": "boiled",
+        "grams": 20.0,
+        "evidence": "uncertain",
+        "confidence": 0.4,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli.",
+        "estimated_per_100g": {
+          "kcal": 25.0,
+          "protein_g": 2.4,
+          "carbs_g": 4.5,
+          "fat_g": 0.4000000000000001
+        }
+      },
+      {
+        "name": "Broccoli",
+        "name_th": "บรอกโคลี",
+        "state": "cooked",
+        "grams": 30.0,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked.",
+        "estimated_per_100g": {
+          "kcal": 35.0,
+          "protein_g": 2.4,
+          "carbs_g": 6.599999999999999,
+          "fat_g": 0.3
+        }
+      },
+      {
+        "name": "Cantaloupe",
+        "name_th": "แคนตาลูป",
+        "state": "raw",
+        "grams": 40.0,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Fruit identity is clear from the orange flesh and netted rind fragments.",
+        "estimated_per_100g": {
+          "kcal": 34.00000000000001,
+          "protein_g": 0.9000000000000001,
+          "carbs_g": 8.2,
+          "fat_g": 0.20000000000000004
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "น้ำมัน",
+        "state": "unspecified",
+        "grams": 1.5,
+        "evidence": "uncertain",
+        "confidence": 0.25,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount.",
+        "estimated_per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Eggs",
+        "name_th": "ไข่",
+        "state": "fried",
+        "grams": 32.5,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried.",
+        "estimated_per_100g": {
+          "kcal": 155.0,
+          "protein_g": 12.5,
+          "carbs_g": 1.1000000000000003,
+          "fat_g": 11.0
+        }
+      },
+      {
+        "name": "Egg, whole, cooked, scrambled",
+        "name_th": "ไข่คน",
+        "state": "cooked",
+        "grams": 60.0,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimation is approximate based on volume and typical egg weight.",
+        "estimated_per_100g": {
+          "kcal": 149.0,
+          "protein_g": 9.99,
+          "carbs_g": 1.6099999999999999,
+          "fat_g": 10.979999999999999
+        }
+      },
+      {
+        "name": "Fried egg",
+        "name_th": "ไข่ดาว",
+        "state": "fried",
+        "grams": 25.0,
+        "evidence": "uncertain",
+        "confidence": 0.475,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Visible on the bottom right plate, partially in frame.",
+        "estimated_per_100g": {
+          "kcal": 170.0,
+          "protein_g": 12.5,
+          "carbs_g": 1.0,
+          "fat_g": 13.0
+        }
+      },
+      {
+        "name": "Melon",
+        "name_th": "แตง",
+        "state": "raw",
+        "grams": 45.0,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon.",
+        "estimated_per_100g": {
+          "kcal": 34.0,
+          "protein_g": 0.8000000000000002,
+          "carbs_g": 8.0,
+          "fat_g": 0.20000000000000004
+        }
+      },
+      {
+        "name": "Oil",
+        "name_th": "น้ำมัน",
+        "state": "unspecified",
+        "grams": 2.5,
+        "evidence": "uncertain",
+        "confidence": 0.25,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool.",
+        "estimated_per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Potato",
+        "name_th": "มันฝรั่ง",
+        "state": "baked",
+        "grams": 22.5,
+        "evidence": "uncertain",
+        "confidence": 0.4,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small.",
+        "estimated_per_100g": {
+          "kcal": 93.0,
+          "protein_g": 2.0,
+          "carbs_g": 20.2,
+          "fat_g": 0.10000000000000002
+        }
+      },
+      {
+        "name": "Potatoes",
+        "name_th": "มันฝรั่ง",
+        "state": "roasted",
+        "grams": 27.5,
+        "evidence": "uncertain",
+        "confidence": 0.4,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute.",
+        "estimated_per_100g": {
+          "kcal": 120.0,
+          "protein_g": 2.5,
+          "carbs_g": 27.000000000000004,
+          "fat_g": 0.10000000000000002
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 316.6,
+      "protein_g": 16.239,
+      "carbs_g": 23.3035,
+      "fat_g": 17.803
+    },
+    "partial_nutrients": {
+      "kcal": 316.6,
+      "protein_g": 16.239,
+      "carbs_g": 23.3035,
+      "fat_g": 17.803
+    },
+    "ingredients": [
+      {
+        "identity": "broccoli|boiled",
+        "prediction": {
+          "name": "Broccoli",
+          "name_th": "บรอกโคลี",
+          "state": "boiled",
+          "grams": 20.0,
+          "evidence": "uncertain",
+          "confidence": 0.4,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli.",
+          "estimated_per_100g": {
+            "kcal": 25.0,
+            "protein_g": 2.4,
+            "carbs_g": 4.5,
+            "fat_g": 0.4000000000000001
+          }
+        },
+        "grams": 20.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "UNMATCHED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 25.0,
+          "protein_g": 2.4,
+          "carbs_g": 4.5,
+          "fat_g": 0.4000000000000001
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 5.0,
+          "protein_g": 0.48,
+          "carbs_g": 0.9,
+          "fat_g": 0.08000000000000002
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "broccoli|boiled",
+            "prediction": {
+              "name": "Broccoli",
+              "name_th": "บรอกโคลี",
+              "state": "boiled",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli.",
+              "estimated_per_100g": {
+                "kcal": 25.0,
+                "protein_g": 2.4,
+                "carbs_g": 4.5,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "UNMATCHED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 25.0,
+              "protein_g": 2.4,
+              "carbs_g": 4.5,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 10.0,
+              "protein_g": 0.96,
+              "carbs_g": 1.8,
+              "fat_g": 0.16000000000000003
+            },
+            "uncertainty": "Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "broccoli|cooked",
+        "prediction": {
+          "name": "Broccoli",
+          "name_th": "บรอกโคลี",
+          "state": "cooked",
+          "grams": 30.0,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked.",
+          "estimated_per_100g": {
+            "kcal": 35.0,
+            "protein_g": 2.4,
+            "carbs_g": 6.599999999999999,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 30.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:170382",
+            "name": "Broccoli raab, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5714
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709573",
+            "name": "Broccoli raab, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5714
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709886",
+            "name": "Burdock, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5455
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709880",
+            "name": "Broccoflower, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5185
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169392",
+            "name": "Broccoli, chinese, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5161
+          }
+        ],
+        "per_100g": {
+          "kcal": 35.0,
+          "protein_g": 2.4,
+          "carbs_g": 6.599999999999999,
+          "fat_g": 0.3
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 10.5,
+          "protein_g": 0.72,
+          "carbs_g": 1.9799999999999998,
+          "fat_g": 0.09
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "broccoli|cooked",
+            "prediction": {
+              "name": "Broccoli",
+              "name_th": "บรอกโคลี",
+              "state": "cooked",
+              "grams": 60.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked.",
+              "estimated_per_100g": {
+                "kcal": 35.0,
+                "protein_g": 2.4,
+                "carbs_g": 6.6,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 60.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170382",
+                "name": "Broccoli raab, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709573",
+                "name": "Broccoli raab, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709886",
+                "name": "Burdock, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709880",
+                "name": "Broccoflower, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5185
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169392",
+                "name": "Broccoli, chinese, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5161
+              }
+            ],
+            "per_100g": {
+              "kcal": 35.0,
+              "protein_g": 2.4,
+              "carbs_g": 6.6,
+              "fat_g": 0.3
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 21.0,
+              "protein_g": 1.44,
+              "carbs_g": 3.9599999999999995,
+              "fat_g": 0.18
+            },
+            "uncertainty": "Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked."
+          }
+        ]
+      },
+      {
+        "identity": "cantaloupe|raw",
+        "prediction": {
+          "name": "Cantaloupe",
+          "name_th": "แคนตาลูป",
+          "state": "raw",
+          "grams": 40.0,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Fruit identity is clear from the orange flesh and netted rind fragments.",
+          "estimated_per_100g": {
+            "kcal": 34.00000000000001,
+            "protein_g": 0.9000000000000001,
+            "carbs_g": 8.2,
+            "fat_g": 0.20000000000000004
+          }
+        },
+        "grams": 40.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709226",
+            "name": "Cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.8333
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169092",
+            "name": "Melons, cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.6452
+          },
+          {
+            "food_id": "Foundation:2025-12:746770",
+            "name": "Melons, cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.6452
+          },
+          {
+            "food_id": "Foundation:2025-12:327198",
+            "name": "Melons, cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.6452
+          },
+          {
+            "food_id": "Foundation:2025-12:2710834",
+            "name": "Mango, Ataulfo, peeled, raw",
+            "state": "raw",
+            "lexical_score": 0.4706
+          }
+        ],
+        "per_100g": {
+          "kcal": 34.00000000000001,
+          "protein_g": 0.9000000000000001,
+          "carbs_g": 8.2,
+          "fat_g": 0.20000000000000004
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 13.600000000000001,
+          "protein_g": 0.36000000000000004,
+          "carbs_g": 3.28,
+          "fat_g": 0.08000000000000002
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Fruit identity is clear from the orange flesh and netted rind fragments.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "cantaloupe|raw",
+            "prediction": {
+              "name": "Cantaloupe",
+              "name_th": "แคนตาลูป",
+              "state": "raw",
+              "grams": 80.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Fruit identity is clear from the orange flesh and netted rind fragments.",
+              "estimated_per_100g": {
+                "kcal": 34.0,
+                "protein_g": 0.9,
+                "carbs_g": 8.2,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 80.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709226",
+                "name": "Cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.8333
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169092",
+                "name": "Melons, cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.6452
+              },
+              {
+                "food_id": "Foundation:2025-12:746770",
+                "name": "Melons, cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.6452
+              },
+              {
+                "food_id": "Foundation:2025-12:327198",
+                "name": "Melons, cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.6452
+              },
+              {
+                "food_id": "Foundation:2025-12:2710834",
+                "name": "Mango, Ataulfo, peeled, raw",
+                "state": "raw",
+                "lexical_score": 0.4706
+              }
+            ],
+            "per_100g": {
+              "kcal": 34.0,
+              "protein_g": 0.9,
+              "carbs_g": 8.2,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 27.200000000000003,
+              "protein_g": 0.7200000000000001,
+              "carbs_g": 6.56,
+              "fat_g": 0.16000000000000003
+            },
+            "uncertainty": "Fruit identity is clear from the orange flesh and netted rind fragments."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "น้ำมัน",
+          "state": "unspecified",
+          "grams": 1.5,
+          "evidence": "uncertain",
+          "confidence": 0.25,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount.",
+          "estimated_per_100g": {
+            "kcal": 900.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 1.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 13.5,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 1.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "cooking oil|unspecified",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "น้ำมัน",
+              "state": "unspecified",
+              "grams": 3.0,
+              "evidence": "inferred",
+              "confidence": 0.5,
+              "uncertainty": "Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount.",
+              "estimated_per_100g": {
+                "kcal": 900.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 3.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710183",
+                "name": "Corn oil",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710182",
+                "name": "Coconut oil",
+                "state": "unspecified",
+                "lexical_score": 0.7273
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707968",
+                "name": "Cookie, animal",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710184",
+                "name": "Cottonseed oil",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707945",
+                "name": "Cookie, oatmeal",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              }
+            ],
+            "per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 27.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.0
+            },
+            "uncertainty": "Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "eggs|fried",
+        "prediction": {
+          "name": "Eggs",
+          "name_th": "ไข่",
+          "state": "fried",
+          "grams": 32.5,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried.",
+          "estimated_per_100g": {
+            "kcal": 155.0,
+            "protein_g": 12.5,
+            "carbs_g": 1.1000000000000003,
+            "fat_g": 11.0
+          }
+        },
+        "grams": 32.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "UNMATCHED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 155.0,
+          "protein_g": 12.5,
+          "carbs_g": 1.1000000000000003,
+          "fat_g": 11.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 50.375,
+          "protein_g": 4.0625,
+          "carbs_g": 0.35750000000000004,
+          "fat_g": 3.575
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "eggs|fried",
+            "prediction": {
+              "name": "Eggs",
+              "name_th": "ไข่",
+              "state": "fried",
+              "grams": 65.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried.",
+              "estimated_per_100g": {
+                "kcal": 155.0,
+                "protein_g": 12.5,
+                "carbs_g": 1.1,
+                "fat_g": 11.0
+              }
+            },
+            "grams": 65.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "UNMATCHED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 155.0,
+              "protein_g": 12.5,
+              "carbs_g": 1.1,
+              "fat_g": 11.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 100.75,
+              "protein_g": 8.125,
+              "carbs_g": 0.7150000000000001,
+              "fat_g": 7.15
+            },
+            "uncertainty": "Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:172187",
+        "prediction": {
+          "name": "Egg, whole, cooked, scrambled",
+          "name_th": "ไข่คน",
+          "state": "cooked",
+          "grams": 60.0,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimation is approximate based on volume and typical egg weight.",
+          "estimated_per_100g": {
+            "kcal": 149.0,
+            "protein_g": 9.99,
+            "carbs_g": 1.6099999999999999,
+            "fat_g": 10.979999999999999
+          }
+        },
+        "grams": 60.0,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:172187",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "172187",
+        "reference_name": "Egg, whole, cooked, scrambled",
+        "reference_state": "cooked",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 4677, \"record_origin\": \"USDA FDC ID 172187\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 149.0,
+          "protein_g": 9.99,
+          "carbs_g": 1.6099999999999999,
+          "fat_g": 10.979999999999999
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 89.39999999999999,
+          "protein_g": 5.994,
+          "carbs_g": 0.966,
+          "fat_g": 6.588
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimation is approximate based on volume and typical egg weight.",
+        "database_fraction": 1.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "food:SR_Legacy:2018-04:172187",
+            "prediction": {
+              "name": "Egg, whole, cooked, scrambled",
+              "name_th": "ไข่คน",
+              "state": "cooked",
+              "grams": 120.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimation is approximate based on volume and typical egg weight.",
+              "estimated_per_100g": {
+                "kcal": 155.0,
+                "protein_g": 12.0,
+                "carbs_g": 1.0,
+                "fat_g": 11.0
+              }
+            },
+            "grams": 120.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:172187",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "172187",
+            "reference_name": "Egg, whole, cooked, scrambled",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 4677, \"record_origin\": \"USDA FDC ID 172187\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 149.0,
+              "protein_g": 9.99,
+              "carbs_g": 1.61,
+              "fat_g": 10.98
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 178.79999999999998,
+              "protein_g": 11.988,
+              "carbs_g": 1.932,
+              "fat_g": 13.176
+            },
+            "uncertainty": "Mass estimation is approximate based on volume and typical egg weight."
+          }
+        ]
+      },
+      {
+        "identity": "fried eggs|fried",
+        "prediction": {
+          "name": "Fried egg",
+          "name_th": "ไข่ดาว",
+          "state": "fried",
+          "grams": 25.0,
+          "evidence": "uncertain",
+          "confidence": 0.475,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Visible on the bottom right plate, partially in frame.",
+          "estimated_per_100g": {
+            "kcal": 170.0,
+            "protein_g": 12.5,
+            "carbs_g": 1.0,
+            "fat_g": 13.0
+          }
+        },
+        "grams": 25.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710048",
+            "name": "Fried eggplant",
+            "state": "fried",
+            "lexical_score": 0.75
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710054",
+            "name": "Fried okra",
+            "state": "fried",
+            "lexical_score": 0.6
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710055",
+            "name": "Fried onion rings",
+            "state": "fried",
+            "lexical_score": 0.5926
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709869",
+            "name": "Fried green beans",
+            "state": "fried",
+            "lexical_score": 0.5926
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708952",
+            "name": "Rice, fried, NFS",
+            "state": "fried",
+            "lexical_score": 0.5833
+          }
+        ],
+        "per_100g": {
+          "kcal": 170.0,
+          "protein_g": 12.5,
+          "carbs_g": 1.0,
+          "fat_g": 13.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 42.5,
+          "protein_g": 3.125,
+          "carbs_g": 0.25,
+          "fat_g": 3.25
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Visible on the bottom right plate, partially in frame.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "fried eggs|fried",
+            "prediction": {
+              "name": "Fried egg",
+              "name_th": "ไข่ดาว",
+              "state": "fried",
+              "grams": 50.0,
+              "evidence": "visible",
+              "confidence": 0.95,
+              "uncertainty": "Visible on the bottom right plate, partially in frame.",
+              "estimated_per_100g": {
+                "kcal": 170.0,
+                "protein_g": 12.5,
+                "carbs_g": 1.0,
+                "fat_g": 13.0
+              }
+            },
+            "grams": 50.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710048",
+                "name": "Fried eggplant",
+                "state": "fried",
+                "lexical_score": 0.75
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710054",
+                "name": "Fried okra",
+                "state": "fried",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710055",
+                "name": "Fried onion rings",
+                "state": "fried",
+                "lexical_score": 0.5926
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709869",
+                "name": "Fried green beans",
+                "state": "fried",
+                "lexical_score": 0.5926
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708952",
+                "name": "Rice, fried, NFS",
+                "state": "fried",
+                "lexical_score": 0.5833
+              }
+            ],
+            "per_100g": {
+              "kcal": 170.0,
+              "protein_g": 12.5,
+              "carbs_g": 1.0,
+              "fat_g": 13.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 85.0,
+              "protein_g": 6.25,
+              "carbs_g": 0.5,
+              "fat_g": 6.5
+            },
+            "uncertainty": "Visible on the bottom right plate, partially in frame."
+          }
+        ]
+      },
+      {
+        "identity": "melon|raw",
+        "prediction": {
+          "name": "Melon",
+          "name_th": "แตง",
+          "state": "raw",
+          "grams": 45.0,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon.",
+          "estimated_per_100g": {
+            "kcal": 34.0,
+            "protein_g": 0.8000000000000002,
+            "carbs_g": 8.0,
+            "fat_g": 0.20000000000000004
+          }
+        },
+        "grams": 45.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:167765",
+            "name": "Watermelon, raw",
+            "state": "raw",
+            "lexical_score": 0.5263
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709270",
+            "name": "Watermelon, raw",
+            "state": "raw",
+            "lexical_score": 0.5263
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:167754",
+            "name": "Pummelo, raw",
+            "state": "raw",
+            "lexical_score": 0.5
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169093",
+            "name": "Melons, casaba, raw",
+            "state": "raw",
+            "lexical_score": 0.4545
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709241",
+            "name": "Honeydew melon, raw",
+            "state": "raw",
+            "lexical_score": 0.4348
+          }
+        ],
+        "per_100g": {
+          "kcal": 34.0,
+          "protein_g": 0.8000000000000002,
+          "carbs_g": 8.0,
+          "fat_g": 0.20000000000000004
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 15.3,
+          "protein_g": 0.36000000000000004,
+          "carbs_g": 3.6,
+          "fat_g": 0.09000000000000001
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "melon|raw",
+            "prediction": {
+              "name": "Melon",
+              "name_th": "แตง",
+              "state": "raw",
+              "grams": 90.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon.",
+              "estimated_per_100g": {
+                "kcal": 34.0,
+                "protein_g": 0.8,
+                "carbs_g": 8.0,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 90.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:167765",
+                "name": "Watermelon, raw",
+                "state": "raw",
+                "lexical_score": 0.5263
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709270",
+                "name": "Watermelon, raw",
+                "state": "raw",
+                "lexical_score": 0.5263
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:167754",
+                "name": "Pummelo, raw",
+                "state": "raw",
+                "lexical_score": 0.5
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169093",
+                "name": "Melons, casaba, raw",
+                "state": "raw",
+                "lexical_score": 0.4545
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709241",
+                "name": "Honeydew melon, raw",
+                "state": "raw",
+                "lexical_score": 0.4348
+              }
+            ],
+            "per_100g": {
+              "kcal": 34.0,
+              "protein_g": 0.8,
+              "carbs_g": 8.0,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 30.6,
+              "protein_g": 0.7200000000000001,
+              "carbs_g": 7.2,
+              "fat_g": 0.18000000000000002
+            },
+            "uncertainty": "Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon."
+          }
+        ]
+      },
+      {
+        "identity": "oil|unspecified",
+        "prediction": {
+          "name": "Oil",
+          "name_th": "น้ำมัน",
+          "state": "unspecified",
+          "grams": 2.5,
+          "evidence": "uncertain",
+          "confidence": 0.25,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool.",
+          "estimated_per_100g": {
+            "kcal": 900.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 2.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:170431",
+            "name": "Poi",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:173576",
+            "name": "Oil, oat",
+            "state": "unspecified",
+            "lexical_score": 0.6
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708346",
+            "name": "Idli",
+            "state": "unspecified",
+            "lexical_score": 0.5714
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:171015",
+            "name": "Oil, palm",
+            "state": "unspecified",
+            "lexical_score": 0.5455
+          },
+          {
+            "food_id": "Foundation:2025-12:748323",
+            "name": "Oil, corn",
+            "state": "unspecified",
+            "lexical_score": 0.5455
+          }
+        ],
+        "per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 22.5,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 2.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "oil|unspecified",
+            "prediction": {
+              "name": "Oil",
+              "name_th": "น้ำมัน",
+              "state": "unspecified",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.5,
+              "uncertainty": "Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool.",
+              "estimated_per_100g": {
+                "kcal": 900.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170431",
+                "name": "Poi",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:173576",
+                "name": "Oil, oat",
+                "state": "unspecified",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708346",
+                "name": "Idli",
+                "state": "unspecified",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171015",
+                "name": "Oil, palm",
+                "state": "unspecified",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "Foundation:2025-12:748323",
+                "name": "Oil, corn",
+                "state": "unspecified",
+                "lexical_score": 0.5455
+              }
+            ],
+            "per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 45.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool."
+          }
+        ]
+      },
+      {
+        "identity": "potatoes|baked",
+        "prediction": {
+          "name": "Potato",
+          "name_th": "มันฝรั่ง",
+          "state": "baked",
+          "grams": 22.5,
+          "evidence": "uncertain",
+          "confidence": 0.4,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small.",
+          "estimated_per_100g": {
+            "kcal": 93.0,
+            "protein_g": 2.0,
+            "carbs_g": 20.2,
+            "fat_g": 0.10000000000000002
+          }
+        },
+        "grams": 22.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709383",
+            "name": "Potato, baked, NFS",
+            "state": "baked",
+            "lexical_score": 0.6154
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709524",
+            "name": "Potato, baked, peel eaten",
+            "state": "baked",
+            "lexical_score": 0.4848
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709515",
+            "name": "Potato tots, frozen, baked",
+            "state": "baked",
+            "lexical_score": 0.4706
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709434",
+            "name": "Potato chips, baked, plain",
+            "state": "baked",
+            "lexical_score": 0.4706
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709435",
+            "name": "Potato chips, baked, flavored",
+            "state": "baked",
+            "lexical_score": 0.4324
+          }
+        ],
+        "per_100g": {
+          "kcal": 93.0,
+          "protein_g": 2.0,
+          "carbs_g": 20.2,
+          "fat_g": 0.10000000000000002
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 20.925,
+          "protein_g": 0.45,
+          "carbs_g": 4.545,
+          "fat_g": 0.022500000000000003
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "potatoes|baked",
+            "prediction": {
+              "name": "Potato",
+              "name_th": "มันฝรั่ง",
+              "state": "baked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small.",
+              "estimated_per_100g": {
+                "kcal": 93.0,
+                "protein_g": 2.0,
+                "carbs_g": 20.2,
+                "fat_g": 0.1
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709383",
+                "name": "Potato, baked, NFS",
+                "state": "baked",
+                "lexical_score": 0.6154
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709524",
+                "name": "Potato, baked, peel eaten",
+                "state": "baked",
+                "lexical_score": 0.4848
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709515",
+                "name": "Potato tots, frozen, baked",
+                "state": "baked",
+                "lexical_score": 0.4706
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709434",
+                "name": "Potato chips, baked, plain",
+                "state": "baked",
+                "lexical_score": 0.4706
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709435",
+                "name": "Potato chips, baked, flavored",
+                "state": "baked",
+                "lexical_score": 0.4324
+              }
+            ],
+            "per_100g": {
+              "kcal": 93.0,
+              "protein_g": 2.0,
+              "carbs_g": 20.2,
+              "fat_g": 0.1
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 41.85,
+              "protein_g": 0.9,
+              "carbs_g": 9.09,
+              "fat_g": 0.045000000000000005
+            },
+            "uncertainty": "Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small."
+          }
+        ]
+      },
+      {
+        "identity": "potatoes|roasted",
+        "prediction": {
+          "name": "Potatoes",
+          "name_th": "มันฝรั่ง",
+          "state": "roasted",
+          "grams": 27.5,
+          "evidence": "uncertain",
+          "confidence": 0.4,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute.",
+          "estimated_per_100g": {
+            "kcal": 120.0,
+            "protein_g": 2.5,
+            "carbs_g": 27.000000000000004,
+            "fat_g": 0.10000000000000002
+          }
+        },
+        "grams": 27.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709402",
+            "name": "Potato, roasted, NFS",
+            "state": "roasted",
+            "lexical_score": 0.5714
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709415",
+            "name": "Potato, roasted, ready-to-heat",
+            "state": "roasted",
+            "lexical_score": 0.4211
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707515",
+            "name": "Peanuts, roasted, salted",
+            "state": "roasted",
+            "lexical_score": 0.4
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707516",
+            "name": "Peanuts, roasted, unsalted",
+            "state": "roasted",
+            "lexical_score": 0.375
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169821",
+            "name": "Pinon Nuts, roasted (Navajo)",
+            "state": "roasted",
+            "lexical_score": 0.3636
+          }
+        ],
+        "per_100g": {
+          "kcal": 120.0,
+          "protein_g": 2.5,
+          "carbs_g": 27.000000000000004,
+          "fat_g": 0.10000000000000002
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 33.0,
+          "protein_g": 0.6875,
+          "carbs_g": 7.425000000000001,
+          "fat_g": 0.027500000000000004
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "potatoes|roasted",
+            "prediction": {
+              "name": "Potatoes",
+              "name_th": "มันฝรั่ง",
+              "state": "roasted",
+              "grams": 55.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute.",
+              "estimated_per_100g": {
+                "kcal": 120.0,
+                "protein_g": 2.5,
+                "carbs_g": 27.0,
+                "fat_g": 0.1
+              }
+            },
+            "grams": 55.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709402",
+                "name": "Potato, roasted, NFS",
+                "state": "roasted",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709415",
+                "name": "Potato, roasted, ready-to-heat",
+                "state": "roasted",
+                "lexical_score": 0.4211
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707515",
+                "name": "Peanuts, roasted, salted",
+                "state": "roasted",
+                "lexical_score": 0.4
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707516",
+                "name": "Peanuts, roasted, unsalted",
+                "state": "roasted",
+                "lexical_score": 0.375
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169821",
+                "name": "Pinon Nuts, roasted (Navajo)",
+                "state": "roasted",
+                "lexical_score": 0.3636
+              }
+            ],
+            "per_100g": {
+              "kcal": 120.0,
+              "protein_g": 2.5,
+              "carbs_g": 27.0,
+              "fat_g": 0.1
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 66.0,
+              "protein_g": 1.375,
+              "carbs_g": 14.850000000000001,
+              "fat_g": 0.05500000000000001
+            },
+            "uncertainty": "Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute."
+          },
+          null
+        ]
+      }
+    ],
+    "total_estimated_mass_g": 306.5,
+    "database_mass_coverage": 0.19575856443719414,
+    "database_only_mass_coverage": 0.19575856443719414,
+    "fallback_ingredient_count": 10,
+    "predicted_ingredient_count": 11
+  },
+  "nominal_model_calls": 2,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:54:42.110100+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.38844779998180456,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 44.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:55:26.503494+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 779,
+      "total_tokens": 3520,
+      "cost_usd": null,
+      "latency_seconds": 3.660405600006925,
+      "response_id": "chatcmpl-394f737f-500f-48ef-be4a-ac388e8bf409"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:55:30.177542+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.3962007999944035,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 43.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:56:13.579909+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 934,
+      "total_tokens": 3675,
+      "cost_usd": null,
+      "latency_seconds": 2.626336999994237,
+      "response_id": "chatcmpl-e89f2cea-b284-4c79-bfea-8398e0964e97"
+    }
+  ],
+  "latency_seconds": 94.53346459998284,
+  "cumulative_latency_seconds": 94.53346459998284,
+  "members": [
+    {
+      "prediction": {
+        "dish_name": "Plate of scrambled eggs, broccoli, roasted potatoes, and cantaloupe",
+        "ingredients": [
+          {
+            "name": "Eggs",
+            "name_th": "ไข่",
+            "state": "fried",
+            "grams": 65.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried.",
+            "estimated_per_100g": {
+              "kcal": 155.0,
+              "protein_g": 12.5,
+              "carbs_g": 1.1,
+              "fat_g": 11.0
+            }
+          },
+          {
+            "name": "Broccoli",
+            "name_th": "บรอกโคลี",
+            "state": "boiled",
+            "grams": 40.0,
+            "evidence": "visible",
+            "confidence": 0.8,
+            "uncertainty": "Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli.",
+            "estimated_per_100g": {
+              "kcal": 25.0,
+              "protein_g": 2.4,
+              "carbs_g": 4.5,
+              "fat_g": 0.4
+            }
+          },
+          {
+            "name": "Potatoes",
+            "name_th": "มันฝรั่ง",
+            "state": "roasted",
+            "grams": 55.0,
+            "evidence": "visible",
+            "confidence": 0.8,
+            "uncertainty": "Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute.",
+            "estimated_per_100g": {
+              "kcal": 120.0,
+              "protein_g": 2.5,
+              "carbs_g": 27.0,
+              "fat_g": 0.1
+            }
+          },
+          {
+            "name": "Cantaloupe",
+            "name_th": "แคนตาลูป",
+            "state": "raw",
+            "grams": 80.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Fruit identity is clear from the orange flesh and netted rind fragments.",
+            "estimated_per_100g": {
+              "kcal": 34.0,
+              "protein_g": 0.9,
+              "carbs_g": 8.2,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Cooking oil",
+            "name_th": "น้ำมัน",
+            "state": "unspecified",
+            "grams": 3.0,
+            "evidence": "inferred",
+            "confidence": 0.5,
+            "uncertainty": "Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount.",
+            "estimated_per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 230.95,
+          "protein_g": 11.18,
+          "carbs_g": 23.925,
+          "fat_g": 10.525
+        },
+        "partial_nutrients": {
+          "kcal": 230.95,
+          "protein_g": 11.18,
+          "carbs_g": 23.925,
+          "fat_g": 10.525
+        },
+        "ingredients": [
+          {
+            "identity": "eggs|fried",
+            "prediction": {
+              "name": "Eggs",
+              "name_th": "ไข่",
+              "state": "fried",
+              "grams": 65.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried.",
+              "estimated_per_100g": {
+                "kcal": 155.0,
+                "protein_g": 12.5,
+                "carbs_g": 1.1,
+                "fat_g": 11.0
+              }
+            },
+            "grams": 65.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "UNMATCHED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 155.0,
+              "protein_g": 12.5,
+              "carbs_g": 1.1,
+              "fat_g": 11.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 100.75,
+              "protein_g": 8.125,
+              "carbs_g": 0.7150000000000001,
+              "fat_g": 7.15
+            },
+            "uncertainty": "Portion size estimated visually; preparation is likely scrambled eggs which are pan-fried."
+          },
+          {
+            "identity": "broccoli|boiled",
+            "prediction": {
+              "name": "Broccoli",
+              "name_th": "บรอกโคลี",
+              "state": "boiled",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli.",
+              "estimated_per_100g": {
+                "kcal": 25.0,
+                "protein_g": 2.4,
+                "carbs_g": 4.5,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "UNMATCHED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 25.0,
+              "protein_g": 2.4,
+              "carbs_g": 4.5,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 10.0,
+              "protein_g": 0.96,
+              "carbs_g": 1.8,
+              "fat_g": 0.16000000000000003
+            },
+            "uncertainty": "Preparation is inferred from the soft, uniform green color typical of boiled or steamed broccoli."
+          },
+          {
+            "identity": "potatoes|roasted",
+            "prediction": {
+              "name": "Potatoes",
+              "name_th": "มันฝรั่ง",
+              "state": "roasted",
+              "grams": 55.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute.",
+              "estimated_per_100g": {
+                "kcal": 120.0,
+                "protein_g": 2.5,
+                "carbs_g": 27.0,
+                "fat_g": 0.1
+              }
+            },
+            "grams": 55.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709402",
+                "name": "Potato, roasted, NFS",
+                "state": "roasted",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709415",
+                "name": "Potato, roasted, ready-to-heat",
+                "state": "roasted",
+                "lexical_score": 0.4211
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707515",
+                "name": "Peanuts, roasted, salted",
+                "state": "roasted",
+                "lexical_score": 0.4
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707516",
+                "name": "Peanuts, roasted, unsalted",
+                "state": "roasted",
+                "lexical_score": 0.375
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169821",
+                "name": "Pinon Nuts, roasted (Navajo)",
+                "state": "roasted",
+                "lexical_score": 0.3636
+              }
+            ],
+            "per_100g": {
+              "kcal": 120.0,
+              "protein_g": 2.5,
+              "carbs_g": 27.0,
+              "fat_g": 0.1
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 66.0,
+              "protein_g": 1.375,
+              "carbs_g": 14.850000000000001,
+              "fat_g": 0.05500000000000001
+            },
+            "uncertainty": "Identity is likely potato based on the browned exterior and starchy interior; could be a root vegetable substitute."
+          },
+          {
+            "identity": "cantaloupe|raw",
+            "prediction": {
+              "name": "Cantaloupe",
+              "name_th": "แคนตาลูป",
+              "state": "raw",
+              "grams": 80.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Fruit identity is clear from the orange flesh and netted rind fragments.",
+              "estimated_per_100g": {
+                "kcal": 34.0,
+                "protein_g": 0.9,
+                "carbs_g": 8.2,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 80.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709226",
+                "name": "Cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.8333
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169092",
+                "name": "Melons, cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.6452
+              },
+              {
+                "food_id": "Foundation:2025-12:746770",
+                "name": "Melons, cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.6452
+              },
+              {
+                "food_id": "Foundation:2025-12:327198",
+                "name": "Melons, cantaloupe, raw",
+                "state": "raw",
+                "lexical_score": 0.6452
+              },
+              {
+                "food_id": "Foundation:2025-12:2710834",
+                "name": "Mango, Ataulfo, peeled, raw",
+                "state": "raw",
+                "lexical_score": 0.4706
+              }
+            ],
+            "per_100g": {
+              "kcal": 34.0,
+              "protein_g": 0.9,
+              "carbs_g": 8.2,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 27.200000000000003,
+              "protein_g": 0.7200000000000001,
+              "carbs_g": 6.56,
+              "fat_g": 0.16000000000000003
+            },
+            "uncertainty": "Fruit identity is clear from the orange flesh and netted rind fragments."
+          },
+          {
+            "identity": "cooking oil|unspecified",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "น้ำมัน",
+              "state": "unspecified",
+              "grams": 3.0,
+              "evidence": "inferred",
+              "confidence": 0.5,
+              "uncertainty": "Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount.",
+              "estimated_per_100g": {
+                "kcal": 900.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 3.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710183",
+                "name": "Corn oil",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710182",
+                "name": "Coconut oil",
+                "state": "unspecified",
+                "lexical_score": 0.7273
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707968",
+                "name": "Cookie, animal",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710184",
+                "name": "Cottonseed oil",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707945",
+                "name": "Cookie, oatmeal",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              }
+            ],
+            "per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 27.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.0
+            },
+            "uncertainty": "Assumed to be used in the preparation of the eggs and potatoes; visible sheen suggests a small amount."
+          }
+        ],
+        "total_estimated_mass_g": 243.0,
+        "database_mass_coverage": 0.0,
+        "database_only_mass_coverage": 0.0,
+        "fallback_ingredient_count": 5,
+        "predicted_ingredient_count": 5
+      }
+    },
+    {
+      "prediction": {
+        "dish_name": "Scrambled eggs with vegetables and potato",
+        "ingredients": [
+          {
+            "name": "Egg, whole, cooked, scrambled",
+            "name_th": "ไข่คน",
+            "state": "cooked",
+            "grams": 120.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Mass estimation is approximate based on volume and typical egg weight.",
+            "estimated_per_100g": {
+              "kcal": 155.0,
+              "protein_g": 12.0,
+              "carbs_g": 1.0,
+              "fat_g": 11.0
+            }
+          },
+          {
+            "name": "Broccoli",
+            "name_th": "บรอกโคลี",
+            "state": "cooked",
+            "grams": 60.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked.",
+            "estimated_per_100g": {
+              "kcal": 35.0,
+              "protein_g": 2.4,
+              "carbs_g": 6.6,
+              "fat_g": 0.3
+            }
+          },
+          {
+            "name": "Potato",
+            "name_th": "มันฝรั่ง",
+            "state": "baked",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.8,
+            "uncertainty": "Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small.",
+            "estimated_per_100g": {
+              "kcal": 93.0,
+              "protein_g": 2.0,
+              "carbs_g": 20.2,
+              "fat_g": 0.1
+            }
+          },
+          {
+            "name": "Melon",
+            "name_th": "แตง",
+            "state": "raw",
+            "grams": 90.0,
+            "evidence": "visible",
+            "confidence": 0.6,
+            "uncertainty": "Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon.",
+            "estimated_per_100g": {
+              "kcal": 34.0,
+              "protein_g": 0.8,
+              "carbs_g": 8.0,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Fried egg",
+            "name_th": "ไข่ดาว",
+            "state": "fried",
+            "grams": 50.0,
+            "evidence": "visible",
+            "confidence": 0.95,
+            "uncertainty": "Visible on the bottom right plate, partially in frame.",
+            "estimated_per_100g": {
+              "kcal": 170.0,
+              "protein_g": 12.5,
+              "carbs_g": 1.0,
+              "fat_g": 13.0
+            }
+          },
+          {
+            "name": "Oil",
+            "name_th": "น้ำมัน",
+            "state": "unspecified",
+            "grams": 5.0,
+            "evidence": "inferred",
+            "confidence": 0.5,
+            "uncertainty": "Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool.",
+            "estimated_per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 402.25,
+          "protein_g": 21.298,
+          "carbs_g": 22.682,
+          "fat_g": 25.081
+        },
+        "partial_nutrients": {
+          "kcal": 402.25,
+          "protein_g": 21.298,
+          "carbs_g": 22.682,
+          "fat_g": 25.081
+        },
+        "ingredients": [
+          {
+            "identity": "food:SR_Legacy:2018-04:172187",
+            "prediction": {
+              "name": "Egg, whole, cooked, scrambled",
+              "name_th": "ไข่คน",
+              "state": "cooked",
+              "grams": 120.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimation is approximate based on volume and typical egg weight.",
+              "estimated_per_100g": {
+                "kcal": 155.0,
+                "protein_g": 12.0,
+                "carbs_g": 1.0,
+                "fat_g": 11.0
+              }
+            },
+            "grams": 120.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:172187",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "172187",
+            "reference_name": "Egg, whole, cooked, scrambled",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 4677, \"record_origin\": \"USDA FDC ID 172187\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 149.0,
+              "protein_g": 9.99,
+              "carbs_g": 1.61,
+              "fat_g": 10.98
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 178.79999999999998,
+              "protein_g": 11.988,
+              "carbs_g": 1.932,
+              "fat_g": 13.176
+            },
+            "uncertainty": "Mass estimation is approximate based on volume and typical egg weight."
+          },
+          {
+            "identity": "broccoli|cooked",
+            "prediction": {
+              "name": "Broccoli",
+              "name_th": "บรอกโคลี",
+              "state": "cooked",
+              "grams": 60.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked.",
+              "estimated_per_100g": {
+                "kcal": 35.0,
+                "protein_g": 2.4,
+                "carbs_g": 6.6,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 60.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170382",
+                "name": "Broccoli raab, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709573",
+                "name": "Broccoli raab, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709886",
+                "name": "Burdock, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709880",
+                "name": "Broccoflower, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5185
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169392",
+                "name": "Broccoli, chinese, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5161
+              }
+            ],
+            "per_100g": {
+              "kcal": 35.0,
+              "protein_g": 2.4,
+              "carbs_g": 6.6,
+              "fat_g": 0.3
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 21.0,
+              "protein_g": 1.44,
+              "carbs_g": 3.9599999999999995,
+              "fat_g": 0.18
+            },
+            "uncertainty": "Preparation method (steamed vs. sauteed) is uncertain due to image quality, but state is clearly cooked."
+          },
+          {
+            "identity": "potatoes|baked",
+            "prediction": {
+              "name": "Potato",
+              "name_th": "มันฝรั่ง",
+              "state": "baked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small.",
+              "estimated_per_100g": {
+                "kcal": 93.0,
+                "protein_g": 2.0,
+                "carbs_g": 20.2,
+                "fat_g": 0.1
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709383",
+                "name": "Potato, baked, NFS",
+                "state": "baked",
+                "lexical_score": 0.6154
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709524",
+                "name": "Potato, baked, peel eaten",
+                "state": "baked",
+                "lexical_score": 0.4848
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709515",
+                "name": "Potato tots, frozen, baked",
+                "state": "baked",
+                "lexical_score": 0.4706
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709434",
+                "name": "Potato chips, baked, plain",
+                "state": "baked",
+                "lexical_score": 0.4706
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709435",
+                "name": "Potato chips, baked, flavored",
+                "state": "baked",
+                "lexical_score": 0.4324
+              }
+            ],
+            "per_100g": {
+              "kcal": 93.0,
+              "protein_g": 2.0,
+              "carbs_g": 20.2,
+              "fat_g": 0.1
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 41.85,
+              "protein_g": 0.9,
+              "carbs_g": 9.09,
+              "fat_g": 0.045000000000000005
+            },
+            "uncertainty": "Identity is a guess based on browning and shape; could be sweet potato or firm roasted potato. Mass is small."
+          },
+          {
+            "identity": "melon|raw",
+            "prediction": {
+              "name": "Melon",
+              "name_th": "แตง",
+              "state": "raw",
+              "grams": 90.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon.",
+              "estimated_per_100g": {
+                "kcal": 34.0,
+                "protein_g": 0.8,
+                "carbs_g": 8.0,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 90.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:167765",
+                "name": "Watermelon, raw",
+                "state": "raw",
+                "lexical_score": 0.5263
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709270",
+                "name": "Watermelon, raw",
+                "state": "raw",
+                "lexical_score": 0.5263
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:167754",
+                "name": "Pummelo, raw",
+                "state": "raw",
+                "lexical_score": 0.5
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169093",
+                "name": "Melons, casaba, raw",
+                "state": "raw",
+                "lexical_score": 0.4545
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709241",
+                "name": "Honeydew melon, raw",
+                "state": "raw",
+                "lexical_score": 0.4348
+              }
+            ],
+            "per_100g": {
+              "kcal": 34.0,
+              "protein_g": 0.8,
+              "carbs_g": 8.0,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 30.6,
+              "protein_g": 0.7200000000000001,
+              "carbs_g": 7.2,
+              "fat_g": 0.18000000000000002
+            },
+            "uncertainty": "Specific variety (cantaloupe vs. honeydew) is uncertain due to blur, but it is clearly a raw orange-fleshed melon."
+          },
+          {
+            "identity": "fried eggs|fried",
+            "prediction": {
+              "name": "Fried egg",
+              "name_th": "ไข่ดาว",
+              "state": "fried",
+              "grams": 50.0,
+              "evidence": "visible",
+              "confidence": 0.95,
+              "uncertainty": "Visible on the bottom right plate, partially in frame.",
+              "estimated_per_100g": {
+                "kcal": 170.0,
+                "protein_g": 12.5,
+                "carbs_g": 1.0,
+                "fat_g": 13.0
+              }
+            },
+            "grams": 50.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710048",
+                "name": "Fried eggplant",
+                "state": "fried",
+                "lexical_score": 0.75
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710054",
+                "name": "Fried okra",
+                "state": "fried",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710055",
+                "name": "Fried onion rings",
+                "state": "fried",
+                "lexical_score": 0.5926
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709869",
+                "name": "Fried green beans",
+                "state": "fried",
+                "lexical_score": 0.5926
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708952",
+                "name": "Rice, fried, NFS",
+                "state": "fried",
+                "lexical_score": 0.5833
+              }
+            ],
+            "per_100g": {
+              "kcal": 170.0,
+              "protein_g": 12.5,
+              "carbs_g": 1.0,
+              "fat_g": 13.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 85.0,
+              "protein_g": 6.25,
+              "carbs_g": 0.5,
+              "fat_g": 6.5
+            },
+            "uncertainty": "Visible on the bottom right plate, partially in frame."
+          },
+          {
+            "identity": "oil|unspecified",
+            "prediction": {
+              "name": "Oil",
+              "name_th": "น้ำมัน",
+              "state": "unspecified",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.5,
+              "uncertainty": "Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool.",
+              "estimated_per_100g": {
+                "kcal": 900.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170431",
+                "name": "Poi",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:173576",
+                "name": "Oil, oat",
+                "state": "unspecified",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708346",
+                "name": "Idli",
+                "state": "unspecified",
+                "lexical_score": 0.5714
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171015",
+                "name": "Oil, palm",
+                "state": "unspecified",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "Foundation:2025-12:748323",
+                "name": "Oil, corn",
+                "state": "unspecified",
+                "lexical_score": 0.5455
+              }
+            ],
+            "per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 45.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Cooking fat is inferred to have been used for the eggs and potatoes but is not directly visible as a pool."
+          }
+        ],
+        "total_estimated_mass_g": 370.0,
+        "database_mass_coverage": 0.32432432432432434,
+        "database_only_mass_coverage": 0.32432432432432434,
+        "fallback_ingredient_count": 5,
+        "predicted_ingredient_count": 6
+      }
+    }
+  ],
+  "merge_trace": [
+    {
+      "identity": "broccoli|boiled",
+      "support_count": 1,
+      "member_grams": [
+        40.0,
+        0
+      ],
+      "mean_grams": 20.0
+    },
+    {
+      "identity": "broccoli|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        60.0
+      ],
+      "mean_grams": 30.0
+    },
+    {
+      "identity": "cantaloupe|raw",
+      "support_count": 1,
+      "member_grams": [
+        80.0,
+        0
+      ],
+      "mean_grams": 40.0
+    },
+    {
+      "identity": "cooking oil|unspecified",
+      "support_count": 1,
+      "member_grams": [
+        3.0,
+        0
+      ],
+      "mean_grams": 1.5
+    },
+    {
+      "identity": "eggs|fried",
+      "support_count": 1,
+      "member_grams": [
+        65.0,
+        0
+      ],
+      "mean_grams": 32.5
+    },
+    {
+      "identity": "food:SR_Legacy:2018-04:172187",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        120.0
+      ],
+      "mean_grams": 60.0
+    },
+    {
+      "identity": "fried eggs|fried",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        50.0
+      ],
+      "mean_grams": 25.0
+    },
+    {
+      "identity": "melon|raw",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        90.0
+      ],
+      "mean_grams": 45.0
+    },
+    {
+      "identity": "oil|unspecified",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        5.0
+      ],
+      "mean_grams": 2.5
+    },
+    {
+      "identity": "potatoes|baked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        45.0
+      ],
+      "mean_grams": 22.5
+    },
+    {
+      "identity": "potatoes|roasted",
+      "support_count": 1,
+      "member_grams": [
+        55.0,
+        0
+      ],
+      "mean_grams": 27.5
+    }
+  ],
+  "current_attempt_call_count": 4
+}

@@ -1,0 +1,399 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 2,
+  "method": "single",
+  "dish_id": "dish_1560368944",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:57:51.700899+00:00",
+  "prediction": {
+    "dish_name": "Plate of leftover cooked chicken, rice, and leafy vegetables",
+    "ingredients": [
+      {
+        "name": "Chicken, cooked",
+        "name_th": "ไก่",
+        "state": "cooked",
+        "grams": 30.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Cut and specific cooking method (roasted vs grilled) are uncertain due to image quality and small portion size.",
+        "estimated_per_100g": {
+          "kcal": 165.0,
+          "protein_g": 31.0,
+          "carbs_g": 0.0,
+          "fat_g": 3.6
+        }
+      },
+      {
+        "name": "Rice, white, long-grain, regular, enriched, cooked",
+        "name_th": "ข้าว",
+        "state": "cooked",
+        "grams": 25.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Mass is an estimate based on the small visible portion on the plate.",
+        "estimated_per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.7,
+          "carbs_g": 28.2,
+          "fat_g": 0.3
+        }
+      },
+      {
+        "name": "Leafy greens, cooked",
+        "name_th": "ผักใบเขียว",
+        "state": "cooked",
+        "grams": 10.0,
+        "evidence": "visible",
+        "confidence": 0.7,
+        "uncertainty": "Specific vegetable variety is unidentifiable; appears to be a dark green leafy vegetable that has been cooked or wilted.",
+        "estimated_per_100g": {
+          "kcal": 27.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4
+        }
+      },
+      {
+        "name": "Sauce, fish, ready-to-serve",
+        "name_th": "น้ำปลา",
+        "state": "unspecified",
+        "grams": 2.0,
+        "evidence": "inferred",
+        "confidence": 0.4,
+        "uncertainty": "Inferred from the brownish discoloration on the rice and meat, typical of fish sauce seasoning in this context. Mass is a minimum estimate.",
+        "estimated_per_100g": {
+          "kcal": 35.0,
+          "protein_g": 8.1,
+          "carbs_g": 0.0,
+          "fat_g": 0.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 85.4,
+      "protein_g": 10.3637,
+      "carbs_g": 7.4753,
+      "fat_g": 1.1902
+    },
+    "partial_nutrients": {
+      "kcal": 85.4,
+      "protein_g": 10.3637,
+      "carbs_g": 7.4753,
+      "fat_g": 1.1902
+    },
+    "ingredients": [
+      {
+        "identity": "chicken cooked|cooked",
+        "prediction": {
+          "name": "Chicken, cooked",
+          "name_th": "ไก่",
+          "state": "cooked",
+          "grams": 30.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Cut and specific cooking method (roasted vs grilled) are uncertain due to image quality and small portion size.",
+          "estimated_per_100g": {
+            "kcal": 165.0,
+            "protein_g": 31.0,
+            "carbs_g": 0.0,
+            "fat_g": 3.6
+          }
+        },
+        "grams": 30.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709933",
+            "name": "Hominy, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7407
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172957",
+            "name": "Bratwurst, chicken, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707370",
+            "name": "Pink beans, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7097
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709587",
+            "name": "Cress, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6923
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709575",
+            "name": "Chard, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6923
+          }
+        ],
+        "per_100g": {
+          "kcal": 165.0,
+          "protein_g": 31.0,
+          "carbs_g": 0.0,
+          "fat_g": 3.6
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 49.5,
+          "protein_g": 9.299999999999999,
+          "carbs_g": 0.0,
+          "fat_g": 1.08
+        },
+        "uncertainty": "Cut and specific cooking method (roasted vs grilled) are uncertain due to image quality and small portion size."
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:168878",
+        "prediction": {
+          "name": "Rice, white, long-grain, regular, enriched, cooked",
+          "name_th": "ข้าว",
+          "state": "cooked",
+          "grams": 25.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Mass is an estimate based on the small visible portion on the plate.",
+          "estimated_per_100g": {
+            "kcal": 130.0,
+            "protein_g": 2.7,
+            "carbs_g": 28.2,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 25.0,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:168878",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "168878",
+        "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+        "reference_state": "cooked",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.69,
+          "carbs_g": 28.17,
+          "fat_g": 0.28
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 32.5,
+          "protein_g": 0.6725,
+          "carbs_g": 7.0425,
+          "fat_g": 0.07
+        },
+        "uncertainty": "Mass is an estimate based on the small visible portion on the plate."
+      },
+      {
+        "identity": "leafy greens cooked|cooked",
+        "prediction": {
+          "name": "Leafy greens, cooked",
+          "name_th": "ผักใบเขียว",
+          "state": "cooked",
+          "grams": 10.0,
+          "evidence": "visible",
+          "confidence": 0.7,
+          "uncertainty": "Specific vegetable variety is unidentifiable; appears to be a dark green leafy vegetable that has been cooked or wilted.",
+          "estimated_per_100g": {
+            "kcal": 27.0,
+            "protein_g": 2.9,
+            "carbs_g": 3.6,
+            "fat_g": 0.4
+          }
+        },
+        "grams": 10.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709612",
+            "name": "Poke greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.8108
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709571",
+            "name": "Beet greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.8108
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709976",
+            "name": "Peppers, green, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7179
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709589",
+            "name": "Dandelion greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7143
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709953",
+            "name": "Onions, green, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7027
+          }
+        ],
+        "per_100g": {
+          "kcal": 27.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 2.7,
+          "protein_g": 0.29,
+          "carbs_g": 0.36000000000000004,
+          "fat_g": 0.04000000000000001
+        },
+        "uncertainty": "Specific vegetable variety is unidentifiable; appears to be a dark green leafy vegetable that has been cooked or wilted."
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:174531",
+        "prediction": {
+          "name": "Sauce, fish, ready-to-serve",
+          "name_th": "น้ำปลา",
+          "state": "unspecified",
+          "grams": 2.0,
+          "evidence": "inferred",
+          "confidence": 0.4,
+          "uncertainty": "Inferred from the brownish discoloration on the rice and meat, typical of fish sauce seasoning in this context. Mass is a minimum estimate.",
+          "estimated_per_100g": {
+            "kcal": 35.0,
+            "protein_g": 8.1,
+            "carbs_g": 0.0,
+            "fat_g": 0.0
+          }
+        },
+        "grams": 2.0,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:174531",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "174531",
+        "reference_name": "Sauce, fish, ready-to-serve",
+        "reference_state": "unspecified",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 7021, \"record_origin\": \"USDA FDC ID 174531\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 35.0,
+          "protein_g": 5.06,
+          "carbs_g": 3.64,
+          "fat_g": 0.01
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 0.7000000000000001,
+          "protein_g": 0.1012,
+          "carbs_g": 0.0728,
+          "fat_g": 0.0002
+        },
+        "uncertainty": "Inferred from the brownish discoloration on the rice and meat, typical of fish sauce seasoning in this context. Mass is a minimum estimate."
+      }
+    ],
+    "total_estimated_mass_g": 67.0,
+    "database_mass_coverage": 0.40298507462686567,
+    "database_only_mass_coverage": 0.40298507462686567,
+    "fallback_ingredient_count": 2,
+    "predicted_ingredient_count": 4
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:57:51.709832+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4041752000048291,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 24.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:58:16.119903+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 655,
+      "total_tokens": 3396,
+      "cost_usd": null,
+      "latency_seconds": 2.233863300003577,
+      "response_id": "chatcmpl-4f4ea152-3249-4663-91d2-6daff193f54a"
+    }
+  ],
+  "latency_seconds": 26.872144299995853,
+  "cumulative_latency_seconds": 26.872144299995853,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 2
+}

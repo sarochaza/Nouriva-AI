@@ -1,0 +1,13 @@
+{
+  "database_path": "nutrition_database/ingredients.sqlite",
+  "automatic_matching": "exact_name_and_state_or_reviewed_alias_only",
+  "fuzzy_matching": "review_suggestions_only",
+  "basis_g": 100,
+  "missing_nutrient_policy": "null_never_zero",
+  "source_priority": [
+    "SR_Legacy",
+    "Foundation",
+    "FNDDS"
+  ],
+  "source_priority_note": "Applies only to exact identical descriptions and preparation across sources. Never substitutes a different food/cut/recipe."
+}

@@ -1,0 +1,1132 @@
+{
+  "curated_rows": 13661,
+  "original_archives": [
+    {
+      "source": "Foundation",
+      "filename": "FoodData_Central_foundation_food_csv_2025-12-18.zip",
+      "sha256": "3850de85effd6d9aa471f48aab2a76c20f9bc5feb3f2f52c8ce693f9cf75d52b",
+      "raw_food_rows": 78026,
+      "raw_food_nutrient_rows": 159285,
+      "curated_food_rows": 436,
+      "nutrient_id_domain": "fdc_nutrient_id",
+      "raw_data_type_counts": {
+        "sample_food": 3890,
+        "market_acquisition": 7388,
+        "sub_sample_food": 65502,
+        "foundation_food": 436,
+        "agricultural_acquisition": 810
+      }
+    },
+    {
+      "source": "SR_Legacy",
+      "filename": "FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+      "raw_food_rows": 7793,
+      "raw_food_nutrient_rows": 644125,
+      "curated_food_rows": 7793,
+      "nutrient_id_domain": "fdc_nutrient_id",
+      "raw_data_type_counts": {
+        "sr_legacy_food": 7793
+      }
+    },
+    {
+      "source": "FNDDS",
+      "filename": "FoodData_Central_survey_food_csv_2024-10-31.zip",
+      "sha256": "5ccc25ec2777a8982fbb61378a42f415316173eb11e48c9a8ba4cb19f5a4f29c",
+      "raw_food_rows": 5432,
+      "raw_food_nutrient_rows": 353015,
+      "curated_food_rows": 5432,
+      "nutrient_id_domain": "legacy_nutrient_number",
+      "raw_data_type_counts": {
+        "survey_fndds_food": 5432
+      }
+    }
+  ],
+  "sources_checked": [
+    "FNDDS",
+    "Foundation",
+    "SR_Legacy"
+  ],
+  "raw_nutrient_value_checks": 54485,
+  "mismatches": [],
+  "original_sqlite": {
+    "food_rows": 13661,
+    "schema": [
+      {
+        "cid": 0,
+        "name": "source",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 1,
+        "name": "release",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 2,
+        "name": "fdc_id",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 1
+      },
+      {
+        "cid": 3,
+        "name": "name_en",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 4,
+        "name": "food_category",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 5,
+        "name": "food_type",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 6,
+        "name": "kcal_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 7,
+        "name": "energy_method",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 8,
+        "name": "protein_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 9,
+        "name": "fat_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 10,
+        "name": "carbs_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 11,
+        "name": "fiber_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 12,
+        "name": "sugars_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 13,
+        "name": "sodium_mg_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 14,
+        "name": "water_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 15,
+        "name": "saturated_fat_g_100g",
+        "type": "REAL",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 16,
+        "name": "complete_core_nutrients",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 17,
+        "name": "record_origin",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      },
+      {
+        "cid": 18,
+        "name": "state",
+        "type": "TEXT",
+        "notnull": 0,
+        "dflt_value": null,
+        "pk": 0
+      }
+    ],
+    "integrity": "ok"
+  },
+  "original_sqlite_mismatches": [],
+  "ausnut_xlsx_reconciliation": {
+    "xlsx_sha256": "58bee1204610efb72bb831dc7fb65acc23db540b51d056f83c6ac0ce84590475",
+    "original_rows": 9816,
+    "csv_rows": 9816,
+    "mismatches": []
+  },
+  "manifest_hash_checks": [
+    {
+      "filename": "FoodData_Central_foundation_food_csv_2025-12-18.zip",
+      "expected_sha256": "3850de85effd6d9aa471f48aab2a76c20f9bc5feb3f2f52c8ce693f9cf75d52b",
+      "observed_sha256": "3850de85effd6d9aa471f48aab2a76c20f9bc5feb3f2f52c8ce693f9cf75d52b",
+      "verified": true
+    },
+    {
+      "filename": "AUSNUT 2023 - Food measures.xlsx",
+      "expected_sha256": "58bee1204610efb72bb831dc7fb65acc23db540b51d056f83c6ac0ce84590475",
+      "observed_sha256": "58bee1204610efb72bb831dc7fb65acc23db540b51d056f83c6ac0ce84590475",
+      "verified": true
+    },
+    {
+      "filename": "FoodData_Central_survey_food_csv_2024-10-31.zip",
+      "expected_sha256": "5ccc25ec2777a8982fbb61378a42f415316173eb11e48c9a8ba4cb19f5a4f29c",
+      "observed_sha256": "5ccc25ec2777a8982fbb61378a42f415316173eb11e48c9a8ba4cb19f5a4f29c",
+      "verified": true
+    },
+    {
+      "filename": "FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "expected_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+      "observed_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+      "verified": true
+    }
+  ],
+  "unverified_sources": [],
+  "rounding_differences_within_tolerance": [
+    {
+      "source": "Foundation",
+      "fdc_id": "1750340",
+      "field": "carbs_g_100g",
+      "curated_value": 15.651162,
+      "raw_values": [
+        15.6511625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750341",
+      "field": "carbs_g_100g",
+      "curated_value": 14.768088,
+      "raw_values": [
+        14.7680875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750343",
+      "field": "carbs_g_100g",
+      "curated_value": 14.681938,
+      "raw_values": [
+        14.6819375
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750346",
+      "field": "kcal_100g",
+      "curated_value": 36.391587,
+      "raw_values": [
+        36.3915875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750347",
+      "field": "kcal_100g",
+      "curated_value": 24.873258,
+      "raw_values": [
+        24.8732585
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750352",
+      "field": "kcal_100g",
+      "curated_value": 20.728511,
+      "raw_values": [
+        20.72851125
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750353",
+      "field": "kcal_100g",
+      "curated_value": 21.579698,
+      "raw_values": [
+        21.5796975
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1750354",
+      "field": "kcal_100g",
+      "curated_value": 18.954361,
+      "raw_values": [
+        18.95436075
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1999628",
+      "field": "kcal_100g",
+      "curated_value": 36.391587,
+      "raw_values": [
+        36.3915875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1999629",
+      "field": "kcal_100g",
+      "curated_value": 24.873258,
+      "raw_values": [
+        24.8732585
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1999632",
+      "field": "kcal_100g",
+      "curated_value": 20.728511,
+      "raw_values": [
+        20.72851125
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1999633",
+      "field": "kcal_100g",
+      "curated_value": 21.579698,
+      "raw_values": [
+        21.5796975
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "1999634",
+      "field": "kcal_100g",
+      "curated_value": 18.954361,
+      "raw_values": [
+        18.95436075
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003586",
+      "field": "kcal_100g",
+      "curated_value": 365.61074,
+      "raw_values": [
+        365.610744
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003588",
+      "field": "kcal_100g",
+      "curated_value": 365.03107,
+      "raw_values": [
+        365.0310665
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003589",
+      "field": "kcal_100g",
+      "curated_value": 365.95691,
+      "raw_values": [
+        365.9569125
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003590",
+      "field": "carbs_g_100g",
+      "curated_value": 11.363962,
+      "raw_values": [
+        11.3639625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003592",
+      "field": "carbs_g_100g",
+      "curated_value": 15.622787,
+      "raw_values": [
+        15.6227875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003596",
+      "field": "kcal_100g",
+      "curated_value": 19.927881,
+      "raw_values": [
+        19.92788125
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003600",
+      "field": "kcal_100g",
+      "curated_value": 36.715021,
+      "raw_values": [
+        36.7150215
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2003602",
+      "field": "kcal_100g",
+      "curated_value": 30.973463,
+      "raw_values": [
+        30.9734625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2258589",
+      "field": "kcal_100g",
+      "curated_value": 26.58104,
+      "raw_values": [
+        26.58104025
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2258590",
+      "field": "kcal_100g",
+      "curated_value": 26.988432,
+      "raw_values": [
+        26.98843175
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2258591",
+      "field": "kcal_100g",
+      "curated_value": 27.384303,
+      "raw_values": [
+        27.38430325
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2259792",
+      "field": "kcal_100g",
+      "curated_value": 42.918036,
+      "raw_values": [
+        42.9180362
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2259793",
+      "field": "kcal_100g",
+      "curated_value": 77.318546,
+      "raw_values": [
+        77.3185458
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2259795",
+      "field": "kcal_100g",
+      "curated_value": 404.76342,
+      "raw_values": [
+        404.763418
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2259796",
+      "field": "kcal_100g",
+      "curated_value": 273.4725,
+      "raw_values": [
+        273.472498
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2261421",
+      "field": "kcal_100g",
+      "curated_value": 386.42928,
+      "raw_values": [
+        386.429275
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2261422",
+      "field": "kcal_100g",
+      "curated_value": 352.6822,
+      "raw_values": [
+        352.682197
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2262072",
+      "field": "kcal_100g",
+      "curated_value": 589.38301,
+      "raw_values": [
+        589.383006
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2262073",
+      "field": "kcal_100g",
+      "curated_value": 648.37427,
+      "raw_values": [
+        648.374268
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2262074",
+      "field": "kcal_100g",
+      "curated_value": 602.51008,
+      "raw_values": [
+        602.510076
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2263892",
+      "field": "carbs_g_100g",
+      "curated_value": 12.261563,
+      "raw_values": [
+        12.2615625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346384",
+      "field": "kcal_100g",
+      "curated_value": 104.57437,
+      "raw_values": [
+        104.574374
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346386",
+      "field": "kcal_100g",
+      "curated_value": 335.89332,
+      "raw_values": [
+        335.8933226
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346387",
+      "field": "kcal_100g",
+      "curated_value": 192.74377,
+      "raw_values": [
+        192.7437716
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346389",
+      "field": "kcal_100g",
+      "curated_value": 17.45834,
+      "raw_values": [
+        17.45834025
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346390",
+      "field": "kcal_100g",
+      "curated_value": 14.684809,
+      "raw_values": [
+        14.68480875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346391",
+      "field": "kcal_100g",
+      "curated_value": 18.493136,
+      "raw_values": [
+        18.4931365
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346393",
+      "field": "kcal_100g",
+      "curated_value": 583.59702,
+      "raw_values": [
+        583.597022
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346396",
+      "field": "kcal_100g",
+      "curated_value": 378.86612,
+      "raw_values": [
+        378.866123
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346397",
+      "field": "kcal_100g",
+      "curated_value": 379.20806,
+      "raw_values": [
+        379.2080612
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346398",
+      "field": "carbs_g_100g",
+      "curated_value": 14.091463,
+      "raw_values": [
+        14.0914625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346400",
+      "field": "kcal_100g",
+      "curated_value": 33.567946,
+      "raw_values": [
+        33.5679465
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346401",
+      "field": "kcal_100g",
+      "curated_value": 80.952363,
+      "raw_values": [
+        80.9523625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346404",
+      "field": "kcal_100g",
+      "curated_value": 77.357274,
+      "raw_values": [
+        77.35727375
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346405",
+      "field": "kcal_100g",
+      "curated_value": 14.832159,
+      "raw_values": [
+        14.83215875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2346414",
+      "field": "carbs_g_100g",
+      "curated_value": 12.261563,
+      "raw_values": [
+        12.2615625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512372",
+      "field": "kcal_100g",
+      "curated_value": 378.39402,
+      "raw_values": [
+        378.394015
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512373",
+      "field": "kcal_100g",
+      "curated_value": 363.85904,
+      "raw_values": [
+        363.8590417
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512374",
+      "field": "kcal_100g",
+      "curated_value": 334.3016,
+      "raw_values": [
+        334.3016028
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512375",
+      "field": "kcal_100g",
+      "curated_value": 350.96204,
+      "raw_values": [
+        350.962038
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512376",
+      "field": "kcal_100g",
+      "curated_value": 357.19183,
+      "raw_values": [
+        357.191828
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512377",
+      "field": "kcal_100g",
+      "curated_value": 358.55706,
+      "raw_values": [
+        358.55706075
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512378",
+      "field": "kcal_100g",
+      "curated_value": 331.60052,
+      "raw_values": [
+        331.6005206
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512379",
+      "field": "kcal_100g",
+      "curated_value": 380.6065,
+      "raw_values": [
+        380.6064975
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512380",
+      "field": "kcal_100g",
+      "curated_value": 368.35847,
+      "raw_values": [
+        368.3584745
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2512381",
+      "field": "kcal_100g",
+      "curated_value": 369.63732,
+      "raw_values": [
+        369.637321
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2514743",
+      "field": "kcal_100g",
+      "curated_value": 190.13482,
+      "raw_values": [
+        190.134819
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2514744",
+      "field": "kcal_100g",
+      "curated_value": 247.81268,
+      "raw_values": [
+        247.812675
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2514745",
+      "field": "kcal_100g",
+      "curated_value": 233.44206,
+      "raw_values": [
+        233.442059
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2514746",
+      "field": "kcal_100g",
+      "curated_value": 138.12849,
+      "raw_values": [
+        138.128494
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2515373",
+      "field": "kcal_100g",
+      "curated_value": 620.95053,
+      "raw_values": [
+        620.950526
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2644293",
+      "field": "kcal_100g",
+      "curated_value": 112.88248,
+      "raw_values": [
+        112.882483
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2646171",
+      "field": "kcal_100g",
+      "curated_value": 149.30648,
+      "raw_values": [
+        149.306475
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2646172",
+      "field": "kcal_100g",
+      "curated_value": 259.61142,
+      "raw_values": [
+        259.611425
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2646174",
+      "field": "kcal_100g",
+      "curated_value": 237.09689,
+      "raw_values": [
+        237.096894
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2646175",
+      "field": "kcal_100g",
+      "curated_value": 169.56274,
+      "raw_values": [
+        169.562744
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2647440",
+      "field": "kcal_100g",
+      "curated_value": 356.90007,
+      "raw_values": [
+        356.900072
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2647441",
+      "field": "kcal_100g",
+      "curated_value": 298.11388,
+      "raw_values": [
+        298.113882
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2647443",
+      "field": "kcal_100g",
+      "curated_value": 351.76107,
+      "raw_values": [
+        351.761072
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2684445",
+      "field": "kcal_100g",
+      "curated_value": 133.7875,
+      "raw_values": [
+        133.787497
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685570",
+      "field": "kcal_100g",
+      "curated_value": 41.716521,
+      "raw_values": [
+        41.7165215
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685572",
+      "field": "kcal_100g",
+      "curated_value": 17.003228,
+      "raw_values": [
+        17.0032275
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685573",
+      "field": "kcal_100g",
+      "curated_value": 22.852378,
+      "raw_values": [
+        22.85237775
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685574",
+      "field": "kcal_100g",
+      "curated_value": 38.758083,
+      "raw_values": [
+        38.7580825
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685575",
+      "field": "kcal_100g",
+      "curated_value": 48.778706,
+      "raw_values": [
+        48.77870625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685577",
+      "field": "kcal_100g",
+      "curated_value": 22.358565,
+      "raw_values": [
+        22.35856525
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685579",
+      "field": "kcal_100g",
+      "curated_value": 29.104001,
+      "raw_values": [
+        29.10400125
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685580",
+      "field": "kcal_100g",
+      "curated_value": 88.534506,
+      "raw_values": [
+        88.53450625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2685582",
+      "field": "kcal_100g",
+      "curated_value": 34.760319,
+      "raw_values": [
+        34.76031875
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710817",
+      "field": "kcal_100g",
+      "curated_value": 122.78966,
+      "raw_values": [
+        122.789661
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710818",
+      "field": "kcal_100g",
+      "curated_value": 144.50803,
+      "raw_values": [
+        144.50803225
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710820",
+      "field": "kcal_100g",
+      "curated_value": 349.30172,
+      "raw_values": [
+        349.3017225
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710822",
+      "field": "kcal_100g",
+      "curated_value": 25.907853,
+      "raw_values": [
+        25.9078525
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710826",
+      "field": "kcal_100g",
+      "curated_value": 72.857656,
+      "raw_values": [
+        72.85765625
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710827",
+      "field": "kcal_100g",
+      "curated_value": 345.68018,
+      "raw_values": [
+        345.6801839
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710828",
+      "field": "kcal_100g",
+      "curated_value": 344.005,
+      "raw_values": [
+        344.0049964
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710829",
+      "field": "kcal_100g",
+      "curated_value": 376.8911,
+      "raw_values": [
+        376.8911025
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710830",
+      "field": "kcal_100g",
+      "curated_value": 347.79141,
+      "raw_values": [
+        347.7914113
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2710840",
+      "field": "kcal_100g",
+      "curated_value": 349.55802,
+      "raw_values": [
+        349.558015
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2727566",
+      "field": "kcal_100g",
+      "curated_value": 130.12154,
+      "raw_values": [
+        130.121544
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2727567",
+      "field": "kcal_100g",
+      "curated_value": 192.79292,
+      "raw_values": [
+        192.792919
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2727568",
+      "field": "kcal_100g",
+      "curated_value": 172.79212,
+      "raw_values": [
+        172.792125
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2727570",
+      "field": "kcal_100g",
+      "curated_value": 241.72708,
+      "raw_values": [
+        241.727079
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2727571",
+      "field": "kcal_100g",
+      "curated_value": 164.41178,
+      "raw_values": [
+        164.411779
+      ]
+    },
+    {
+      "source": "Foundation",
+      "fdc_id": "2727572",
+      "field": "kcal_100g",
+      "curated_value": 196.00459,
+      "raw_values": [
+        196.004594
+      ]
+    }
+  ],
+  "numeric_tolerance": {
+    "relative": 1e-07,
+    "absolute": 1e-06
+  }
+}

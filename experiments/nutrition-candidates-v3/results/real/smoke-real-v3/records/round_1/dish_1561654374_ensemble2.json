@@ -1,0 +1,2549 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "ensemble2",
+  "dish_id": "dish_1561654374",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:50:12.178749+00:00",
+  "prediction": {
+    "dish_name": "Scrambled eggs, roasted Brussels sprouts, mixed greens, and berries",
+    "ingredients": [
+      {
+        "name": "Berries",
+        "name_th": "เบอร์รี่",
+        "state": "raw",
+        "grams": 7.5,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific type (raspberries/strawberries) is difficult to confirm",
+        "estimated_per_100g": {
+          "kcal": 50.0,
+          "protein_g": 0.8,
+          "carbs_g": 11.0,
+          "fat_g": 0.4
+        }
+      },
+      {
+        "name": "Brussels sprouts",
+        "name_th": "กะหล่ำปลีลูก",
+        "state": "roasted",
+        "grams": 45.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Cooking method inferred from charred edges; Preparation state inferred from browning and texture (likely roasted or grilled).",
+        "estimated_per_100g": {
+          "kcal": 61.5,
+          "protein_g": 3.25,
+          "carbs_g": 11.5,
+          "fat_g": 0.4
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "น้ำมัน",
+        "state": "fried",
+        "grams": 2.5,
+        "evidence": "uncertain",
+        "confidence": 0.2,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Used for eggs and sprouts; amount is a standard estimate",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Eggs, scrambled",
+        "name_th": "ไข่คน",
+        "state": "cooked",
+        "grams": 60.0,
+        "evidence": "uncertain",
+        "confidence": 0.475,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated based on portion size and density.",
+        "estimated_per_100g": {
+          "kcal": 148.0,
+          "protein_g": 11.999999999999998,
+          "carbs_g": 1.0,
+          "fat_g": 10.0
+        }
+      },
+      {
+        "name": "Eggs, whole, scrambled",
+        "name_th": "ไข่คน",
+        "state": "cooked",
+        "grams": 50.0,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated from visual portion size",
+        "estimated_per_100g": {
+          "kcal": 144.0,
+          "protein_g": 10.9,
+          "carbs_g": 0.7,
+          "fat_g": 10.6
+        }
+      },
+      {
+        "name": "Mixed leafy greens",
+        "name_th": "ผักใบเขียว",
+        "state": "raw",
+        "grams": 25.0,
+        "evidence": "uncertain",
+        "confidence": 0.4,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety of lettuce/spinach mixed",
+        "estimated_per_100g": {
+          "kcal": 20.0,
+          "protein_g": 1.5,
+          "carbs_g": 3.3,
+          "fat_g": 0.2
+        }
+      },
+      {
+        "name": "Raspberries",
+        "name_th": "ราสเบอร์รี่",
+        "state": "raw",
+        "grams": 7.5,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass is an estimate based on the count of visible berries.",
+        "estimated_per_100g": {
+          "kcal": 52.0,
+          "protein_g": 1.2,
+          "carbs_g": 11.999999999999998,
+          "fat_g": 0.7
+        }
+      },
+      {
+        "name": "Salad greens",
+        "name_th": "ผักสลัด",
+        "state": "raw",
+        "grams": 20.0,
+        "evidence": "uncertain",
+        "confidence": 0.425,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable.",
+        "estimated_per_100g": {
+          "kcal": 20.0,
+          "protein_g": 1.5000000000000002,
+          "carbs_g": 3.5,
+          "fat_g": 0.20000000000000004
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 227.225,
+      "protein_g": 14.9375,
+      "carbs_g": 9.375,
+      "fat_g": 14.1525
+    },
+    "partial_nutrients": {
+      "kcal": 227.225,
+      "protein_g": 14.9375,
+      "carbs_g": 9.375,
+      "fat_g": 14.1525
+    },
+    "ingredients": [
+      {
+        "identity": "berries|raw",
+        "prediction": {
+          "name": "Berries",
+          "name_th": "เบอร์รี่",
+          "state": "raw",
+          "grams": 7.5,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Specific type (raspberries/strawberries) is difficult to confirm",
+          "estimated_per_100g": {
+            "kcal": 50.0,
+            "protein_g": 0.8,
+            "carbs_g": 11.0,
+            "fat_g": 0.4
+          }
+        },
+        "grams": 7.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:169913",
+            "name": "Mulberries, raw",
+            "state": "raw",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:171722",
+            "name": "Cranberries, raw",
+            "state": "raw",
+            "lexical_score": 0.6364
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:171711",
+            "name": "Blueberries, raw",
+            "state": "raw",
+            "lexical_score": 0.6364
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:167755",
+            "name": "Raspberries, raw",
+            "state": "raw",
+            "lexical_score": 0.6364
+          },
+          {
+            "food_id": "Foundation:2025-12:2346411",
+            "name": "Blueberries, raw",
+            "state": "raw",
+            "lexical_score": 0.6364
+          }
+        ],
+        "per_100g": {
+          "kcal": 50.0,
+          "protein_g": 0.8,
+          "carbs_g": 11.0,
+          "fat_g": 0.4
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 3.75,
+          "protein_g": 0.06,
+          "carbs_g": 0.825,
+          "fat_g": 0.03
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific type (raspberries/strawberries) is difficult to confirm",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "berries|raw",
+            "prediction": {
+              "name": "Berries",
+              "name_th": "เบอร์รี่",
+              "state": "raw",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Specific type (raspberries/strawberries) is difficult to confirm",
+              "estimated_per_100g": {
+                "kcal": 50.0,
+                "protein_g": 0.8,
+                "carbs_g": 11.0,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:169913",
+                "name": "Mulberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171722",
+                "name": "Cranberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171711",
+                "name": "Blueberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:167755",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "Foundation:2025-12:2346411",
+                "name": "Blueberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              }
+            ],
+            "per_100g": {
+              "kcal": 50.0,
+              "protein_g": 0.8,
+              "carbs_g": 11.0,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 7.5,
+              "protein_g": 0.12,
+              "carbs_g": 1.65,
+              "fat_g": 0.06
+            },
+            "uncertainty": "Specific type (raspberries/strawberries) is difficult to confirm"
+          },
+          null
+        ]
+      },
+      {
+        "identity": "brussels sprouts|roasted",
+        "prediction": {
+          "name": "Brussels sprouts",
+          "name_th": "กะหล่ำปลีลูก",
+          "state": "roasted",
+          "grams": 45.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Cooking method inferred from charred edges; Preparation state inferred from browning and texture (likely roasted or grilled).",
+          "estimated_per_100g": {
+            "kcal": 61.5,
+            "protein_g": 3.25,
+            "carbs_g": 11.5,
+            "fat_g": 0.4
+          }
+        },
+        "grams": 45.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:170595",
+            "name": "Seeds, breadfruit seeds, roasted",
+            "state": "roasted",
+            "lexical_score": 0.4348
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2706142",
+            "name": "Goose, wild, roasted",
+            "state": "roasted",
+            "lexical_score": 0.4118
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709402",
+            "name": "Potato, roasted, NFS",
+            "state": "roasted",
+            "lexical_score": 0.3889
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172440",
+            "name": "Soybeans, mature seeds, roasted, salted",
+            "state": "roasted",
+            "lexical_score": 0.3846
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707498",
+            "name": "Cashews, honey roasted",
+            "state": "roasted",
+            "lexical_score": 0.3784
+          }
+        ],
+        "per_100g": {
+          "kcal": 61.5,
+          "protein_g": 3.25,
+          "carbs_g": 11.5,
+          "fat_g": 0.4
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 27.675,
+          "protein_g": 1.4625,
+          "carbs_g": 5.175,
+          "fat_g": 0.18
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Cooking method inferred from charred edges; Preparation state inferred from browning and texture (likely roasted or grilled).",
+        "database_fraction": 0.0,
+        "support_count": 2,
+        "member_rows": [
+          {
+            "identity": "brussels sprouts|roasted",
+            "prediction": {
+              "name": "Brussels sprouts",
+              "name_th": "กะหล่ำปลีลูก",
+              "state": "roasted",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Cooking method inferred from charred edges",
+              "estimated_per_100g": {
+                "kcal": 80.0,
+                "protein_g": 3.5,
+                "carbs_g": 14.0,
+                "fat_g": 0.5
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170595",
+                "name": "Seeds, breadfruit seeds, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2706142",
+                "name": "Goose, wild, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4118
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709402",
+                "name": "Potato, roasted, NFS",
+                "state": "roasted",
+                "lexical_score": 0.3889
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172440",
+                "name": "Soybeans, mature seeds, roasted, salted",
+                "state": "roasted",
+                "lexical_score": 0.3846
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707498",
+                "name": "Cashews, honey roasted",
+                "state": "roasted",
+                "lexical_score": 0.3784
+              }
+            ],
+            "per_100g": {
+              "kcal": 80.0,
+              "protein_g": 3.5,
+              "carbs_g": 14.0,
+              "fat_g": 0.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 36.0,
+              "protein_g": 1.575,
+              "carbs_g": 6.3,
+              "fat_g": 0.225
+            },
+            "uncertainty": "Cooking method inferred from charred edges"
+          },
+          {
+            "identity": "brussels sprouts|roasted",
+            "prediction": {
+              "name": "Brussels sprouts",
+              "name_th": "กะหล่ำ بروเซล",
+              "state": "roasted",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Preparation state inferred from browning and texture (likely roasted or grilled).",
+              "estimated_per_100g": {
+                "kcal": 43.0,
+                "protein_g": 3.0,
+                "carbs_g": 9.0,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170595",
+                "name": "Seeds, breadfruit seeds, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2706142",
+                "name": "Goose, wild, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4118
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709402",
+                "name": "Potato, roasted, NFS",
+                "state": "roasted",
+                "lexical_score": 0.3889
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172440",
+                "name": "Soybeans, mature seeds, roasted, salted",
+                "state": "roasted",
+                "lexical_score": 0.3846
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707498",
+                "name": "Cashews, honey roasted",
+                "state": "roasted",
+                "lexical_score": 0.3784
+              }
+            ],
+            "per_100g": {
+              "kcal": 43.0,
+              "protein_g": 3.0,
+              "carbs_g": 9.0,
+              "fat_g": 0.3
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 19.35,
+              "protein_g": 1.35,
+              "carbs_g": 4.05,
+              "fat_g": 0.135
+            },
+            "uncertainty": "Preparation state inferred from browning and texture (likely roasted or grilled)."
+          }
+        ]
+      },
+      {
+        "identity": "cooking oil|fried",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "น้ำมัน",
+          "state": "fried",
+          "grams": 2.5,
+          "evidence": "uncertain",
+          "confidence": 0.2,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Used for eggs and sprouts; amount is a standard estimate",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 2.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2708051",
+            "name": "Pastry, cookie type, fried",
+            "state": "fried",
+            "lexical_score": 0.4
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710055",
+            "name": "Fried onion rings",
+            "state": "fried",
+            "lexical_score": 0.3571
+          }
+        ],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 22.1,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 2.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Used for eggs and sprouts; amount is a standard estimate",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "cooking oil|fried",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "น้ำมัน",
+              "state": "fried",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.4,
+              "uncertainty": "Used for eggs and sprouts; amount is a standard estimate",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2708051",
+                "name": "Pastry, cookie type, fried",
+                "state": "fried",
+                "lexical_score": 0.4
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710055",
+                "name": "Fried onion rings",
+                "state": "fried",
+                "lexical_score": 0.3571
+              }
+            ],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 44.2,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Used for eggs and sprouts; amount is a standard estimate"
+          },
+          null
+        ]
+      },
+      {
+        "identity": "eggs scrambled|cooked",
+        "prediction": {
+          "name": "Eggs, scrambled",
+          "name_th": "ไข่คน",
+          "state": "cooked",
+          "grams": 60.0,
+          "evidence": "uncertain",
+          "confidence": 0.475,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated based on portion size and density.",
+          "estimated_per_100g": {
+            "kcal": 148.0,
+            "protein_g": 11.999999999999998,
+            "carbs_g": 1.0,
+            "fat_g": 10.0
+          }
+        },
+        "grams": 60.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:173272",
+            "name": "Fast foods, egg, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.7179
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172187",
+            "name": "Egg, whole, cooked, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.6829
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169904",
+            "name": "Eggs, scrambled, frozen mixture",
+            "state": "cooked",
+            "lexical_score": 0.6512
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707176",
+            "name": "Duck egg, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5333
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707177",
+            "name": "Goose egg, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5161
+          }
+        ],
+        "per_100g": {
+          "kcal": 148.0,
+          "protein_g": 11.999999999999998,
+          "carbs_g": 1.0,
+          "fat_g": 10.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 88.8,
+          "protein_g": 7.199999999999999,
+          "carbs_g": 0.6,
+          "fat_g": 6.0
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated based on portion size and density.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "eggs scrambled|cooked",
+            "prediction": {
+              "name": "Eggs, scrambled",
+              "name_th": "ไข่คน",
+              "state": "cooked",
+              "grams": 120.0,
+              "evidence": "visible",
+              "confidence": 0.95,
+              "uncertainty": "Mass estimated based on portion size and density.",
+              "estimated_per_100g": {
+                "kcal": 148.0,
+                "protein_g": 12.0,
+                "carbs_g": 1.0,
+                "fat_g": 10.0
+              }
+            },
+            "grams": 120.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:173272",
+                "name": "Fast foods, egg, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.7179
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172187",
+                "name": "Egg, whole, cooked, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.6829
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169904",
+                "name": "Eggs, scrambled, frozen mixture",
+                "state": "cooked",
+                "lexical_score": 0.6512
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707176",
+                "name": "Duck egg, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5333
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707177",
+                "name": "Goose egg, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5161
+              }
+            ],
+            "per_100g": {
+              "kcal": 148.0,
+              "protein_g": 12.0,
+              "carbs_g": 1.0,
+              "fat_g": 10.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 177.6,
+              "protein_g": 14.399999999999999,
+              "carbs_g": 1.2,
+              "fat_g": 12.0
+            },
+            "uncertainty": "Mass estimated based on portion size and density."
+          }
+        ]
+      },
+      {
+        "identity": "eggs whole scrambled|cooked",
+        "prediction": {
+          "name": "Eggs, whole, scrambled",
+          "name_th": "ไข่คน",
+          "state": "cooked",
+          "grams": 50.0,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated from visual portion size",
+          "estimated_per_100g": {
+            "kcal": 144.0,
+            "protein_g": 10.9,
+            "carbs_g": 0.7,
+            "fat_g": 10.6
+          }
+        },
+        "grams": 50.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:172187",
+            "name": "Egg, whole, cooked, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.8511
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172185",
+            "name": "Egg, whole, cooked, omelet",
+            "state": "cooked",
+            "lexical_score": 0.6818
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:173272",
+            "name": "Fast foods, egg, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.6222
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172186",
+            "name": "Egg, whole, cooked, poached",
+            "state": "cooked",
+            "lexical_score": 0.6222
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707205",
+            "name": "Egg omelet or scrambled egg, no added fat",
+            "state": "cooked",
+            "lexical_score": 0.5806
+          }
+        ],
+        "per_100g": {
+          "kcal": 144.0,
+          "protein_g": 10.9,
+          "carbs_g": 0.7,
+          "fat_g": 10.6
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 72.0,
+          "protein_g": 5.45,
+          "carbs_g": 0.35,
+          "fat_g": 5.3
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated from visual portion size",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "eggs whole scrambled|cooked",
+            "prediction": {
+              "name": "Eggs, whole, scrambled",
+              "name_th": "ไข่คน",
+              "state": "cooked",
+              "grams": 100.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimated from visual portion size",
+              "estimated_per_100g": {
+                "kcal": 144.0,
+                "protein_g": 10.9,
+                "carbs_g": 0.7,
+                "fat_g": 10.6
+              }
+            },
+            "grams": 100.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:172187",
+                "name": "Egg, whole, cooked, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.8511
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172185",
+                "name": "Egg, whole, cooked, omelet",
+                "state": "cooked",
+                "lexical_score": 0.6818
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:173272",
+                "name": "Fast foods, egg, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.6222
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172186",
+                "name": "Egg, whole, cooked, poached",
+                "state": "cooked",
+                "lexical_score": 0.6222
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707205",
+                "name": "Egg omelet or scrambled egg, no added fat",
+                "state": "cooked",
+                "lexical_score": 0.5806
+              }
+            ],
+            "per_100g": {
+              "kcal": 144.0,
+              "protein_g": 10.9,
+              "carbs_g": 0.7,
+              "fat_g": 10.6
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 144.0,
+              "protein_g": 10.9,
+              "carbs_g": 0.7,
+              "fat_g": 10.6
+            },
+            "uncertainty": "Mass estimated from visual portion size"
+          },
+          null
+        ]
+      },
+      {
+        "identity": "mixed leafy greens|raw",
+        "prediction": {
+          "name": "Mixed leafy greens",
+          "name_th": "ผักใบเขียว",
+          "state": "raw",
+          "grams": 25.0,
+          "evidence": "uncertain",
+          "confidence": 0.4,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety of lettuce/spinach mixed",
+          "estimated_per_100g": {
+            "kcal": 20.0,
+            "protein_g": 1.5,
+            "carbs_g": 3.3,
+            "fat_g": 0.2
+          }
+        },
+        "grams": 25.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709792",
+            "name": "Mixed salad greens, raw",
+            "state": "raw",
+            "lexical_score": 0.75
+          },
+          {
+            "food_id": "Foundation:2025-12:2346391",
+            "name": "Lettuce, leaf, green, raw",
+            "state": "raw",
+            "lexical_score": 0.6
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:170375",
+            "name": "Beet greens, raw",
+            "state": "raw",
+            "lexical_score": 0.5455
+          },
+          {
+            "food_id": "Foundation:2025-12:2747653",
+            "name": "Beet greens, raw",
+            "state": "raw",
+            "lexical_score": 0.5455
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709570",
+            "name": "Beet greens, raw",
+            "state": "raw",
+            "lexical_score": 0.5455
+          }
+        ],
+        "per_100g": {
+          "kcal": 20.0,
+          "protein_g": 1.5,
+          "carbs_g": 3.3,
+          "fat_g": 0.2
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 5.0,
+          "protein_g": 0.375,
+          "carbs_g": 0.825,
+          "fat_g": 0.05
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety of lettuce/spinach mixed",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "mixed leafy greens|raw",
+            "prediction": {
+              "name": "Mixed leafy greens",
+              "name_th": "ผักใบเขียว",
+              "state": "raw",
+              "grams": 50.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Specific variety of lettuce/spinach mixed",
+              "estimated_per_100g": {
+                "kcal": 20.0,
+                "protein_g": 1.5,
+                "carbs_g": 3.3,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 50.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709792",
+                "name": "Mixed salad greens, raw",
+                "state": "raw",
+                "lexical_score": 0.75
+              },
+              {
+                "food_id": "Foundation:2025-12:2346391",
+                "name": "Lettuce, leaf, green, raw",
+                "state": "raw",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170375",
+                "name": "Beet greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "Foundation:2025-12:2747653",
+                "name": "Beet greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709570",
+                "name": "Beet greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5455
+              }
+            ],
+            "per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.3,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 10.0,
+              "protein_g": 0.75,
+              "carbs_g": 1.65,
+              "fat_g": 0.1
+            },
+            "uncertainty": "Specific variety of lettuce/spinach mixed"
+          },
+          null
+        ]
+      },
+      {
+        "identity": "raspberries|raw",
+        "prediction": {
+          "name": "Raspberries",
+          "name_th": "ราสเบอร์รี่",
+          "state": "raw",
+          "grams": 7.5,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass is an estimate based on the count of visible berries.",
+          "estimated_per_100g": {
+            "kcal": 52.0,
+            "protein_g": 1.2,
+            "carbs_g": 11.999999999999998,
+            "fat_g": 0.7
+          }
+        },
+        "grams": 7.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:167755",
+            "name": "Raspberries, raw",
+            "state": "raw",
+            "lexical_score": 0.8462
+          },
+          {
+            "food_id": "Foundation:2025-12:2346410",
+            "name": "Raspberries, raw",
+            "state": "raw",
+            "lexical_score": 0.8462
+          },
+          {
+            "food_id": "Foundation:2025-12:2263888",
+            "name": "Raspberries, raw",
+            "state": "raw",
+            "lexical_score": 0.8462
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709281",
+            "name": "Raspberries, raw",
+            "state": "raw",
+            "lexical_score": 0.8462
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:171722",
+            "name": "Cranberries, raw",
+            "state": "raw",
+            "lexical_score": 0.6923
+          }
+        ],
+        "per_100g": {
+          "kcal": 52.0,
+          "protein_g": 1.2,
+          "carbs_g": 11.999999999999998,
+          "fat_g": 0.7
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 3.9,
+          "protein_g": 0.09,
+          "carbs_g": 0.8999999999999999,
+          "fat_g": 0.0525
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass is an estimate based on the count of visible berries.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "raspberries|raw",
+            "prediction": {
+              "name": "Raspberries",
+              "name_th": "ราสเบอร์รี่",
+              "state": "raw",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass is an estimate based on the count of visible berries.",
+              "estimated_per_100g": {
+                "kcal": 52.0,
+                "protein_g": 1.2,
+                "carbs_g": 12.0,
+                "fat_g": 0.7
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:167755",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "Foundation:2025-12:2346410",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "Foundation:2025-12:2263888",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709281",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171722",
+                "name": "Cranberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6923
+              }
+            ],
+            "per_100g": {
+              "kcal": 52.0,
+              "protein_g": 1.2,
+              "carbs_g": 12.0,
+              "fat_g": 0.7
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 7.8,
+              "protein_g": 0.18,
+              "carbs_g": 1.7999999999999998,
+              "fat_g": 0.105
+            },
+            "uncertainty": "Mass is an estimate based on the count of visible berries."
+          }
+        ]
+      },
+      {
+        "identity": "salad greens|raw",
+        "prediction": {
+          "name": "Salad greens",
+          "name_th": "ผักสลัด",
+          "state": "raw",
+          "grams": 20.0,
+          "evidence": "uncertain",
+          "confidence": 0.425,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable.",
+          "estimated_per_100g": {
+            "kcal": 20.0,
+            "protein_g": 1.5000000000000002,
+            "carbs_g": 3.5,
+            "fat_g": 0.20000000000000004
+          }
+        },
+        "grams": 20.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709792",
+            "name": "Mixed salad greens, raw",
+            "state": "raw",
+            "lexical_score": 0.7059
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169256",
+            "name": "Mustard greens, raw",
+            "state": "raw",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709606",
+            "name": "Mustard greens, raw",
+            "state": "raw",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "Foundation:2025-12:2710823",
+            "name": "Asparagus, green, raw",
+            "state": "raw",
+            "lexical_score": 0.5806
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169226",
+            "name": "Dandelion greens, raw",
+            "state": "raw",
+            "lexical_score": 0.5625
+          }
+        ],
+        "per_100g": {
+          "kcal": 20.0,
+          "protein_g": 1.5000000000000002,
+          "carbs_g": 3.5,
+          "fat_g": 0.20000000000000004
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 4.0,
+          "protein_g": 0.30000000000000004,
+          "carbs_g": 0.7000000000000001,
+          "fat_g": 0.04000000000000001
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "salad greens|raw",
+            "prediction": {
+              "name": "Salad greens",
+              "name_th": "ผักสลัด",
+              "state": "raw",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.85,
+              "uncertainty": "Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable.",
+              "estimated_per_100g": {
+                "kcal": 20.0,
+                "protein_g": 1.5,
+                "carbs_g": 3.5,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709792",
+                "name": "Mixed salad greens, raw",
+                "state": "raw",
+                "lexical_score": 0.7059
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169256",
+                "name": "Mustard greens, raw",
+                "state": "raw",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709606",
+                "name": "Mustard greens, raw",
+                "state": "raw",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "Foundation:2025-12:2710823",
+                "name": "Asparagus, green, raw",
+                "state": "raw",
+                "lexical_score": 0.5806
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169226",
+                "name": "Dandelion greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5625
+              }
+            ],
+            "per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.5,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 8.0,
+              "protein_g": 0.6000000000000001,
+              "carbs_g": 1.4000000000000001,
+              "fat_g": 0.08000000000000002
+            },
+            "uncertainty": "Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable."
+          }
+        ]
+      }
+    ],
+    "total_estimated_mass_g": 217.5,
+    "database_mass_coverage": 0.0,
+    "database_only_mass_coverage": 0.0,
+    "fallback_ingredient_count": 8,
+    "predicted_ingredient_count": 8
+  },
+  "nominal_model_calls": 2,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:50:12.189862+00:00",
+      "image_sha256": "7407e46ac29f688e3c956a95ed296eba1870bf5442024701f6b7103bbd154ccf",
+      "request_sha256": "fcffc44733e82783ab96332fc1c75a0a745fd50a93ae30377ae264b77abc55b1",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4736464000015985,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 46.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:50:58.669285+00:00",
+      "image_sha256": "7407e46ac29f688e3c956a95ed296eba1870bf5442024701f6b7103bbd154ccf",
+      "request_sha256": "fcffc44733e82783ab96332fc1c75a0a745fd50a93ae30377ae264b77abc55b1",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 733,
+      "total_tokens": 3474,
+      "cost_usd": null,
+      "latency_seconds": 2.259188700001687,
+      "response_id": "chatcmpl-0f79026d-b7b0-46f6-9c15-3078a93c9947"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:51:00.945409+00:00",
+      "image_sha256": "7407e46ac29f688e3c956a95ed296eba1870bf5442024701f6b7103bbd154ccf",
+      "request_sha256": "fcffc44733e82783ab96332fc1c75a0a745fd50a93ae30377ae264b77abc55b1",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.3486710999859497,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 42.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:51:43.299839+00:00",
+      "image_sha256": "7407e46ac29f688e3c956a95ed296eba1870bf5442024701f6b7103bbd154ccf",
+      "request_sha256": "fcffc44733e82783ab96332fc1c75a0a745fd50a93ae30377ae264b77abc55b1",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 606,
+      "total_tokens": 3347,
+      "cost_usd": null,
+      "latency_seconds": 2.14960480001173,
+      "response_id": "chatcmpl-f43d62b4-e6b1-4439-a73e-0b033f951435"
+    }
+  ],
+  "latency_seconds": 93.80064269999275,
+  "cumulative_latency_seconds": 93.80064269999275,
+  "members": [
+    {
+      "prediction": {
+        "dish_name": "Scrambled eggs, roasted Brussels sprouts, mixed greens, and berries",
+        "ingredients": [
+          {
+            "name": "Eggs, whole, scrambled",
+            "name_th": "ไข่คน",
+            "state": "cooked",
+            "grams": 100.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Mass estimated from visual portion size",
+            "estimated_per_100g": {
+              "kcal": 144.0,
+              "protein_g": 10.9,
+              "carbs_g": 0.7,
+              "fat_g": 10.6
+            }
+          },
+          {
+            "name": "Brussels sprouts",
+            "name_th": "กะหล่ำปลีลูก",
+            "state": "roasted",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Cooking method inferred from charred edges",
+            "estimated_per_100g": {
+              "kcal": 80.0,
+              "protein_g": 3.5,
+              "carbs_g": 14.0,
+              "fat_g": 0.5
+            }
+          },
+          {
+            "name": "Mixed leafy greens",
+            "name_th": "ผักใบเขียว",
+            "state": "raw",
+            "grams": 50.0,
+            "evidence": "visible",
+            "confidence": 0.8,
+            "uncertainty": "Specific variety of lettuce/spinach mixed",
+            "estimated_per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.3,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Berries",
+            "name_th": "เบอร์รี่",
+            "state": "raw",
+            "grams": 15.0,
+            "evidence": "visible",
+            "confidence": 0.6,
+            "uncertainty": "Specific type (raspberries/strawberries) is difficult to confirm",
+            "estimated_per_100g": {
+              "kcal": 50.0,
+              "protein_g": 0.8,
+              "carbs_g": 11.0,
+              "fat_g": 0.4
+            }
+          },
+          {
+            "name": "Cooking oil",
+            "name_th": "น้ำมัน",
+            "state": "fried",
+            "grams": 5.0,
+            "evidence": "inferred",
+            "confidence": 0.4,
+            "uncertainty": "Used for eggs and sprouts; amount is a standard estimate",
+            "estimated_per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 241.7,
+          "protein_g": 13.345,
+          "carbs_g": 10.3,
+          "fat_g": 15.985
+        },
+        "partial_nutrients": {
+          "kcal": 241.7,
+          "protein_g": 13.345,
+          "carbs_g": 10.3,
+          "fat_g": 15.985
+        },
+        "ingredients": [
+          {
+            "identity": "eggs whole scrambled|cooked",
+            "prediction": {
+              "name": "Eggs, whole, scrambled",
+              "name_th": "ไข่คน",
+              "state": "cooked",
+              "grams": 100.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimated from visual portion size",
+              "estimated_per_100g": {
+                "kcal": 144.0,
+                "protein_g": 10.9,
+                "carbs_g": 0.7,
+                "fat_g": 10.6
+              }
+            },
+            "grams": 100.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:172187",
+                "name": "Egg, whole, cooked, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.8511
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172185",
+                "name": "Egg, whole, cooked, omelet",
+                "state": "cooked",
+                "lexical_score": 0.6818
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:173272",
+                "name": "Fast foods, egg, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.6222
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172186",
+                "name": "Egg, whole, cooked, poached",
+                "state": "cooked",
+                "lexical_score": 0.6222
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707205",
+                "name": "Egg omelet or scrambled egg, no added fat",
+                "state": "cooked",
+                "lexical_score": 0.5806
+              }
+            ],
+            "per_100g": {
+              "kcal": 144.0,
+              "protein_g": 10.9,
+              "carbs_g": 0.7,
+              "fat_g": 10.6
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 144.0,
+              "protein_g": 10.9,
+              "carbs_g": 0.7,
+              "fat_g": 10.6
+            },
+            "uncertainty": "Mass estimated from visual portion size"
+          },
+          {
+            "identity": "brussels sprouts|roasted",
+            "prediction": {
+              "name": "Brussels sprouts",
+              "name_th": "กะหล่ำปลีลูก",
+              "state": "roasted",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Cooking method inferred from charred edges",
+              "estimated_per_100g": {
+                "kcal": 80.0,
+                "protein_g": 3.5,
+                "carbs_g": 14.0,
+                "fat_g": 0.5
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170595",
+                "name": "Seeds, breadfruit seeds, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2706142",
+                "name": "Goose, wild, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4118
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709402",
+                "name": "Potato, roasted, NFS",
+                "state": "roasted",
+                "lexical_score": 0.3889
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172440",
+                "name": "Soybeans, mature seeds, roasted, salted",
+                "state": "roasted",
+                "lexical_score": 0.3846
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707498",
+                "name": "Cashews, honey roasted",
+                "state": "roasted",
+                "lexical_score": 0.3784
+              }
+            ],
+            "per_100g": {
+              "kcal": 80.0,
+              "protein_g": 3.5,
+              "carbs_g": 14.0,
+              "fat_g": 0.5
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 36.0,
+              "protein_g": 1.575,
+              "carbs_g": 6.3,
+              "fat_g": 0.225
+            },
+            "uncertainty": "Cooking method inferred from charred edges"
+          },
+          {
+            "identity": "mixed leafy greens|raw",
+            "prediction": {
+              "name": "Mixed leafy greens",
+              "name_th": "ผักใบเขียว",
+              "state": "raw",
+              "grams": 50.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Specific variety of lettuce/spinach mixed",
+              "estimated_per_100g": {
+                "kcal": 20.0,
+                "protein_g": 1.5,
+                "carbs_g": 3.3,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 50.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709792",
+                "name": "Mixed salad greens, raw",
+                "state": "raw",
+                "lexical_score": 0.75
+              },
+              {
+                "food_id": "Foundation:2025-12:2346391",
+                "name": "Lettuce, leaf, green, raw",
+                "state": "raw",
+                "lexical_score": 0.6
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170375",
+                "name": "Beet greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "Foundation:2025-12:2747653",
+                "name": "Beet greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5455
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709570",
+                "name": "Beet greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5455
+              }
+            ],
+            "per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.3,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 10.0,
+              "protein_g": 0.75,
+              "carbs_g": 1.65,
+              "fat_g": 0.1
+            },
+            "uncertainty": "Specific variety of lettuce/spinach mixed"
+          },
+          {
+            "identity": "berries|raw",
+            "prediction": {
+              "name": "Berries",
+              "name_th": "เบอร์รี่",
+              "state": "raw",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Specific type (raspberries/strawberries) is difficult to confirm",
+              "estimated_per_100g": {
+                "kcal": 50.0,
+                "protein_g": 0.8,
+                "carbs_g": 11.0,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:169913",
+                "name": "Mulberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171722",
+                "name": "Cranberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171711",
+                "name": "Blueberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:167755",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              },
+              {
+                "food_id": "Foundation:2025-12:2346411",
+                "name": "Blueberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6364
+              }
+            ],
+            "per_100g": {
+              "kcal": 50.0,
+              "protein_g": 0.8,
+              "carbs_g": 11.0,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 7.5,
+              "protein_g": 0.12,
+              "carbs_g": 1.65,
+              "fat_g": 0.06
+            },
+            "uncertainty": "Specific type (raspberries/strawberries) is difficult to confirm"
+          },
+          {
+            "identity": "cooking oil|fried",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "น้ำมัน",
+              "state": "fried",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.4,
+              "uncertainty": "Used for eggs and sprouts; amount is a standard estimate",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2708051",
+                "name": "Pastry, cookie type, fried",
+                "state": "fried",
+                "lexical_score": 0.4
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710055",
+                "name": "Fried onion rings",
+                "state": "fried",
+                "lexical_score": 0.3571
+              }
+            ],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 44.2,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Used for eggs and sprouts; amount is a standard estimate"
+          }
+        ],
+        "total_estimated_mass_g": 215.0,
+        "database_mass_coverage": 0.0,
+        "database_only_mass_coverage": 0.0,
+        "fallback_ingredient_count": 5,
+        "predicted_ingredient_count": 5
+      }
+    },
+    {
+      "prediction": {
+        "dish_name": "Scrambled eggs, cooked Brussels sprouts, mixed salad greens, and raspberries",
+        "ingredients": [
+          {
+            "name": "Eggs, scrambled",
+            "name_th": "ไข่คน",
+            "state": "cooked",
+            "grams": 120.0,
+            "evidence": "visible",
+            "confidence": 0.95,
+            "uncertainty": "Mass estimated based on portion size and density.",
+            "estimated_per_100g": {
+              "kcal": 148.0,
+              "protein_g": 12.0,
+              "carbs_g": 1.0,
+              "fat_g": 10.0
+            }
+          },
+          {
+            "name": "Brussels sprouts",
+            "name_th": "กะหล่ำ بروเซล",
+            "state": "roasted",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Preparation state inferred from browning and texture (likely roasted or grilled).",
+            "estimated_per_100g": {
+              "kcal": 43.0,
+              "protein_g": 3.0,
+              "carbs_g": 9.0,
+              "fat_g": 0.3
+            }
+          },
+          {
+            "name": "Salad greens",
+            "name_th": "ผักสลัด",
+            "state": "raw",
+            "grams": 40.0,
+            "evidence": "visible",
+            "confidence": 0.85,
+            "uncertainty": "Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable.",
+            "estimated_per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.5,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Raspberries",
+            "name_th": "ราสเบอร์รี่",
+            "state": "raw",
+            "grams": 15.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Mass is an estimate based on the count of visible berries.",
+            "estimated_per_100g": {
+              "kcal": 52.0,
+              "protein_g": 1.2,
+              "carbs_g": 12.0,
+              "fat_g": 0.7
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 212.75,
+          "protein_g": 16.53,
+          "carbs_g": 8.45,
+          "fat_g": 12.32
+        },
+        "partial_nutrients": {
+          "kcal": 212.75,
+          "protein_g": 16.53,
+          "carbs_g": 8.45,
+          "fat_g": 12.32
+        },
+        "ingredients": [
+          {
+            "identity": "eggs scrambled|cooked",
+            "prediction": {
+              "name": "Eggs, scrambled",
+              "name_th": "ไข่คน",
+              "state": "cooked",
+              "grams": 120.0,
+              "evidence": "visible",
+              "confidence": 0.95,
+              "uncertainty": "Mass estimated based on portion size and density.",
+              "estimated_per_100g": {
+                "kcal": 148.0,
+                "protein_g": 12.0,
+                "carbs_g": 1.0,
+                "fat_g": 10.0
+              }
+            },
+            "grams": 120.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:173272",
+                "name": "Fast foods, egg, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.7179
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172187",
+                "name": "Egg, whole, cooked, scrambled",
+                "state": "cooked",
+                "lexical_score": 0.6829
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169904",
+                "name": "Eggs, scrambled, frozen mixture",
+                "state": "cooked",
+                "lexical_score": 0.6512
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707176",
+                "name": "Duck egg, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5333
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707177",
+                "name": "Goose egg, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5161
+              }
+            ],
+            "per_100g": {
+              "kcal": 148.0,
+              "protein_g": 12.0,
+              "carbs_g": 1.0,
+              "fat_g": 10.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 177.6,
+              "protein_g": 14.399999999999999,
+              "carbs_g": 1.2,
+              "fat_g": 12.0
+            },
+            "uncertainty": "Mass estimated based on portion size and density."
+          },
+          {
+            "identity": "brussels sprouts|roasted",
+            "prediction": {
+              "name": "Brussels sprouts",
+              "name_th": "กะหล่ำ بروเซล",
+              "state": "roasted",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Preparation state inferred from browning and texture (likely roasted or grilled).",
+              "estimated_per_100g": {
+                "kcal": 43.0,
+                "protein_g": 3.0,
+                "carbs_g": 9.0,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:170595",
+                "name": "Seeds, breadfruit seeds, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2706142",
+                "name": "Goose, wild, roasted",
+                "state": "roasted",
+                "lexical_score": 0.4118
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709402",
+                "name": "Potato, roasted, NFS",
+                "state": "roasted",
+                "lexical_score": 0.3889
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:172440",
+                "name": "Soybeans, mature seeds, roasted, salted",
+                "state": "roasted",
+                "lexical_score": 0.3846
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707498",
+                "name": "Cashews, honey roasted",
+                "state": "roasted",
+                "lexical_score": 0.3784
+              }
+            ],
+            "per_100g": {
+              "kcal": 43.0,
+              "protein_g": 3.0,
+              "carbs_g": 9.0,
+              "fat_g": 0.3
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 19.35,
+              "protein_g": 1.35,
+              "carbs_g": 4.05,
+              "fat_g": 0.135
+            },
+            "uncertainty": "Preparation state inferred from browning and texture (likely roasted or grilled)."
+          },
+          {
+            "identity": "salad greens|raw",
+            "prediction": {
+              "name": "Salad greens",
+              "name_th": "ผักสลัด",
+              "state": "raw",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.85,
+              "uncertainty": "Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable.",
+              "estimated_per_100g": {
+                "kcal": 20.0,
+                "protein_g": 1.5,
+                "carbs_g": 3.5,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709792",
+                "name": "Mixed salad greens, raw",
+                "state": "raw",
+                "lexical_score": 0.7059
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169256",
+                "name": "Mustard greens, raw",
+                "state": "raw",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709606",
+                "name": "Mustard greens, raw",
+                "state": "raw",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "Foundation:2025-12:2710823",
+                "name": "Asparagus, green, raw",
+                "state": "raw",
+                "lexical_score": 0.5806
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:169226",
+                "name": "Dandelion greens, raw",
+                "state": "raw",
+                "lexical_score": 0.5625
+              }
+            ],
+            "per_100g": {
+              "kcal": 20.0,
+              "protein_g": 1.5,
+              "carbs_g": 3.5,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 8.0,
+              "protein_g": 0.6000000000000001,
+              "carbs_g": 1.4000000000000001,
+              "fat_g": 0.08000000000000002
+            },
+            "uncertainty": "Specific variety of leaves (spinach, lettuce, etc.) is not visually distinguishable."
+          },
+          {
+            "identity": "raspberries|raw",
+            "prediction": {
+              "name": "Raspberries",
+              "name_th": "ราสเบอร์รี่",
+              "state": "raw",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass is an estimate based on the count of visible berries.",
+              "estimated_per_100g": {
+                "kcal": 52.0,
+                "protein_g": 1.2,
+                "carbs_g": 12.0,
+                "fat_g": 0.7
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:167755",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "Foundation:2025-12:2346410",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "Foundation:2025-12:2263888",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709281",
+                "name": "Raspberries, raw",
+                "state": "raw",
+                "lexical_score": 0.8462
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171722",
+                "name": "Cranberries, raw",
+                "state": "raw",
+                "lexical_score": 0.6923
+              }
+            ],
+            "per_100g": {
+              "kcal": 52.0,
+              "protein_g": 1.2,
+              "carbs_g": 12.0,
+              "fat_g": 0.7
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 7.8,
+              "protein_g": 0.18,
+              "carbs_g": 1.7999999999999998,
+              "fat_g": 0.105
+            },
+            "uncertainty": "Mass is an estimate based on the count of visible berries."
+          }
+        ],
+        "total_estimated_mass_g": 220.0,
+        "database_mass_coverage": 0.0,
+        "database_only_mass_coverage": 0.0,
+        "fallback_ingredient_count": 4,
+        "predicted_ingredient_count": 4
+      }
+    }
+  ],
+  "merge_trace": [
+    {
+      "identity": "berries|raw",
+      "support_count": 1,
+      "member_grams": [
+        15.0,
+        0
+      ],
+      "mean_grams": 7.5
+    },
+    {
+      "identity": "brussels sprouts|roasted",
+      "support_count": 2,
+      "member_grams": [
+        45.0,
+        45.0
+      ],
+      "mean_grams": 45.0
+    },
+    {
+      "identity": "cooking oil|fried",
+      "support_count": 1,
+      "member_grams": [
+        5.0,
+        0
+      ],
+      "mean_grams": 2.5
+    },
+    {
+      "identity": "eggs scrambled|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        120.0
+      ],
+      "mean_grams": 60.0
+    },
+    {
+      "identity": "eggs whole scrambled|cooked",
+      "support_count": 1,
+      "member_grams": [
+        100.0,
+        0
+      ],
+      "mean_grams": 50.0
+    },
+    {
+      "identity": "mixed leafy greens|raw",
+      "support_count": 1,
+      "member_grams": [
+        50.0,
+        0
+      ],
+      "mean_grams": 25.0
+    },
+    {
+      "identity": "raspberries|raw",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        15.0
+      ],
+      "mean_grams": 7.5
+    },
+    {
+      "identity": "salad greens|raw",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        40.0
+      ],
+      "mean_grams": 20.0
+    }
+  ],
+  "current_attempt_call_count": 4
+}

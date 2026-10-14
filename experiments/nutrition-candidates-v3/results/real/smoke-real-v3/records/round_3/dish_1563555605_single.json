@@ -1,0 +1,570 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 3,
+  "method": "single",
+  "dish_id": "dish_1563555605",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T10:34:54.832348+00:00",
+  "prediction": {
+    "dish_name": "Scrambled eggs, browned potatoes, bacon, and canned pineapple chunks",
+    "ingredients": [
+      {
+        "name": "Potatoes, cooked",
+        "name_th": "มันฝรั่งปรุงสุก",
+        "state": "fried",
+        "grams": 120.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Identity is high confidence based on texture and color, but specific variety and exact mass are estimated from the image.",
+        "estimated_per_100g": {
+          "kcal": 140.0,
+          "protein_g": 2.5,
+          "carbs_g": 24.0,
+          "fat_g": 3.5
+        }
+      },
+      {
+        "name": "Bacon, cooked",
+        "name_th": "เบคอน",
+        "state": "fried",
+        "grams": 45.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Mass is an estimate of the visible strips. The specific cut (streaky or back) cannot be determined.",
+        "estimated_per_100g": {
+          "kcal": 540.0,
+          "protein_g": 37.0,
+          "carbs_g": 1.4,
+          "fat_g": 42.0
+        }
+      },
+      {
+        "name": "Eggs, scrambled",
+        "name_th": "ไข่คน",
+        "state": "cooked",
+        "grams": 60.0,
+        "evidence": "visible",
+        "confidence": 0.95,
+        "uncertainty": "Mass is estimated based on typical serving size and volume in the photo.",
+        "estimated_per_100g": {
+          "kcal": 160.0,
+          "protein_g": 13.0,
+          "carbs_g": 1.5,
+          "fat_g": 11.0
+        }
+      },
+      {
+        "name": "Pineapple, canned, chunks",
+        "name_th": "สับปะรดกระป๋อง",
+        "state": "unspecified",
+        "grams": 100.0,
+        "evidence": "visible",
+        "confidence": 0.85,
+        "uncertainty": "Appearance (glossy surface, uniform cut) strongly suggests canned pineapple. Mass is an estimate.",
+        "estimated_per_100g": {
+          "kcal": 85.0,
+          "protein_g": 0.5,
+          "carbs_g": 22.0,
+          "fat_g": 0.1
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "น้ำมันพืช",
+        "state": "unspecified",
+        "grams": 5.0,
+        "evidence": "inferred",
+        "confidence": 0.8,
+        "uncertainty": "Oil is not directly weighed but is a necessary ingredient for frying the bacon and potatoes to achieve the visible browning.",
+        "estimated_per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 637.0,
+      "protein_g": 27.95,
+      "carbs_g": 52.33,
+      "fat_g": 34.8
+    },
+    "partial_nutrients": {
+      "kcal": 637.0,
+      "protein_g": 27.95,
+      "carbs_g": 52.33,
+      "fat_g": 34.8
+    },
+    "ingredients": [
+      {
+        "identity": "potatoes cooked|fried",
+        "prediction": {
+          "name": "Potatoes, cooked",
+          "name_th": "มันฝรั่งปรุงสุก",
+          "state": "fried",
+          "grams": 120.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Identity is high confidence based on texture and color, but specific variety and exact mass are estimated from the image.",
+          "estimated_per_100g": {
+            "kcal": 140.0,
+            "protein_g": 2.5,
+            "carbs_g": 24.0,
+            "fat_g": 3.5
+          }
+        },
+        "grams": 120.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "name_state_conflict",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 140.0,
+          "protein_g": 2.5,
+          "carbs_g": 24.0,
+          "fat_g": 3.5
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 168.0,
+          "protein_g": 3.0,
+          "carbs_g": 28.799999999999997,
+          "fat_g": 4.2
+        },
+        "uncertainty": "Identity is high confidence based on texture and color, but specific variety and exact mass are estimated from the image."
+      },
+      {
+        "identity": "bacon cooked|fried",
+        "prediction": {
+          "name": "Bacon, cooked",
+          "name_th": "เบคอน",
+          "state": "fried",
+          "grams": 45.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Mass is an estimate of the visible strips. The specific cut (streaky or back) cannot be determined.",
+          "estimated_per_100g": {
+            "kcal": 540.0,
+            "protein_g": 37.0,
+            "carbs_g": 1.4,
+            "fat_g": 42.0
+          }
+        },
+        "grams": 45.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "name_state_conflict",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 540.0,
+          "protein_g": 37.0,
+          "carbs_g": 1.4,
+          "fat_g": 42.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 243.0,
+          "protein_g": 16.650000000000002,
+          "carbs_g": 0.63,
+          "fat_g": 18.900000000000002
+        },
+        "uncertainty": "Mass is an estimate of the visible strips. The specific cut (streaky or back) cannot be determined."
+      },
+      {
+        "identity": "eggs scrambled|cooked",
+        "prediction": {
+          "name": "Eggs, scrambled",
+          "name_th": "ไข่คน",
+          "state": "cooked",
+          "grams": 60.0,
+          "evidence": "visible",
+          "confidence": 0.95,
+          "uncertainty": "Mass is estimated based on typical serving size and volume in the photo.",
+          "estimated_per_100g": {
+            "kcal": 160.0,
+            "protein_g": 13.0,
+            "carbs_g": 1.5,
+            "fat_g": 11.0
+          }
+        },
+        "grams": 60.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:173272",
+            "name": "Fast foods, egg, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.7179
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172187",
+            "name": "Egg, whole, cooked, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.6829
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169904",
+            "name": "Eggs, scrambled, frozen mixture",
+            "state": "cooked",
+            "lexical_score": 0.6512
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707176",
+            "name": "Duck egg, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5333
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707177",
+            "name": "Goose egg, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5161
+          }
+        ],
+        "per_100g": {
+          "kcal": 160.0,
+          "protein_g": 13.0,
+          "carbs_g": 1.5,
+          "fat_g": 11.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 96.0,
+          "protein_g": 7.8,
+          "carbs_g": 0.8999999999999999,
+          "fat_g": 6.6
+        },
+        "uncertainty": "Mass is estimated based on typical serving size and volume in the photo."
+      },
+      {
+        "identity": "pineapple canned chunks|unspecified",
+        "prediction": {
+          "name": "Pineapple, canned, chunks",
+          "name_th": "สับปะรดกระป๋อง",
+          "state": "unspecified",
+          "grams": 100.0,
+          "evidence": "visible",
+          "confidence": 0.85,
+          "uncertainty": "Appearance (glossy surface, uniform cut) strongly suggests canned pineapple. Mass is an estimate.",
+          "estimated_per_100g": {
+            "kcal": 85.0,
+            "protein_g": 0.5,
+            "carbs_g": 22.0,
+            "fat_g": 0.1
+          }
+        },
+        "grams": 100.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709261",
+            "name": "Pineapple, canned, NFS",
+            "state": "unspecified",
+            "lexical_score": 0.8837
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709263",
+            "name": "Pineapple, canned, juice pack",
+            "state": "unspecified",
+            "lexical_score": 0.76
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709262",
+            "name": "Pineapple, canned, in syrup",
+            "state": "unspecified",
+            "lexical_score": 0.75
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709256",
+            "name": "Pear, canned, NFS",
+            "state": "unspecified",
+            "lexical_score": 0.6842
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709250",
+            "name": "Peach, canned, NFS",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          }
+        ],
+        "per_100g": {
+          "kcal": 85.0,
+          "protein_g": 0.5,
+          "carbs_g": 22.0,
+          "fat_g": 0.1
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 85.0,
+          "protein_g": 0.5,
+          "carbs_g": 22.0,
+          "fat_g": 0.1
+        },
+        "uncertainty": "Appearance (glossy surface, uniform cut) strongly suggests canned pineapple. Mass is an estimate."
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "น้ำมันพืช",
+          "state": "unspecified",
+          "grams": 5.0,
+          "evidence": "inferred",
+          "confidence": 0.8,
+          "uncertainty": "Oil is not directly weighed but is a necessary ingredient for frying the bacon and potatoes to achieve the visible browning.",
+          "estimated_per_100g": {
+            "kcal": 900.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 5.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 45.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 5.0
+        },
+        "uncertainty": "Oil is not directly weighed but is a necessary ingredient for frying the bacon and potatoes to achieve the visible browning."
+      }
+    ],
+    "total_estimated_mass_g": 330.0,
+    "database_mass_coverage": 0.0,
+    "database_only_mass_coverage": 0.0,
+    "fallback_ingredient_count": 5,
+    "predicted_ingredient_count": 5
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 4,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:15:52.089197+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4167087999812793,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:21:24.818660+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4046813999884762,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:28:31.909388+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.43129570002201945,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:34:54.839606+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.42159220000030473,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 28.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:35:23.264686+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.26748089998727664,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 8.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 3,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:35:31.537351+00:00",
+      "image_sha256": "bb6e4a279775074c0cd5e52a8030ee06348f407706ef2b29f1387393e99f39dd",
+      "request_sha256": "4340f5d11aed174ef807595e27f1aba49e4157c9ab47d3bfa2ab94b568011681",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 790,
+      "total_tokens": 3531,
+      "cost_usd": null,
+      "latency_seconds": 2.2281187000044156,
+      "response_id": "chatcmpl-756031cd-6d9c-467a-a673-40988d7b6423"
+    }
+  ],
+  "latency_seconds": 39.73829800001113,
+  "cumulative_latency_seconds": 41.035050500009675,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 3
+}

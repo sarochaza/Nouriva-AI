@@ -1,0 +1,6 @@
+{
+  "selection_rule": "seeded representative per exact ingredient/gram plate group, balanced energy-quartile x ingredient-count strata",
+  "seed": 20261014,
+  "n": 5,
+  "appearance_diversity": "Not evaluated automatically. Nutritional/ingredient diversity only."
+}

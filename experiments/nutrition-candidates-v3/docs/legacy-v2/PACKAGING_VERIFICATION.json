@@ -1,0 +1,23 @@
+{
+  "packaged_extraction_tests": {
+    "unit_integration_regression_tests": 45,
+    "passed": 45,
+    "failed": 0
+  },
+  "fresh_extraction_mock": {
+    "evaluations": 45,
+    "successful": 45,
+    "rounds": [
+      1,
+      2,
+      3
+    ],
+    "http_attempts": 105
+  },
+  "resume_new_trials": 0,
+  "zip_crc_integrity": "ok",
+  "real_api_verified": false,
+  "native_windows_powershell_verified": false,
+  "external_dataset_downloads": 0,
+  "full_windows_dataset_accessed": false
+}

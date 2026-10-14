@@ -1,0 +1,504 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "single",
+  "dish_id": "dish_1560368944",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:48:15.522732+00:00",
+  "prediction": {
+    "dish_name": "Plate of cooked rice, sliced meat, and cooked greens",
+    "ingredients": [
+      {
+        "name": "Rice, white, cooked",
+        "name_th": "ข้าวสวย",
+        "state": "cooked",
+        "grams": 80.0,
+        "evidence": "visible",
+        "confidence": 0.8,
+        "uncertainty": "Mass estimated from the small portion size visible on the plate. Variety is unknown, assumed to be standard white rice.",
+        "estimated_per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.7,
+          "carbs_g": 28.0,
+          "fat_g": 0.3
+        }
+      },
+      {
+        "name": "Cooked meat, sliced",
+        "name_th": "เนื้อสัตว์หั่นชิ้น",
+        "state": "cooked",
+        "grams": 50.0,
+        "evidence": "visible",
+        "confidence": 0.6,
+        "uncertainty": "Identity of the meat is uncertain (could be chicken, pork, or fish) but appears to be a lean, cooked protein source.",
+        "estimated_per_100g": {
+          "kcal": 165.0,
+          "protein_g": 26.0,
+          "carbs_g": 0.0,
+          "fat_g": 6.0
+        }
+      },
+      {
+        "name": "Cooked leafy greens",
+        "name_th": "ผักใบเขียว",
+        "state": "cooked",
+        "grams": 15.0,
+        "evidence": "visible",
+        "confidence": 0.7,
+        "uncertainty": "Specific variety of leafy green is unidentified; mass is very small (a garnish portion).",
+        "estimated_per_100g": {
+          "kcal": 25.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4
+        }
+      },
+      {
+        "name": "Garlic",
+        "name_th": "กระเทียม",
+        "state": "raw",
+        "grams": 2.0,
+        "evidence": "visible",
+        "confidence": 0.8,
+        "uncertainty": "Visible as distinct small fragments on the plate.",
+        "estimated_per_100g": {
+          "kcal": 149.0,
+          "protein_g": 6.4,
+          "carbs_g": 33.1,
+          "fat_g": 0.5
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "น้ำมัน",
+        "state": "unspecified",
+        "grams": 2.0,
+        "evidence": "inferred",
+        "confidence": 0.5,
+        "uncertainty": "Inferred from the sheen on the cooked food; exact amount is indeterminate.",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 210.91,
+      "protein_g": 15.7222,
+      "carbs_g": 23.6012,
+      "fat_g": 5.31
+    },
+    "partial_nutrients": {
+      "kcal": 210.91,
+      "protein_g": 15.7222,
+      "carbs_g": 23.6012,
+      "fat_g": 5.31
+    },
+    "ingredients": [
+      {
+        "identity": "rice white cooked|cooked",
+        "prediction": {
+          "name": "Rice, white, cooked",
+          "name_th": "ข้าวสวย",
+          "state": "cooked",
+          "grams": 80.0,
+          "evidence": "visible",
+          "confidence": 0.8,
+          "uncertainty": "Mass estimated from the small portion size visible on the plate. Variety is unknown, assumed to be standard white rice.",
+          "estimated_per_100g": {
+            "kcal": 130.0,
+            "protein_g": 2.7,
+            "carbs_g": 28.0,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 80.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2708422",
+            "name": "Rice, white, cooked, glutinous",
+            "state": "cooked",
+            "lexical_score": 0.7727
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708408",
+            "name": "Rice, white, cooked, no added fat",
+            "state": "cooked",
+            "lexical_score": 0.7234
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708403",
+            "name": "Rice, white, cooked, NS as to fat",
+            "state": "cooked",
+            "lexical_score": 0.7234
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168914",
+            "name": "Rice noodles, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7222
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708356",
+            "name": "Rice noodles, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7222
+          }
+        ],
+        "per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.7,
+          "carbs_g": 28.0,
+          "fat_g": 0.3
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 104.0,
+          "protein_g": 2.16,
+          "carbs_g": 22.400000000000002,
+          "fat_g": 0.24
+        },
+        "uncertainty": "Mass estimated from the small portion size visible on the plate. Variety is unknown, assumed to be standard white rice."
+      },
+      {
+        "identity": "cooked meat sliced|cooked",
+        "prediction": {
+          "name": "Cooked meat, sliced",
+          "name_th": "เนื้อสัตว์หั่นชิ้น",
+          "state": "cooked",
+          "grams": 50.0,
+          "evidence": "visible",
+          "confidence": 0.6,
+          "uncertainty": "Identity of the meat is uncertain (could be chicken, pork, or fish) but appears to be a lean, cooked protein source.",
+          "estimated_per_100g": {
+            "kcal": 165.0,
+            "protein_g": 26.0,
+            "carbs_g": 0.0,
+            "fat_g": 6.0
+          }
+        },
+        "grams": 50.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709951",
+            "name": "Onions, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.6
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709896",
+            "name": "Cactus, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.5854
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709990",
+            "name": "Seaweed, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.5714
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:170543",
+            "name": "Taro, cooked, with salt",
+            "state": "cooked",
+            "lexical_score": 0.5641
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710783",
+            "name": "Fish, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.5581
+          }
+        ],
+        "per_100g": {
+          "kcal": 165.0,
+          "protein_g": 26.0,
+          "carbs_g": 0.0,
+          "fat_g": 6.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 82.5,
+          "protein_g": 13.0,
+          "carbs_g": 0.0,
+          "fat_g": 3.0
+        },
+        "uncertainty": "Identity of the meat is uncertain (could be chicken, pork, or fish) but appears to be a lean, cooked protein source."
+      },
+      {
+        "identity": "cooked leafy greens|cooked",
+        "prediction": {
+          "name": "Cooked leafy greens",
+          "name_th": "ผักใบเขียว",
+          "state": "cooked",
+          "grams": 15.0,
+          "evidence": "visible",
+          "confidence": 0.7,
+          "uncertainty": "Specific variety of leafy green is unidentified; mass is very small (a garnish portion).",
+          "estimated_per_100g": {
+            "kcal": 25.0,
+            "protein_g": 2.9,
+            "carbs_g": 3.6,
+            "fat_g": 0.4
+          }
+        },
+        "grams": 15.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710783",
+            "name": "Fish, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.6364
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710796",
+            "name": "Onions, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.6222
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710805",
+            "name": "Celery, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.6087
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710800",
+            "name": "Cabbage, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.5957
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710793",
+            "name": "Carrots, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.5957
+          }
+        ],
+        "per_100g": {
+          "kcal": 25.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 3.75,
+          "protein_g": 0.435,
+          "carbs_g": 0.54,
+          "fat_g": 0.06
+        },
+        "uncertainty": "Specific variety of leafy green is unidentified; mass is very small (a garnish portion)."
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:169230",
+        "prediction": {
+          "name": "Garlic",
+          "name_th": "กระเทียม",
+          "state": "raw",
+          "grams": 2.0,
+          "evidence": "visible",
+          "confidence": 0.8,
+          "uncertainty": "Visible as distinct small fragments on the plate.",
+          "estimated_per_100g": {
+            "kcal": 149.0,
+            "protein_g": 6.4,
+            "carbs_g": 33.1,
+            "fat_g": 0.5
+          }
+        },
+        "grams": 2.0,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:169230",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "169230",
+        "reference_name": "Garlic, raw",
+        "reference_state": "raw",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1720, \"record_origin\": \"USDA FDC ID 169230\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "reviewed_alias",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 149.0,
+          "protein_g": 6.36,
+          "carbs_g": 33.06,
+          "fat_g": 0.5
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 2.98,
+          "protein_g": 0.1272,
+          "carbs_g": 0.6612,
+          "fat_g": 0.01
+        },
+        "uncertainty": "Visible as distinct small fragments on the plate."
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "น้ำมัน",
+          "state": "unspecified",
+          "grams": 2.0,
+          "evidence": "inferred",
+          "confidence": 0.5,
+          "uncertainty": "Inferred from the sheen on the cooked food; exact amount is indeterminate.",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 2.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 17.68,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 2.0
+        },
+        "uncertainty": "Inferred from the sheen on the cooked food; exact amount is indeterminate."
+      }
+    ],
+    "total_estimated_mass_g": 149.0,
+    "database_mass_coverage": 0.013422818791946308,
+    "database_only_mass_coverage": 0.013422818791946308,
+    "fallback_ingredient_count": 4,
+    "predicted_ingredient_count": 5
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:48:15.570034+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 779,
+      "total_tokens": 3520,
+      "cost_usd": null,
+      "latency_seconds": 2.533752599993022,
+      "response_id": "chatcmpl-155b6f0b-eb10-49ba-8ac0-05dab96f6cb6"
+    }
+  ],
+  "latency_seconds": 3.3048192000132985,
+  "cumulative_latency_seconds": 3.3048192000132985,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 1
+}

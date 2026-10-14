@@ -1,0 +1,336 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 2,
+  "method": "single",
+  "dish_id": "dish_1561491121",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:58:18.575679+00:00",
+  "prediction": {
+    "dish_name": "Sautéed spinach with apple",
+    "ingredients": [
+      {
+        "name": "Spinach",
+        "name_th": "ผักโขม",
+        "state": "fried",
+        "grams": 40.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Serving size is visually estimated",
+        "estimated_per_100g": {
+          "kcal": 40.0,
+          "protein_g": 3.5,
+          "carbs_g": 5.0,
+          "fat_g": 0.3
+        }
+      },
+      {
+        "name": "Apple",
+        "name_th": "แอปเปิล",
+        "state": "raw",
+        "grams": 20.0,
+        "evidence": "visible",
+        "confidence": 0.85,
+        "uncertainty": "High confidence on identity, mass is an estimate based on slice count",
+        "estimated_per_100g": {
+          "kcal": 52.0,
+          "protein_g": 0.3,
+          "carbs_g": 14.0,
+          "fat_g": 0.2
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "",
+        "state": "unspecified",
+        "grams": 2.0,
+        "evidence": "inferred",
+        "confidence": 0.7,
+        "uncertainty": "Presence inferred from glossy texture of the leaves; specific oil type cannot be determined",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 44.08,
+      "protein_g": 1.46,
+      "carbs_g": 4.8,
+      "fat_g": 2.16
+    },
+    "partial_nutrients": {
+      "kcal": 44.08,
+      "protein_g": 1.46,
+      "carbs_g": 4.8,
+      "fat_g": 2.16
+    },
+    "ingredients": [
+      {
+        "identity": "spinach|fried",
+        "prediction": {
+          "name": "Spinach",
+          "name_th": "ผักโขม",
+          "state": "fried",
+          "grams": 40.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Serving size is visually estimated",
+          "estimated_per_100g": {
+            "kcal": 40.0,
+            "protein_g": 3.5,
+            "carbs_g": 5.0,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 40.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "UNMATCHED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 40.0,
+          "protein_g": 3.5,
+          "carbs_g": 5.0,
+          "fat_g": 0.3
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 16.0,
+          "protein_g": 1.4000000000000001,
+          "carbs_g": 2.0,
+          "fat_g": 0.12
+        },
+        "uncertainty": "Serving size is visually estimated"
+      },
+      {
+        "identity": "apple|raw",
+        "prediction": {
+          "name": "Apple",
+          "name_th": "แอปเปิล",
+          "state": "raw",
+          "grams": 20.0,
+          "evidence": "visible",
+          "confidence": 0.85,
+          "uncertainty": "High confidence on identity, mass is an estimate based on slice count",
+          "estimated_per_100g": {
+            "kcal": 52.0,
+            "protein_g": 0.3,
+            "carbs_g": 14.0,
+            "fat_g": 0.2
+          }
+        },
+        "grams": 20.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709215",
+            "name": "Apple, raw",
+            "state": "raw",
+            "lexical_score": 0.7143
+          },
+          {
+            "food_id": "Foundation:2025-12:2346398",
+            "name": "Pineapple, raw",
+            "state": "raw",
+            "lexical_score": 0.5556
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709260",
+            "name": "Pineapple, raw",
+            "state": "raw",
+            "lexical_score": 0.5556
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:171721",
+            "name": "Crabapples, raw",
+            "state": "raw",
+            "lexical_score": 0.5263
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168171",
+            "name": "Rose-apples, raw",
+            "state": "raw",
+            "lexical_score": 0.5
+          }
+        ],
+        "per_100g": {
+          "kcal": 52.0,
+          "protein_g": 0.3,
+          "carbs_g": 14.0,
+          "fat_g": 0.2
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 10.4,
+          "protein_g": 0.06,
+          "carbs_g": 2.8000000000000003,
+          "fat_g": 0.04000000000000001
+        },
+        "uncertainty": "High confidence on identity, mass is an estimate based on slice count"
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "",
+          "state": "unspecified",
+          "grams": 2.0,
+          "evidence": "inferred",
+          "confidence": 0.7,
+          "uncertainty": "Presence inferred from glossy texture of the leaves; specific oil type cannot be determined",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 2.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 17.68,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 2.0
+        },
+        "uncertainty": "Presence inferred from glossy texture of the leaves; specific oil type cannot be determined"
+      }
+    ],
+    "total_estimated_mass_g": 62.0,
+    "database_mass_coverage": 0.0,
+    "database_only_mass_coverage": 0.0,
+    "fallback_ingredient_count": 3,
+    "predicted_ingredient_count": 3
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:58:18.582233+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4173927000083495,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 37.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:58:56.004727+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 445,
+      "total_tokens": 3186,
+      "cost_usd": null,
+      "latency_seconds": 1.5999631000158843,
+      "response_id": "chatcmpl-0db8274b-c372-4f5c-9924-1df833c26bc6"
+    }
+  ],
+  "latency_seconds": 39.10751289999462,
+  "cumulative_latency_seconds": 39.10751289999462,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 2
+}

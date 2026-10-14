@@ -1,0 +1,40 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 3,
+  "method": "single",
+  "dish_id": "dish_1563900205",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "FAILED",
+  "started_at": "2026-10-14T10:15:52.513821+00:00",
+  "prediction": null,
+  "nutrition": null,
+  "nominal_model_calls": 1,
+  "trial_attempt": 1,
+  "error_type": "API_ERROR",
+  "error": "RATE_LIMIT_WAIT_EXCEEDS_CAP; resume later with same frozen run",
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:15:52.525295+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.683199599996442,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    }
+  ],
+  "latency_seconds": 0.7022241999802645,
+  "cumulative_latency_seconds": 0.7022241999802645,
+  "current_attempt_call_count": 1
+}

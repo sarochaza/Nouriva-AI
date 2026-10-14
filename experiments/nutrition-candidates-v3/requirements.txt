@@ -1,0 +1,2 @@
+# Core pipeline, API client and tests use only the Python 3.10+ standard library.
+# Optional original XLSX audit: install openpyxl separately as described in README.

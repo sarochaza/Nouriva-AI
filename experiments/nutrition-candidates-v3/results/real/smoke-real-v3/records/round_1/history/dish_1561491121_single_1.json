@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "single",
+  "dish_id": "dish_1561491121",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "FAILED",
+  "started_at": "2026-10-14T09:49:39.593182+00:00",
+  "prediction": null,
+  "nutrition": null,
+  "nominal_model_calls": 1,
+  "trial_attempt": 1,
+  "error_type": "PREDICTION_ERROR",
+  "error": "Response does not meet ingredient JSON schema: Invalid or missing preparation state",
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:49:39.607276+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "PREDICTION_ERROR",
+      "prompt_tokens": 2741,
+      "completion_tokens": 458,
+      "total_tokens": 3199,
+      "cost_usd": null,
+      "latency_seconds": 1.7126339999958873,
+      "response_id": "chatcmpl-ade0a2d5-c1cf-4678-b7eb-45822737fb63",
+      "validation_error": "Invalid or missing preparation state"
+    }
+  ],
+  "latency_seconds": 1.7385541999829002,
+  "cumulative_latency_seconds": 1.7385541999829002,
+  "current_attempt_call_count": 1
+}

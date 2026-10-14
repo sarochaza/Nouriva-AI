@@ -1,0 +1,22 @@
+[
+  {
+    "file": "data/sources/FoodData_Central_foundation_food_csv_2025-12-18.zip",
+    "sha256": "3850de85effd6d9aa471f48aab2a76c20f9bc5feb3f2f52c8ce693f9cf75d52b",
+    "bytes": 3559820
+  },
+  {
+    "file": "data/sources/AUSNUT 2023 - Food measures.xlsx",
+    "sha256": "58bee1204610efb72bb831dc7fb65acc23db540b51d056f83c6ac0ce84590475",
+    "bytes": 1485360
+  },
+  {
+    "file": "data/sources/FoodData_Central_survey_food_csv_2024-10-31.zip",
+    "sha256": "5ccc25ec2777a8982fbb61378a42f415316173eb11e48c9a8ba4cb19f5a4f29c",
+    "bytes": 3325692
+  },
+  {
+    "file": "data/sources/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+    "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+    "bytes": 6074592
+  }
+]

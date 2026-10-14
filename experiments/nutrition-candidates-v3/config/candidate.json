@@ -1,0 +1,26 @@
+{
+  "experiment_id": "noura-nutrition-agent-candidates-v3",
+  "rounds": 3,
+  "methods": ["single", "ensemble2"],
+  "seed": 20261014,
+  "temperature": 0.7,
+  "database_path": "nutrition_database/ingredients.sqlite",
+  "default_dataset_root": "C:\\Users\\CHOMP2O\\food-nutrients",
+  "single_model": "qwen/qwen3.8-27b",
+  "ensemble_models": ["qwen/qwen3.8-27b", "qwen/qwen3.8-27b"],
+  "ensemble_mode": "self_consistency",
+  "vision_confirmed_models": ["qwen/qwen3.8-27b"],
+  "vision_support_source": "https://console.groq.com/docs/vision",
+  "vision_support_checked": "2026-10-14",
+  "source_priority": ["SR_Legacy", "Foundation", "FNDDS"],
+  "fallback_policy": "database_per_field_then_ai_estimate_then_null",
+  "aggregation": "arithmetic_mean_of_two_independently_calculated_contributions",
+  "api": {
+    "timeout_seconds": 90,
+    "max_retries": 2,
+    "max_retry_wait_seconds": 60,
+    "max_image_bytes": 10485760,
+    "max_completion_tokens": 4000,
+    "prices": {}
+  }
+}

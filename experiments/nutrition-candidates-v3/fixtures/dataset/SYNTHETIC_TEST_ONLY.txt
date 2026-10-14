@@ -1,0 +1,1 @@
+Colored squares and known arithmetic. No actual food images or real dataset ground truth. Not a benchmark result.

@@ -1,0 +1,2041 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 2,
+  "method": "ensemble2",
+  "dish_id": "dish_1561491121",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:58:57.685698+00:00",
+  "prediction": {
+    "dish_name": "Sautéed leafy greens with apple",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "name_th": "แอปเปิ้ล",
+        "state": "raw",
+        "grams": 17.5,
+        "evidence": "uncertain",
+        "confidence": 0.35,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices.",
+        "estimated_per_100g": {
+          "kcal": 52.0,
+          "protein_g": 0.3,
+          "carbs_g": 13.999999999999998,
+          "fat_g": 0.19999999999999998
+        }
+      },
+      {
+        "name": "Cooking oil",
+        "name_th": "",
+        "state": "unspecified",
+        "grams": 1.5,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Surface sheen suggests a small amount of oil was used for sautéing",
+        "estimated_per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Oil, canola",
+        "name_th": "",
+        "state": "unspecified",
+        "grams": 2.5,
+        "evidence": "uncertain",
+        "confidence": 0.2,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate.",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Onion",
+        "name_th": "หอมใหญ่",
+        "state": "cooked",
+        "grams": 7.5,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Slices appear translucent, indicating cooking",
+        "estimated_per_100g": {
+          "kcal": 40.0,
+          "protein_g": 1.1,
+          "carbs_g": 9.3,
+          "fat_g": 0.1
+        }
+      },
+      {
+        "name": "Spinach",
+        "name_th": "ผักโขม",
+        "state": "cooked",
+        "grams": 22.5,
+        "evidence": "uncertain",
+        "confidence": 0.45,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated from volume on plate",
+        "estimated_per_100g": {
+          "kcal": 23.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4000000000000001
+        }
+      },
+      {
+        "name": "Spinach",
+        "name_th": "ผักโขม",
+        "state": "unspecified",
+        "grams": 20.0,
+        "evidence": "uncertain",
+        "confidence": 0.4,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume.",
+        "estimated_per_100g": {
+          "kcal": 23.000000000000004,
+          "protein_g": 2.8999999999999995,
+          "carbs_g": 3.6000000000000005,
+          "fat_g": 0.4000000000000001
+        }
+      },
+      {
+        "name": "Yellow Ginger",
+        "name_th": "ขมิ้น",
+        "state": "cooked",
+        "grams": 2.5,
+        "evidence": "uncertain",
+        "confidence": 0.35,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Yellowish root pieces visible, likely galangal or ginger used in Thai cooking",
+        "estimated_per_100g": {
+          "kcal": 80.0,
+          "protein_g": 1.8000000000000003,
+          "carbs_g": 17.800000000000004,
+          "fat_g": 0.8000000000000002
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 59.475,
+      "protein_g": 1.4125,
+      "carbs_g": 5.1225,
+      "fat_g": 4.2325
+    },
+    "partial_nutrients": {
+      "kcal": 59.475,
+      "protein_g": 1.4125,
+      "carbs_g": 5.1225,
+      "fat_g": 4.2325
+    },
+    "ingredients": [
+      {
+        "identity": "apple|raw",
+        "prediction": {
+          "name": "Apple",
+          "name_th": "แอปเปิ้ล",
+          "state": "raw",
+          "grams": 17.5,
+          "evidence": "uncertain",
+          "confidence": 0.35,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices.",
+          "estimated_per_100g": {
+            "kcal": 52.0,
+            "protein_g": 0.3,
+            "carbs_g": 13.999999999999998,
+            "fat_g": 0.19999999999999998
+          }
+        },
+        "grams": 17.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709215",
+            "name": "Apple, raw",
+            "state": "raw",
+            "lexical_score": 0.7143
+          },
+          {
+            "food_id": "Foundation:2025-12:2346398",
+            "name": "Pineapple, raw",
+            "state": "raw",
+            "lexical_score": 0.5556
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709260",
+            "name": "Pineapple, raw",
+            "state": "raw",
+            "lexical_score": 0.5556
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:171721",
+            "name": "Crabapples, raw",
+            "state": "raw",
+            "lexical_score": 0.5263
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168171",
+            "name": "Rose-apples, raw",
+            "state": "raw",
+            "lexical_score": 0.5
+          }
+        ],
+        "per_100g": {
+          "kcal": 52.0,
+          "protein_g": 0.3,
+          "carbs_g": 13.999999999999998,
+          "fat_g": 0.19999999999999998
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 9.1,
+          "protein_g": 0.0525,
+          "carbs_g": 2.4499999999999997,
+          "fat_g": 0.034999999999999996
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "apple|raw",
+            "prediction": {
+              "name": "Apple",
+              "name_th": "แอปเปิ้ล",
+              "state": "raw",
+              "grams": 35.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices.",
+              "estimated_per_100g": {
+                "kcal": 52.0,
+                "protein_g": 0.3,
+                "carbs_g": 14.0,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 35.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709215",
+                "name": "Apple, raw",
+                "state": "raw",
+                "lexical_score": 0.7143
+              },
+              {
+                "food_id": "Foundation:2025-12:2346398",
+                "name": "Pineapple, raw",
+                "state": "raw",
+                "lexical_score": 0.5556
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709260",
+                "name": "Pineapple, raw",
+                "state": "raw",
+                "lexical_score": 0.5556
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171721",
+                "name": "Crabapples, raw",
+                "state": "raw",
+                "lexical_score": 0.5263
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168171",
+                "name": "Rose-apples, raw",
+                "state": "raw",
+                "lexical_score": 0.5
+              }
+            ],
+            "per_100g": {
+              "kcal": 52.0,
+              "protein_g": 0.3,
+              "carbs_g": 14.0,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 18.2,
+              "protein_g": 0.105,
+              "carbs_g": 4.8999999999999995,
+              "fat_g": 0.06999999999999999
+            },
+            "uncertainty": "Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "cooking oil|unspecified",
+        "prediction": {
+          "name": "Cooking oil",
+          "name_th": "",
+          "state": "unspecified",
+          "grams": 1.5,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Surface sheen suggests a small amount of oil was used for sautéing",
+          "estimated_per_100g": {
+            "kcal": 900.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 1.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2710183",
+            "name": "Corn oil",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710182",
+            "name": "Coconut oil",
+            "state": "unspecified",
+            "lexical_score": 0.7273
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707968",
+            "name": "Cookie, animal",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710184",
+            "name": "Cottonseed oil",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707945",
+            "name": "Cookie, oatmeal",
+            "state": "unspecified",
+            "lexical_score": 0.64
+          }
+        ],
+        "per_100g": {
+          "kcal": 900.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 13.5,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 1.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Surface sheen suggests a small amount of oil was used for sautéing",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "cooking oil|unspecified",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 3.0,
+              "evidence": "inferred",
+              "confidence": 0.6,
+              "uncertainty": "Surface sheen suggests a small amount of oil was used for sautéing",
+              "estimated_per_100g": {
+                "kcal": 900.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 3.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710183",
+                "name": "Corn oil",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710182",
+                "name": "Coconut oil",
+                "state": "unspecified",
+                "lexical_score": 0.7273
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707968",
+                "name": "Cookie, animal",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710184",
+                "name": "Cottonseed oil",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707945",
+                "name": "Cookie, oatmeal",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              }
+            ],
+            "per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 27.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.0
+            },
+            "uncertainty": "Surface sheen suggests a small amount of oil was used for sautéing"
+          }
+        ]
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:172336",
+        "prediction": {
+          "name": "Oil, canola",
+          "name_th": "",
+          "state": "unspecified",
+          "grams": 2.5,
+          "evidence": "uncertain",
+          "confidence": 0.2,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate.",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 2.5,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:172336",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "172336",
+        "reference_name": "Oil, canola",
+        "reference_state": "unspecified",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 4826, \"record_origin\": \"USDA FDC ID 172336\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_identity_declared_source_priority",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 22.1,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 2.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate.",
+        "database_fraction": 1.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "food:SR_Legacy:2018-04:172336",
+            "prediction": {
+              "name": "Oil, canola",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.4,
+              "uncertainty": "Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:172336",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "172336",
+            "reference_name": "Oil, canola",
+            "reference_state": "unspecified",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 4826, \"record_origin\": \"USDA FDC ID 172336\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_identity_declared_source_priority",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 44.2,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "onion|cooked",
+        "prediction": {
+          "name": "Onion",
+          "name_th": "หอมใหญ่",
+          "state": "cooked",
+          "grams": 7.5,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Slices appear translucent, indicating cooking",
+          "estimated_per_100g": {
+            "kcal": 40.0,
+            "protein_g": 1.1,
+            "carbs_g": 9.3,
+            "fat_g": 0.1
+          }
+        },
+        "grams": 7.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709953",
+            "name": "Onions, green, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4348
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709952",
+            "name": "Onions, pearl, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4348
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709951",
+            "name": "Onions, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.3704
+          }
+        ],
+        "per_100g": {
+          "kcal": 40.0,
+          "protein_g": 1.1,
+          "carbs_g": 9.3,
+          "fat_g": 0.1
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 3.0,
+          "protein_g": 0.0825,
+          "carbs_g": 0.6975,
+          "fat_g": 0.0075
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Slices appear translucent, indicating cooking",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "onion|cooked",
+            "prediction": {
+              "name": "Onion",
+              "name_th": "หอมใหญ่",
+              "state": "cooked",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Slices appear translucent, indicating cooking",
+              "estimated_per_100g": {
+                "kcal": 40.0,
+                "protein_g": 1.1,
+                "carbs_g": 9.3,
+                "fat_g": 0.1
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709953",
+                "name": "Onions, green, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709952",
+                "name": "Onions, pearl, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709951",
+                "name": "Onions, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.3704
+              }
+            ],
+            "per_100g": {
+              "kcal": 40.0,
+              "protein_g": 1.1,
+              "carbs_g": 9.3,
+              "fat_g": 0.1
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 6.0,
+              "protein_g": 0.165,
+              "carbs_g": 1.395,
+              "fat_g": 0.015
+            },
+            "uncertainty": "Slices appear translucent, indicating cooking"
+          }
+        ]
+      },
+      {
+        "identity": "spinach|cooked",
+        "prediction": {
+          "name": "Spinach",
+          "name_th": "ผักโขม",
+          "state": "cooked",
+          "grams": 22.5,
+          "evidence": "uncertain",
+          "confidence": 0.45,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated from volume on plate",
+          "estimated_per_100g": {
+            "kcal": 23.0,
+            "protein_g": 2.9,
+            "carbs_g": 3.6,
+            "fat_g": 0.4000000000000001
+          }
+        },
+        "grams": 22.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:169400",
+            "name": "Malabar spinach, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4828
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168912",
+            "name": "Spaghetti, spinach, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4516
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707370",
+            "name": "Pink beans, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4167
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:168917",
+            "name": "Quinoa, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710791",
+            "name": "Spinach, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.4
+          }
+        ],
+        "per_100g": {
+          "kcal": 23.0,
+          "protein_g": 2.9,
+          "carbs_g": 3.6,
+          "fat_g": 0.4000000000000001
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 5.175,
+          "protein_g": 0.6525,
+          "carbs_g": 0.81,
+          "fat_g": 0.09000000000000001
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Mass estimated from volume on plate",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "spinach|cooked",
+            "prediction": {
+              "name": "Spinach",
+              "name_th": "ผักโขม",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimated from volume on plate",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 2.9,
+                "carbs_g": 3.6,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:169400",
+                "name": "Malabar spinach, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4828
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168912",
+                "name": "Spaghetti, spinach, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4516
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707370",
+                "name": "Pink beans, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4167
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168917",
+                "name": "Quinoa, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710791",
+                "name": "Spinach, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.4
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 3.6,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 10.35,
+              "protein_g": 1.305,
+              "carbs_g": 1.62,
+              "fat_g": 0.18000000000000002
+            },
+            "uncertainty": "Mass estimated from volume on plate"
+          }
+        ]
+      },
+      {
+        "identity": "spinach|unspecified",
+        "prediction": {
+          "name": "Spinach",
+          "name_th": "ผักโขม",
+          "state": "unspecified",
+          "grams": 20.0,
+          "evidence": "uncertain",
+          "confidence": 0.4,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume.",
+          "estimated_per_100g": {
+            "kcal": 23.000000000000004,
+            "protein_g": 2.8999999999999995,
+            "carbs_g": 3.6000000000000005,
+            "fat_g": 0.4000000000000001
+          }
+        },
+        "grams": 20.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "Foundation:2025-12:1999632",
+            "name": "Spinach, baby",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "Foundation:2025-12:1750352",
+            "name": "Spinach, baby",
+            "state": "unspecified",
+            "lexical_score": 0.7368
+          },
+          {
+            "food_id": "Foundation:2025-12:1999633",
+            "name": "Spinach, mature",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "Foundation:2025-12:1750353",
+            "name": "Spinach, mature",
+            "state": "unspecified",
+            "lexical_score": 0.6667
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:170494",
+            "name": "Spinach souffle",
+            "state": "unspecified",
+            "lexical_score": 0.6364
+          }
+        ],
+        "per_100g": {
+          "kcal": 23.000000000000004,
+          "protein_g": 2.8999999999999995,
+          "carbs_g": 3.6000000000000005,
+          "fat_g": 0.4000000000000001
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 4.6000000000000005,
+          "protein_g": 0.58,
+          "carbs_g": 0.7200000000000001,
+          "fat_g": 0.08000000000000002
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "spinach|unspecified",
+            "prediction": {
+              "name": "Spinach",
+              "name_th": "ผักโขม",
+              "state": "unspecified",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume.",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 2.9,
+                "carbs_g": 3.6,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "Foundation:2025-12:1999632",
+                "name": "Spinach, baby",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "Foundation:2025-12:1750352",
+                "name": "Spinach, baby",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "Foundation:2025-12:1999633",
+                "name": "Spinach, mature",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "Foundation:2025-12:1750353",
+                "name": "Spinach, mature",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170494",
+                "name": "Spinach souffle",
+                "state": "unspecified",
+                "lexical_score": 0.6364
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 3.6,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 9.200000000000001,
+              "protein_g": 1.16,
+              "carbs_g": 1.4400000000000002,
+              "fat_g": 0.16000000000000003
+            },
+            "uncertainty": "Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "yellow ginger|cooked",
+        "prediction": {
+          "name": "Yellow Ginger",
+          "name_th": "ขมิ้น",
+          "state": "cooked",
+          "grams": 2.5,
+          "evidence": "uncertain",
+          "confidence": 0.35,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Yellowish root pieces visible, likely galangal or ginger used in Thai cooking",
+          "estimated_per_100g": {
+            "kcal": 80.0,
+            "protein_g": 1.8000000000000003,
+            "carbs_g": 17.800000000000004,
+            "fat_g": 0.8000000000000002
+          }
+        },
+        "grams": 2.5,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709870",
+            "name": "Yellow string beans, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5641
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708420",
+            "name": "Yellow rice, cooked, no added fat",
+            "state": "cooked",
+            "lexical_score": 0.4545
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708421",
+            "name": "Yellow rice, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.439
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2708419",
+            "name": "Yellow rice, cooked, NS as to fat",
+            "state": "cooked",
+            "lexical_score": 0.4091
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2710805",
+            "name": "Celery, cooked, as ingredient",
+            "state": "cooked",
+            "lexical_score": 0.4
+          }
+        ],
+        "per_100g": {
+          "kcal": 80.0,
+          "protein_g": 1.8000000000000003,
+          "carbs_g": 17.800000000000004,
+          "fat_g": 0.8000000000000002
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 2.0,
+          "protein_g": 0.045000000000000005,
+          "carbs_g": 0.44500000000000006,
+          "fat_g": 0.020000000000000004
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Yellowish root pieces visible, likely galangal or ginger used in Thai cooking",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "yellow ginger|cooked",
+            "prediction": {
+              "name": "Yellow Ginger",
+              "name_th": "ขมิ้น",
+              "state": "cooked",
+              "grams": 5.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "Yellowish root pieces visible, likely galangal or ginger used in Thai cooking",
+              "estimated_per_100g": {
+                "kcal": 80.0,
+                "protein_g": 1.8,
+                "carbs_g": 17.8,
+                "fat_g": 0.8
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709870",
+                "name": "Yellow string beans, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5641
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708420",
+                "name": "Yellow rice, cooked, no added fat",
+                "state": "cooked",
+                "lexical_score": 0.4545
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708421",
+                "name": "Yellow rice, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.439
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708419",
+                "name": "Yellow rice, cooked, NS as to fat",
+                "state": "cooked",
+                "lexical_score": 0.4091
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710805",
+                "name": "Celery, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.4
+              }
+            ],
+            "per_100g": {
+              "kcal": 80.0,
+              "protein_g": 1.8,
+              "carbs_g": 17.8,
+              "fat_g": 0.8
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 4.0,
+              "protein_g": 0.09000000000000001,
+              "carbs_g": 0.8900000000000001,
+              "fat_g": 0.04000000000000001
+            },
+            "uncertainty": "Yellowish root pieces visible, likely galangal or ginger used in Thai cooking"
+          }
+        ]
+      }
+    ],
+    "total_estimated_mass_g": 74.0,
+    "database_mass_coverage": 0.033783783783783786,
+    "database_only_mass_coverage": 0.033783783783783786,
+    "fallback_ingredient_count": 6,
+    "predicted_ingredient_count": 7
+  },
+  "nominal_model_calls": 2,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:58:57.691422+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.40491139999357983,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 21.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:59:19.101073+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 478,
+      "total_tokens": 3219,
+      "cost_usd": null,
+      "latency_seconds": 1.8098952999862377,
+      "response_id": "chatcmpl-44dca98d-1def-494e-9a19-233c92b8c943"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:59:20.925666+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4077786000270862,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 28.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:59:49.338039+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.42180469998857006,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 1.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 3,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:59:50.765322+00:00",
+      "image_sha256": "250149748dc9238d169f715718573b027cc180d48bf5233de05496e9a2268ef2",
+      "request_sha256": "9f4c706078c14db8054def7dd6e7784d0a06eeecdd21e44d289a3b94af1480d0",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 585,
+      "total_tokens": 3326,
+      "cost_usd": null,
+      "latency_seconds": 1.9976147999987006,
+      "response_id": "chatcmpl-aecfc207-33c6-4c17-9044-39f6eddaf1fc"
+    }
+  ],
+  "latency_seconds": 55.60518250000314,
+  "cumulative_latency_seconds": 55.60518250000314,
+  "members": [
+    {
+      "prediction": {
+        "dish_name": "Sautéed leafy greens with apple",
+        "ingredients": [
+          {
+            "name": "Spinach",
+            "name_th": "ผักโขม",
+            "state": "unspecified",
+            "grams": 40.0,
+            "evidence": "visible",
+            "confidence": 0.8,
+            "uncertainty": "Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume.",
+            "estimated_per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 3.6,
+              "fat_g": 0.4
+            }
+          },
+          {
+            "name": "Apple",
+            "name_th": "แอปเปิ้ล",
+            "state": "raw",
+            "grams": 35.0,
+            "evidence": "visible",
+            "confidence": 0.7,
+            "uncertainty": "Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices.",
+            "estimated_per_100g": {
+              "kcal": 52.0,
+              "protein_g": 0.3,
+              "carbs_g": 14.0,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Oil, canola",
+            "name_th": "",
+            "state": "unspecified",
+            "grams": 5.0,
+            "evidence": "inferred",
+            "confidence": 0.4,
+            "uncertainty": "Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate.",
+            "estimated_per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 71.6,
+          "protein_g": 1.265,
+          "carbs_g": 6.34,
+          "fat_g": 5.23
+        },
+        "partial_nutrients": {
+          "kcal": 71.6,
+          "protein_g": 1.265,
+          "carbs_g": 6.34,
+          "fat_g": 5.23
+        },
+        "ingredients": [
+          {
+            "identity": "spinach|unspecified",
+            "prediction": {
+              "name": "Spinach",
+              "name_th": "ผักโขม",
+              "state": "unspecified",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.8,
+              "uncertainty": "Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume.",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 2.9,
+                "carbs_g": 3.6,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "Foundation:2025-12:1999632",
+                "name": "Spinach, baby",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "Foundation:2025-12:1750352",
+                "name": "Spinach, baby",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "Foundation:2025-12:1999633",
+                "name": "Spinach, mature",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "Foundation:2025-12:1750353",
+                "name": "Spinach, mature",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:170494",
+                "name": "Spinach souffle",
+                "state": "unspecified",
+                "lexical_score": 0.6364
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 3.6,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 9.200000000000001,
+              "protein_g": 1.16,
+              "carbs_g": 1.4400000000000002,
+              "fat_g": 0.16000000000000003
+            },
+            "uncertainty": "Identity could be generic leafy greens, but spinach is a likely candidate given leaf shape. Mass estimated from visual volume."
+          },
+          {
+            "identity": "apple|raw",
+            "prediction": {
+              "name": "Apple",
+              "name_th": "แอปเปิ้ล",
+              "state": "raw",
+              "grams": 35.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices.",
+              "estimated_per_100g": {
+                "kcal": 52.0,
+                "protein_g": 0.3,
+                "carbs_g": 14.0,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 35.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709215",
+                "name": "Apple, raw",
+                "state": "raw",
+                "lexical_score": 0.7143
+              },
+              {
+                "food_id": "Foundation:2025-12:2346398",
+                "name": "Pineapple, raw",
+                "state": "raw",
+                "lexical_score": 0.5556
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709260",
+                "name": "Pineapple, raw",
+                "state": "raw",
+                "lexical_score": 0.5556
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:171721",
+                "name": "Crabapples, raw",
+                "state": "raw",
+                "lexical_score": 0.5263
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168171",
+                "name": "Rose-apples, raw",
+                "state": "raw",
+                "lexical_score": 0.5
+              }
+            ],
+            "per_100g": {
+              "kcal": 52.0,
+              "protein_g": 0.3,
+              "carbs_g": 14.0,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 18.2,
+              "protein_g": 0.105,
+              "carbs_g": 4.8999999999999995,
+              "fat_g": 0.06999999999999999
+            },
+            "uncertainty": "Identity is an estimate; could be a firm pear. Mass is estimated based on the size of the visible slices."
+          },
+          {
+            "identity": "food:SR_Legacy:2018-04:172336",
+            "prediction": {
+              "name": "Oil, canola",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.4,
+              "uncertainty": "Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:172336",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "172336",
+            "reference_name": "Oil, canola",
+            "reference_state": "unspecified",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 4826, \"record_origin\": \"USDA FDC ID 172336\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_identity_declared_source_priority",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 44.2,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Sheen on leaves suggests cooking with a small amount of oil, though it could be steamed. Mass is a minimal estimate."
+          }
+        ],
+        "total_estimated_mass_g": 80.0,
+        "database_mass_coverage": 0.0625,
+        "database_only_mass_coverage": 0.0625,
+        "fallback_ingredient_count": 2,
+        "predicted_ingredient_count": 3
+      }
+    },
+    {
+      "prediction": {
+        "dish_name": "Sautéed spinach with onion and herbs",
+        "ingredients": [
+          {
+            "name": "Spinach",
+            "name_th": "ผักโขม",
+            "state": "cooked",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Mass estimated from volume on plate",
+            "estimated_per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 3.6,
+              "fat_g": 0.4
+            }
+          },
+          {
+            "name": "Onion",
+            "name_th": "หอมใหญ่",
+            "state": "cooked",
+            "grams": 15.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Slices appear translucent, indicating cooking",
+            "estimated_per_100g": {
+              "kcal": 40.0,
+              "protein_g": 1.1,
+              "carbs_g": 9.3,
+              "fat_g": 0.1
+            }
+          },
+          {
+            "name": "Yellow Ginger",
+            "name_th": "ขมิ้น",
+            "state": "cooked",
+            "grams": 5.0,
+            "evidence": "visible",
+            "confidence": 0.7,
+            "uncertainty": "Yellowish root pieces visible, likely galangal or ginger used in Thai cooking",
+            "estimated_per_100g": {
+              "kcal": 80.0,
+              "protein_g": 1.8,
+              "carbs_g": 17.8,
+              "fat_g": 0.8
+            }
+          },
+          {
+            "name": "Cooking oil",
+            "name_th": "",
+            "state": "unspecified",
+            "grams": 3.0,
+            "evidence": "inferred",
+            "confidence": 0.6,
+            "uncertainty": "Surface sheen suggests a small amount of oil was used for sautéing",
+            "estimated_per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 47.35,
+          "protein_g": 1.56,
+          "carbs_g": 3.905,
+          "fat_g": 3.235
+        },
+        "partial_nutrients": {
+          "kcal": 47.35,
+          "protein_g": 1.56,
+          "carbs_g": 3.905,
+          "fat_g": 3.235
+        },
+        "ingredients": [
+          {
+            "identity": "spinach|cooked",
+            "prediction": {
+              "name": "Spinach",
+              "name_th": "ผักโขม",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Mass estimated from volume on plate",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 2.9,
+                "carbs_g": 3.6,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "SR_Legacy:2018-04:169400",
+                "name": "Malabar spinach, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4828
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168912",
+                "name": "Spaghetti, spinach, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4516
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707370",
+                "name": "Pink beans, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4167
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:168917",
+                "name": "Quinoa, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710791",
+                "name": "Spinach, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.4
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 2.9,
+              "carbs_g": 3.6,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 10.35,
+              "protein_g": 1.305,
+              "carbs_g": 1.62,
+              "fat_g": 0.18000000000000002
+            },
+            "uncertainty": "Mass estimated from volume on plate"
+          },
+          {
+            "identity": "onion|cooked",
+            "prediction": {
+              "name": "Onion",
+              "name_th": "หอมใหญ่",
+              "state": "cooked",
+              "grams": 15.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Slices appear translucent, indicating cooking",
+              "estimated_per_100g": {
+                "kcal": 40.0,
+                "protein_g": 1.1,
+                "carbs_g": 9.3,
+                "fat_g": 0.1
+              }
+            },
+            "grams": 15.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709953",
+                "name": "Onions, green, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709952",
+                "name": "Onions, pearl, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709951",
+                "name": "Onions, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.3704
+              }
+            ],
+            "per_100g": {
+              "kcal": 40.0,
+              "protein_g": 1.1,
+              "carbs_g": 9.3,
+              "fat_g": 0.1
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 6.0,
+              "protein_g": 0.165,
+              "carbs_g": 1.395,
+              "fat_g": 0.015
+            },
+            "uncertainty": "Slices appear translucent, indicating cooking"
+          },
+          {
+            "identity": "yellow ginger|cooked",
+            "prediction": {
+              "name": "Yellow Ginger",
+              "name_th": "ขมิ้น",
+              "state": "cooked",
+              "grams": 5.0,
+              "evidence": "visible",
+              "confidence": 0.7,
+              "uncertainty": "Yellowish root pieces visible, likely galangal or ginger used in Thai cooking",
+              "estimated_per_100g": {
+                "kcal": 80.0,
+                "protein_g": 1.8,
+                "carbs_g": 17.8,
+                "fat_g": 0.8
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709870",
+                "name": "Yellow string beans, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5641
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708420",
+                "name": "Yellow rice, cooked, no added fat",
+                "state": "cooked",
+                "lexical_score": 0.4545
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708421",
+                "name": "Yellow rice, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.439
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2708419",
+                "name": "Yellow rice, cooked, NS as to fat",
+                "state": "cooked",
+                "lexical_score": 0.4091
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710805",
+                "name": "Celery, cooked, as ingredient",
+                "state": "cooked",
+                "lexical_score": 0.4
+              }
+            ],
+            "per_100g": {
+              "kcal": 80.0,
+              "protein_g": 1.8,
+              "carbs_g": 17.8,
+              "fat_g": 0.8
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 4.0,
+              "protein_g": 0.09000000000000001,
+              "carbs_g": 0.8900000000000001,
+              "fat_g": 0.04000000000000001
+            },
+            "uncertainty": "Yellowish root pieces visible, likely galangal or ginger used in Thai cooking"
+          },
+          {
+            "identity": "cooking oil|unspecified",
+            "prediction": {
+              "name": "Cooking oil",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 3.0,
+              "evidence": "inferred",
+              "confidence": 0.6,
+              "uncertainty": "Surface sheen suggests a small amount of oil was used for sautéing",
+              "estimated_per_100g": {
+                "kcal": 900.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 3.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2710183",
+                "name": "Corn oil",
+                "state": "unspecified",
+                "lexical_score": 0.7368
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710182",
+                "name": "Coconut oil",
+                "state": "unspecified",
+                "lexical_score": 0.7273
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707968",
+                "name": "Cookie, animal",
+                "state": "unspecified",
+                "lexical_score": 0.6667
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2710184",
+                "name": "Cottonseed oil",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2707945",
+                "name": "Cookie, oatmeal",
+                "state": "unspecified",
+                "lexical_score": 0.64
+              }
+            ],
+            "per_100g": {
+              "kcal": 900.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 27.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.0
+            },
+            "uncertainty": "Surface sheen suggests a small amount of oil was used for sautéing"
+          }
+        ],
+        "total_estimated_mass_g": 68.0,
+        "database_mass_coverage": 0.0,
+        "database_only_mass_coverage": 0.0,
+        "fallback_ingredient_count": 4,
+        "predicted_ingredient_count": 4
+      }
+    }
+  ],
+  "merge_trace": [
+    {
+      "identity": "apple|raw",
+      "support_count": 1,
+      "member_grams": [
+        35.0,
+        0
+      ],
+      "mean_grams": 17.5
+    },
+    {
+      "identity": "cooking oil|unspecified",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        3.0
+      ],
+      "mean_grams": 1.5
+    },
+    {
+      "identity": "food:SR_Legacy:2018-04:172336",
+      "support_count": 1,
+      "member_grams": [
+        5.0,
+        0
+      ],
+      "mean_grams": 2.5
+    },
+    {
+      "identity": "onion|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        15.0
+      ],
+      "mean_grams": 7.5
+    },
+    {
+      "identity": "spinach|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        45.0
+      ],
+      "mean_grams": 22.5
+    },
+    {
+      "identity": "spinach|unspecified",
+      "support_count": 1,
+      "member_grams": [
+        40.0,
+        0
+      ],
+      "mean_grams": 20.0
+    },
+    {
+      "identity": "yellow ginger|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        5.0
+      ],
+      "mean_grams": 2.5
+    }
+  ],
+  "current_attempt_call_count": 5
+}

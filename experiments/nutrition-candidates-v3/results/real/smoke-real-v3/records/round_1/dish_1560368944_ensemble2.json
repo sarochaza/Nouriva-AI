@@ -1,0 +1,1737 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 1,
+  "method": "ensemble2",
+  "dish_id": "dish_1560368944",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T09:48:18.832055+00:00",
+  "prediction": {
+    "dish_name": "Leftovers of a stir-fried meat and vegetable dish served with rice",
+    "ingredients": [
+      {
+        "name": "Basil, fresh",
+        "name_th": "ใบโหระพา",
+        "state": "cooked",
+        "grams": 5.0,
+        "evidence": "uncertain",
+        "confidence": 0.25,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb.",
+        "estimated_per_100g": {
+          "kcal": 23.000000000000004,
+          "protein_g": 3.2000000000000006,
+          "carbs_g": 2.7,
+          "fat_g": 0.4000000000000001
+        }
+      },
+      {
+        "name": "Rice, white, long-grain, regular, enriched, cooked",
+        "name_th": "ข้าวสวย",
+        "state": "cooked",
+        "grams": 52.5,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Estimated mass of the rice portion visible on the plate.; Estimated from visible volume; could potentially be brown rice but appears white.",
+        "estimated_per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.6899999999999995,
+          "carbs_g": 28.17,
+          "fat_g": 0.28
+        }
+      },
+      {
+        "name": "Oil, soybean, salad or cooking",
+        "name_th": "น้ำมันถั่วเหลือง",
+        "state": "unspecified",
+        "grams": 3.5,
+        "evidence": "inferred",
+        "confidence": 0.55,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Trace oil inferred from the sheen on the meat and vegetables.; Small amount inferred from the sheen on the rice and meat.",
+        "estimated_per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        }
+      },
+      {
+        "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+        "name_th": "",
+        "state": "roasted",
+        "grams": 20.0,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity inferred from texture and color; could be pork or a different poultry cut.",
+        "estimated_per_100g": {
+          "kcal": 165.0,
+          "protein_g": 31.020000000000003,
+          "carbs_g": 0.0,
+          "fat_g": 3.5699999999999994
+        }
+      },
+      {
+        "name": "Greens, leafy, cooked",
+        "name_th": "",
+        "state": "cooked",
+        "grams": 5.0,
+        "evidence": "uncertain",
+        "confidence": 0.25,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific vegetable identity is unidentifiable due to cooking and low resolution.",
+        "estimated_per_100g": {
+          "kcal": 25.0,
+          "protein_g": 2.2,
+          "carbs_g": 4.5,
+          "fat_g": 0.20000000000000004
+        }
+      },
+      {
+        "name": "Pork, lean, cooked, braised or stir-fried",
+        "name_th": "เนื้อหมูผัด",
+        "state": "cooked",
+        "grams": 20.0,
+        "evidence": "uncertain",
+        "confidence": 0.3,
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation and specific cut of meat are estimated from visual texture and color.",
+        "estimated_per_100g": {
+          "kcal": 250.0,
+          "protein_g": 25.0,
+          "carbs_g": 0.0,
+          "fat_g": 16.0
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 184.59,
+      "protein_g": 12.88625,
+      "carbs_g": 15.14925,
+      "fat_g": 7.591
+    },
+    "partial_nutrients": {
+      "kcal": 184.59,
+      "protein_g": 12.88625,
+      "carbs_g": 15.14925,
+      "fat_g": 7.591
+    },
+    "ingredients": [
+      {
+        "identity": "basil fresh|cooked",
+        "prediction": {
+          "name": "Basil, fresh",
+          "name_th": "ใบโหระพา",
+          "state": "cooked",
+          "grams": 5.0,
+          "evidence": "uncertain",
+          "confidence": 0.25,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb.",
+          "estimated_per_100g": {
+            "kcal": 23.000000000000004,
+            "protein_g": 3.2000000000000006,
+            "carbs_g": 2.7,
+            "fat_g": 0.4000000000000001
+          }
+        },
+        "grams": 5.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709721",
+            "name": "Tomatoes, fresh, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2705890",
+            "name": "Bacon or side pork, fresh, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4762
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2706149",
+            "name": "Quail, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4348
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:173871",
+            "name": "Sausage, turkey, fresh, cooked",
+            "state": "cooked",
+            "lexical_score": 0.4211
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709603",
+            "name": "Kale, fresh, cooked, fat added",
+            "state": "cooked",
+            "lexical_score": 0.4211
+          }
+        ],
+        "per_100g": {
+          "kcal": 23.000000000000004,
+          "protein_g": 3.2000000000000006,
+          "carbs_g": 2.7,
+          "fat_g": 0.4000000000000001
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 1.1500000000000001,
+          "protein_g": 0.16000000000000003,
+          "carbs_g": 0.135,
+          "fat_g": 0.020000000000000004
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "basil fresh|cooked",
+            "prediction": {
+              "name": "Basil, fresh",
+              "name_th": "ใบโหระพา",
+              "state": "cooked",
+              "grams": 10.0,
+              "evidence": "visible",
+              "confidence": 0.5,
+              "uncertainty": "Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb.",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 3.2,
+                "carbs_g": 2.7,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 10.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709721",
+                "name": "Tomatoes, fresh, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2705890",
+                "name": "Bacon or side pork, fresh, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4762
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2706149",
+                "name": "Quail, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:173871",
+                "name": "Sausage, turkey, fresh, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4211
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709603",
+                "name": "Kale, fresh, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.4211
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 3.2,
+              "carbs_g": 2.7,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.3000000000000003,
+              "protein_g": 0.32000000000000006,
+              "carbs_g": 0.27,
+              "fat_g": 0.04000000000000001
+            },
+            "uncertainty": "Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb."
+          },
+          null
+        ]
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:168878",
+        "prediction": {
+          "name": "Rice, white, long-grain, regular, enriched, cooked",
+          "name_th": "ข้าวสวย",
+          "state": "cooked",
+          "grams": 52.5,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Estimated mass of the rice portion visible on the plate.; Estimated from visible volume; could potentially be brown rice but appears white.",
+          "estimated_per_100g": {
+            "kcal": 130.0,
+            "protein_g": 2.6899999999999995,
+            "carbs_g": 28.17,
+            "fat_g": 0.28
+          }
+        },
+        "grams": 52.5,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:168878",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "168878",
+        "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+        "reference_state": "cooked",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 130.0,
+          "protein_g": 2.6899999999999995,
+          "carbs_g": 28.17,
+          "fat_g": 0.28
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 68.25,
+          "protein_g": 1.4122499999999998,
+          "carbs_g": 14.789250000000001,
+          "fat_g": 0.14700000000000002
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Estimated mass of the rice portion visible on the plate.; Estimated from visible volume; could potentially be brown rice but appears white.",
+        "database_fraction": 1.0,
+        "support_count": 2,
+        "member_rows": [
+          {
+            "identity": "food:SR_Legacy:2018-04:168878",
+            "prediction": {
+              "name": "Rice, white, long-grain, regular, enriched, cooked",
+              "name_th": "ข้าวสวย",
+              "state": "cooked",
+              "grams": 60.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Estimated mass of the rice portion visible on the plate.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.0,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 60.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:168878",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "168878",
+            "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.69,
+              "carbs_g": 28.17,
+              "fat_g": 0.28
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 78.0,
+              "protein_g": 1.6139999999999999,
+              "carbs_g": 16.902,
+              "fat_g": 0.168
+            },
+            "uncertainty": "Estimated mass of the rice portion visible on the plate."
+          },
+          {
+            "identity": "food:SR_Legacy:2018-04:168878",
+            "prediction": {
+              "name": "Rice, white, long-grain, regular, enriched, cooked",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Estimated from visible volume; could potentially be brown rice but appears white.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.2,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:168878",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "168878",
+            "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.69,
+              "carbs_g": 28.17,
+              "fat_g": 0.28
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 58.5,
+              "protein_g": 1.2105,
+              "carbs_g": 12.6765,
+              "fat_g": 0.12600000000000003
+            },
+            "uncertainty": "Estimated from visible volume; could potentially be brown rice but appears white."
+          }
+        ]
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:171411",
+        "prediction": {
+          "name": "Oil, soybean, salad or cooking",
+          "name_th": "น้ำมันถั่วเหลือง",
+          "state": "unspecified",
+          "grams": 3.5,
+          "evidence": "inferred",
+          "confidence": 0.55,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Trace oil inferred from the sheen on the meat and vegetables.; Small amount inferred from the sheen on the rice and meat.",
+          "estimated_per_100g": {
+            "kcal": 884.0,
+            "protein_g": 0.0,
+            "carbs_g": 0.0,
+            "fat_g": 100.0
+          }
+        },
+        "grams": 3.5,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:171411",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "171411",
+        "reference_name": "Oil, soybean, salad or cooking",
+        "reference_state": "unspecified",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3901, \"record_origin\": \"USDA FDC ID 171411\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 100.0
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 30.94,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fat_g": 3.5
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Trace oil inferred from the sheen on the meat and vegetables.; Small amount inferred from the sheen on the rice and meat.",
+        "database_fraction": 1.0,
+        "support_count": 2,
+        "member_rows": [
+          {
+            "identity": "food:SR_Legacy:2018-04:171411",
+            "prediction": {
+              "name": "Oil, soybean, salad or cooking",
+              "name_th": "น้ำมันถั่วเหลือง",
+              "state": "unspecified",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.4,
+              "uncertainty": "Trace oil inferred from the sheen on the meat and vegetables.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:171411",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "171411",
+            "reference_name": "Oil, soybean, salad or cooking",
+            "reference_state": "unspecified",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3901, \"record_origin\": \"USDA FDC ID 171411\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 44.2,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Trace oil inferred from the sheen on the meat and vegetables."
+          },
+          {
+            "identity": "food:SR_Legacy:2018-04:171411",
+            "prediction": {
+              "name": "Oil, soybean, salad or cooking",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 2.0,
+              "evidence": "inferred",
+              "confidence": 0.7,
+              "uncertainty": "Small amount inferred from the sheen on the rice and meat.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 2.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:171411",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "171411",
+            "reference_name": "Oil, soybean, salad or cooking",
+            "reference_state": "unspecified",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3901, \"record_origin\": \"USDA FDC ID 171411\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 17.68,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 2.0
+            },
+            "uncertainty": "Small amount inferred from the sheen on the rice and meat."
+          }
+        ]
+      },
+      {
+        "identity": "food:SR_Legacy:2018-04:171477",
+        "prediction": {
+          "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+          "name_th": "",
+          "state": "roasted",
+          "grams": 20.0,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Identity inferred from texture and color; could be pork or a different poultry cut.",
+          "estimated_per_100g": {
+            "kcal": 165.0,
+            "protein_g": 31.020000000000003,
+            "carbs_g": 0.0,
+            "fat_g": 3.5699999999999994
+          }
+        },
+        "grams": 20.0,
+        "basis_g": 100,
+        "food_id": "SR_Legacy:2018-04:171477",
+        "source_id": "SR_Legacy:2018-04",
+        "source_food_id": "171477",
+        "reference_name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+        "reference_state": "roasted",
+        "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3967, \"record_origin\": \"USDA FDC ID 171477\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+        "match_status": "MATCHED",
+        "match_reason": "exact_name_state",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 165.0,
+          "protein_g": 31.020000000000003,
+          "carbs_g": 0.0,
+          "fat_g": 3.5699999999999994
+        },
+        "nutrient_sources": {
+          "kcal": "DATABASE",
+          "protein_g": "DATABASE",
+          "carbs_g": "DATABASE",
+          "fat_g": "DATABASE"
+        },
+        "contribution": {
+          "kcal": 33.0,
+          "protein_g": 6.204000000000001,
+          "carbs_g": 0.0,
+          "fat_g": 0.714
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Identity inferred from texture and color; could be pork or a different poultry cut.",
+        "database_fraction": 1.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "food:SR_Legacy:2018-04:171477",
+            "prediction": {
+              "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+              "name_th": "",
+              "state": "roasted",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Identity inferred from texture and color; could be pork or a different poultry cut.",
+              "estimated_per_100g": {
+                "kcal": 165.0,
+                "protein_g": 31.0,
+                "carbs_g": 0.0,
+                "fat_g": 3.6
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:171477",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "171477",
+            "reference_name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+            "reference_state": "roasted",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3967, \"record_origin\": \"USDA FDC ID 171477\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 165.0,
+              "protein_g": 31.02,
+              "carbs_g": 0.0,
+              "fat_g": 3.57
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 66.0,
+              "protein_g": 12.408000000000001,
+              "carbs_g": 0.0,
+              "fat_g": 1.428
+            },
+            "uncertainty": "Identity inferred from texture and color; could be pork or a different poultry cut."
+          }
+        ]
+      },
+      {
+        "identity": "greens leafy cooked|cooked",
+        "prediction": {
+          "name": "Greens, leafy, cooked",
+          "name_th": "",
+          "state": "cooked",
+          "grams": 5.0,
+          "evidence": "uncertain",
+          "confidence": 0.25,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Specific vegetable identity is unidentifiable due to cooking and low resolution.",
+          "estimated_per_100g": {
+            "kcal": 25.0,
+            "protein_g": 2.2,
+            "carbs_g": 4.5,
+            "fat_g": 0.20000000000000004
+          }
+        },
+        "grams": 5.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2709598",
+            "name": "Greens, canned, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7692
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709612",
+            "name": "Poke greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7027
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709571",
+            "name": "Beet greens, cooked",
+            "state": "cooked",
+            "lexical_score": 0.7027
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709595",
+            "name": "Greens, NS as to form, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6957
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709906",
+            "name": "Celery, cooked",
+            "state": "cooked",
+            "lexical_score": 0.6875
+          }
+        ],
+        "per_100g": {
+          "kcal": 25.0,
+          "protein_g": 2.2,
+          "carbs_g": 4.5,
+          "fat_g": 0.20000000000000004
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 1.25,
+          "protein_g": 0.11000000000000001,
+          "carbs_g": 0.225,
+          "fat_g": 0.010000000000000002
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Specific vegetable identity is unidentifiable due to cooking and low resolution.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          null,
+          {
+            "identity": "greens leafy cooked|cooked",
+            "prediction": {
+              "name": "Greens, leafy, cooked",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 10.0,
+              "evidence": "visible",
+              "confidence": 0.5,
+              "uncertainty": "Specific vegetable identity is unidentifiable due to cooking and low resolution.",
+              "estimated_per_100g": {
+                "kcal": 25.0,
+                "protein_g": 2.2,
+                "carbs_g": 4.5,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 10.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709598",
+                "name": "Greens, canned, cooked",
+                "state": "cooked",
+                "lexical_score": 0.7692
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709612",
+                "name": "Poke greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.7027
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709571",
+                "name": "Beet greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.7027
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709595",
+                "name": "Greens, NS as to form, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6957
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709906",
+                "name": "Celery, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6875
+              }
+            ],
+            "per_100g": {
+              "kcal": 25.0,
+              "protein_g": 2.2,
+              "carbs_g": 4.5,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.5,
+              "protein_g": 0.22000000000000003,
+              "carbs_g": 0.45,
+              "fat_g": 0.020000000000000004
+            },
+            "uncertainty": "Specific vegetable identity is unidentifiable due to cooking and low resolution."
+          }
+        ]
+      },
+      {
+        "identity": "pork lean cooked braised or stir fried|cooked",
+        "prediction": {
+          "name": "Pork, lean, cooked, braised or stir-fried",
+          "name_th": "เนื้อหมูผัด",
+          "state": "cooked",
+          "grams": 20.0,
+          "evidence": "uncertain",
+          "confidence": 0.3,
+          "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation and specific cut of meat are estimated from visual texture and color.",
+          "estimated_per_100g": {
+            "kcal": 250.0,
+            "protein_g": 25.0,
+            "carbs_g": 0.0,
+            "fat_g": 16.0
+          }
+        },
+        "grams": 20.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "name_state_conflict",
+        "match_candidates": [],
+        "per_100g": {
+          "kcal": 250.0,
+          "protein_g": 25.0,
+          "carbs_g": 0.0,
+          "fat_g": 16.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 50.0,
+          "protein_g": 5.0,
+          "carbs_g": 0.0,
+          "fat_g": 3.2
+        },
+        "uncertainty": "Two-member mean; absent identity contributes 0g. Preparation and specific cut of meat are estimated from visual texture and color.",
+        "database_fraction": 0.0,
+        "support_count": 1,
+        "member_rows": [
+          {
+            "identity": "pork lean cooked braised or stir fried|cooked",
+            "prediction": {
+              "name": "Pork, lean, cooked, braised or stir-fried",
+              "name_th": "เนื้อหมูผัด",
+              "state": "cooked",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Preparation and specific cut of meat are estimated from visual texture and color.",
+              "estimated_per_100g": {
+                "kcal": 250.0,
+                "protein_g": 25.0,
+                "carbs_g": 0.0,
+                "fat_g": 16.0
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "name_state_conflict",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 250.0,
+              "protein_g": 25.0,
+              "carbs_g": 0.0,
+              "fat_g": 16.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 100.0,
+              "protein_g": 10.0,
+              "carbs_g": 0.0,
+              "fat_g": 6.4
+            },
+            "uncertainty": "Preparation and specific cut of meat are estimated from visual texture and color."
+          },
+          null
+        ]
+      }
+    ],
+    "total_estimated_mass_g": 106.0,
+    "database_mass_coverage": 0.7169811320754716,
+    "database_only_mass_coverage": 0.7169811320754716,
+    "fallback_ingredient_count": 3,
+    "predicted_ingredient_count": 6
+  },
+  "nominal_model_calls": 2,
+  "trial_attempt": 1,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:48:18.843279+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.710820500011323,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 4.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:48:23.562180+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 630,
+      "total_tokens": 3371,
+      "cost_usd": null,
+      "latency_seconds": 2.4640715999994427,
+      "response_id": "chatcmpl-bcd77d13-178c-471c-a417-2fc213990715"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:48:26.048465+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.4173865999910049,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 26.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:48:52.474519+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.5605529999884311,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 20.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 3,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T09:49:13.043890+00:00",
+      "image_sha256": "47be98f510d880f605296fb239214849a8ab78dd5d760fd768b4c98f4f927aee",
+      "request_sha256": "480e99b1ee80b87b43341c2c9be5d2d0b6cbca5a0f0c0d211aef7416114bef27",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 585,
+      "total_tokens": 3326,
+      "cost_usd": null,
+      "latency_seconds": 2.294597700005397,
+      "response_id": "chatcmpl-7830e289-a62c-417e-9fdb-5f796fe4fd11"
+    }
+  ],
+  "latency_seconds": 56.85293210000964,
+  "cumulative_latency_seconds": 56.85293210000964,
+  "members": [
+    {
+      "prediction": {
+        "dish_name": "Leftovers of a stir-fried meat and vegetable dish served with rice",
+        "ingredients": [
+          {
+            "name": "Rice, white, long-grain, regular, enriched, cooked",
+            "name_th": "ข้าวสวย",
+            "state": "cooked",
+            "grams": 60.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Estimated mass of the rice portion visible on the plate.",
+            "estimated_per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.7,
+              "carbs_g": 28.0,
+              "fat_g": 0.3
+            }
+          },
+          {
+            "name": "Pork, lean, cooked, braised or stir-fried",
+            "name_th": "เนื้อหมูผัด",
+            "state": "cooked",
+            "grams": 40.0,
+            "evidence": "visible",
+            "confidence": 0.6,
+            "uncertainty": "Preparation and specific cut of meat are estimated from visual texture and color.",
+            "estimated_per_100g": {
+              "kcal": 250.0,
+              "protein_g": 25.0,
+              "carbs_g": 0.0,
+              "fat_g": 16.0
+            }
+          },
+          {
+            "name": "Basil, fresh",
+            "name_th": "ใบโหระพา",
+            "state": "cooked",
+            "grams": 10.0,
+            "evidence": "visible",
+            "confidence": 0.5,
+            "uncertainty": "Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb.",
+            "estimated_per_100g": {
+              "kcal": 23.0,
+              "protein_g": 3.2,
+              "carbs_g": 2.7,
+              "fat_g": 0.4
+            }
+          },
+          {
+            "name": "Oil, soybean, salad or cooking",
+            "name_th": "น้ำมันถั่วเหลือง",
+            "state": "unspecified",
+            "grams": 5.0,
+            "evidence": "inferred",
+            "confidence": 0.4,
+            "uncertainty": "Trace oil inferred from the sheen on the meat and vegetables.",
+            "estimated_per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 224.5,
+          "protein_g": 11.934,
+          "carbs_g": 17.172,
+          "fat_g": 11.608
+        },
+        "partial_nutrients": {
+          "kcal": 224.5,
+          "protein_g": 11.934,
+          "carbs_g": 17.172,
+          "fat_g": 11.608
+        },
+        "ingredients": [
+          {
+            "identity": "food:SR_Legacy:2018-04:168878",
+            "prediction": {
+              "name": "Rice, white, long-grain, regular, enriched, cooked",
+              "name_th": "ข้าวสวย",
+              "state": "cooked",
+              "grams": 60.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Estimated mass of the rice portion visible on the plate.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.0,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 60.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:168878",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "168878",
+            "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.69,
+              "carbs_g": 28.17,
+              "fat_g": 0.28
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 78.0,
+              "protein_g": 1.6139999999999999,
+              "carbs_g": 16.902,
+              "fat_g": 0.168
+            },
+            "uncertainty": "Estimated mass of the rice portion visible on the plate."
+          },
+          {
+            "identity": "pork lean cooked braised or stir fried|cooked",
+            "prediction": {
+              "name": "Pork, lean, cooked, braised or stir-fried",
+              "name_th": "เนื้อหมูผัด",
+              "state": "cooked",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Preparation and specific cut of meat are estimated from visual texture and color.",
+              "estimated_per_100g": {
+                "kcal": 250.0,
+                "protein_g": 25.0,
+                "carbs_g": 0.0,
+                "fat_g": 16.0
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "name_state_conflict",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 250.0,
+              "protein_g": 25.0,
+              "carbs_g": 0.0,
+              "fat_g": 16.0
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 100.0,
+              "protein_g": 10.0,
+              "carbs_g": 0.0,
+              "fat_g": 6.4
+            },
+            "uncertainty": "Preparation and specific cut of meat are estimated from visual texture and color."
+          },
+          {
+            "identity": "basil fresh|cooked",
+            "prediction": {
+              "name": "Basil, fresh",
+              "name_th": "ใบโหระพา",
+              "state": "cooked",
+              "grams": 10.0,
+              "evidence": "visible",
+              "confidence": 0.5,
+              "uncertainty": "Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb.",
+              "estimated_per_100g": {
+                "kcal": 23.0,
+                "protein_g": 3.2,
+                "carbs_g": 2.7,
+                "fat_g": 0.4
+              }
+            },
+            "grams": 10.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709721",
+                "name": "Tomatoes, fresh, cooked",
+                "state": "cooked",
+                "lexical_score": 0.5
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2705890",
+                "name": "Bacon or side pork, fresh, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4762
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2706149",
+                "name": "Quail, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4348
+              },
+              {
+                "food_id": "SR_Legacy:2018-04:173871",
+                "name": "Sausage, turkey, fresh, cooked",
+                "state": "cooked",
+                "lexical_score": 0.4211
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709603",
+                "name": "Kale, fresh, cooked, fat added",
+                "state": "cooked",
+                "lexical_score": 0.4211
+              }
+            ],
+            "per_100g": {
+              "kcal": 23.0,
+              "protein_g": 3.2,
+              "carbs_g": 2.7,
+              "fat_g": 0.4
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.3000000000000003,
+              "protein_g": 0.32000000000000006,
+              "carbs_g": 0.27,
+              "fat_g": 0.04000000000000001
+            },
+            "uncertainty": "Leaf identity is uncertain; it appears wilted and cooked, possibly basil or a similar herb."
+          },
+          {
+            "identity": "food:SR_Legacy:2018-04:171411",
+            "prediction": {
+              "name": "Oil, soybean, salad or cooking",
+              "name_th": "น้ำมันถั่วเหลือง",
+              "state": "unspecified",
+              "grams": 5.0,
+              "evidence": "inferred",
+              "confidence": 0.4,
+              "uncertainty": "Trace oil inferred from the sheen on the meat and vegetables.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 5.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:171411",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "171411",
+            "reference_name": "Oil, soybean, salad or cooking",
+            "reference_state": "unspecified",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3901, \"record_origin\": \"USDA FDC ID 171411\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 44.2,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 5.0
+            },
+            "uncertainty": "Trace oil inferred from the sheen on the meat and vegetables."
+          }
+        ],
+        "total_estimated_mass_g": 115.0,
+        "database_mass_coverage": 0.5652173913043478,
+        "database_only_mass_coverage": 0.5652173913043478,
+        "fallback_ingredient_count": 2,
+        "predicted_ingredient_count": 4
+      }
+    },
+    {
+      "prediction": {
+        "dish_name": "Cooked rice and meat with greens",
+        "ingredients": [
+          {
+            "name": "Rice, white, long-grain, regular, enriched, cooked",
+            "name_th": "",
+            "state": "cooked",
+            "grams": 45.0,
+            "evidence": "visible",
+            "confidence": 0.9,
+            "uncertainty": "Estimated from visible volume; could potentially be brown rice but appears white.",
+            "estimated_per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.7,
+              "carbs_g": 28.2,
+              "fat_g": 0.3
+            }
+          },
+          {
+            "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+            "name_th": "",
+            "state": "roasted",
+            "grams": 40.0,
+            "evidence": "visible",
+            "confidence": 0.6,
+            "uncertainty": "Identity inferred from texture and color; could be pork or a different poultry cut.",
+            "estimated_per_100g": {
+              "kcal": 165.0,
+              "protein_g": 31.0,
+              "carbs_g": 0.0,
+              "fat_g": 3.6
+            }
+          },
+          {
+            "name": "Greens, leafy, cooked",
+            "name_th": "",
+            "state": "cooked",
+            "grams": 10.0,
+            "evidence": "visible",
+            "confidence": 0.5,
+            "uncertainty": "Specific vegetable identity is unidentifiable due to cooking and low resolution.",
+            "estimated_per_100g": {
+              "kcal": 25.0,
+              "protein_g": 2.2,
+              "carbs_g": 4.5,
+              "fat_g": 0.2
+            }
+          },
+          {
+            "name": "Oil, soybean, salad or cooking",
+            "name_th": "",
+            "state": "unspecified",
+            "grams": 2.0,
+            "evidence": "inferred",
+            "confidence": 0.7,
+            "uncertainty": "Small amount inferred from the sheen on the rice and meat.",
+            "estimated_per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            }
+          }
+        ]
+      },
+      "nutrition": {
+        "status": "COMPLETE_WITH_ESTIMATES",
+        "complete": true,
+        "nutrients": {
+          "kcal": 144.68,
+          "protein_g": 13.8385,
+          "carbs_g": 13.1265,
+          "fat_g": 3.574
+        },
+        "partial_nutrients": {
+          "kcal": 144.68,
+          "protein_g": 13.8385,
+          "carbs_g": 13.1265,
+          "fat_g": 3.574
+        },
+        "ingredients": [
+          {
+            "identity": "food:SR_Legacy:2018-04:168878",
+            "prediction": {
+              "name": "Rice, white, long-grain, regular, enriched, cooked",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 45.0,
+              "evidence": "visible",
+              "confidence": 0.9,
+              "uncertainty": "Estimated from visible volume; could potentially be brown rice but appears white.",
+              "estimated_per_100g": {
+                "kcal": 130.0,
+                "protein_g": 2.7,
+                "carbs_g": 28.2,
+                "fat_g": 0.3
+              }
+            },
+            "grams": 45.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:168878",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "168878",
+            "reference_name": "Rice, white, long-grain, regular, enriched, cooked",
+            "reference_state": "cooked",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 1368, \"record_origin\": \"USDA FDC ID 168878\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 130.0,
+              "protein_g": 2.69,
+              "carbs_g": 28.17,
+              "fat_g": 0.28
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 58.5,
+              "protein_g": 1.2105,
+              "carbs_g": 12.6765,
+              "fat_g": 0.12600000000000003
+            },
+            "uncertainty": "Estimated from visible volume; could potentially be brown rice but appears white."
+          },
+          {
+            "identity": "food:SR_Legacy:2018-04:171477",
+            "prediction": {
+              "name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+              "name_th": "",
+              "state": "roasted",
+              "grams": 40.0,
+              "evidence": "visible",
+              "confidence": 0.6,
+              "uncertainty": "Identity inferred from texture and color; could be pork or a different poultry cut.",
+              "estimated_per_100g": {
+                "kcal": 165.0,
+                "protein_g": 31.0,
+                "carbs_g": 0.0,
+                "fat_g": 3.6
+              }
+            },
+            "grams": 40.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:171477",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "171477",
+            "reference_name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+            "reference_state": "roasted",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3967, \"record_origin\": \"USDA FDC ID 171477\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 165.0,
+              "protein_g": 31.02,
+              "carbs_g": 0.0,
+              "fat_g": 3.57
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 66.0,
+              "protein_g": 12.408000000000001,
+              "carbs_g": 0.0,
+              "fat_g": 1.428
+            },
+            "uncertainty": "Identity inferred from texture and color; could be pork or a different poultry cut."
+          },
+          {
+            "identity": "greens leafy cooked|cooked",
+            "prediction": {
+              "name": "Greens, leafy, cooked",
+              "name_th": "",
+              "state": "cooked",
+              "grams": 10.0,
+              "evidence": "visible",
+              "confidence": 0.5,
+              "uncertainty": "Specific vegetable identity is unidentifiable due to cooking and low resolution.",
+              "estimated_per_100g": {
+                "kcal": 25.0,
+                "protein_g": 2.2,
+                "carbs_g": 4.5,
+                "fat_g": 0.2
+              }
+            },
+            "grams": 10.0,
+            "basis_g": 100,
+            "food_id": null,
+            "source_id": null,
+            "source_food_id": null,
+            "reference_name": null,
+            "reference_state": null,
+            "provenance": null,
+            "match_status": "REVIEW_REQUIRED",
+            "match_reason": "no_reviewed_identity_match",
+            "match_candidates": [
+              {
+                "food_id": "FNDDS:2021-2023:2709598",
+                "name": "Greens, canned, cooked",
+                "state": "cooked",
+                "lexical_score": 0.7692
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709612",
+                "name": "Poke greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.7027
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709571",
+                "name": "Beet greens, cooked",
+                "state": "cooked",
+                "lexical_score": 0.7027
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709595",
+                "name": "Greens, NS as to form, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6957
+              },
+              {
+                "food_id": "FNDDS:2021-2023:2709906",
+                "name": "Celery, cooked",
+                "state": "cooked",
+                "lexical_score": 0.6875
+              }
+            ],
+            "per_100g": {
+              "kcal": 25.0,
+              "protein_g": 2.2,
+              "carbs_g": 4.5,
+              "fat_g": 0.2
+            },
+            "nutrient_sources": {
+              "kcal": "AI_ESTIMATE",
+              "protein_g": "AI_ESTIMATE",
+              "carbs_g": "AI_ESTIMATE",
+              "fat_g": "AI_ESTIMATE"
+            },
+            "contribution": {
+              "kcal": 2.5,
+              "protein_g": 0.22000000000000003,
+              "carbs_g": 0.45,
+              "fat_g": 0.020000000000000004
+            },
+            "uncertainty": "Specific vegetable identity is unidentifiable due to cooking and low resolution."
+          },
+          {
+            "identity": "food:SR_Legacy:2018-04:171411",
+            "prediction": {
+              "name": "Oil, soybean, salad or cooking",
+              "name_th": "",
+              "state": "unspecified",
+              "grams": 2.0,
+              "evidence": "inferred",
+              "confidence": 0.7,
+              "uncertainty": "Small amount inferred from the sheen on the rice and meat.",
+              "estimated_per_100g": {
+                "kcal": 884.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 100.0
+              }
+            },
+            "grams": 2.0,
+            "basis_g": 100,
+            "food_id": "SR_Legacy:2018-04:171411",
+            "source_id": "SR_Legacy:2018-04",
+            "source_food_id": "171411",
+            "reference_name": "Oil, soybean, salad or cooking",
+            "reference_state": "unspecified",
+            "provenance": "{\"file\": \"nouriva_usda_food_nutrition.csv\", \"row\": 3901, \"record_origin\": \"USDA FDC ID 171411\", \"file_sha256\": \"8bd3cda560801270dc55deed681d497650af1ca1ff71ee90a5d834d84c6e7d57\", \"quarantined_original_values\": {}}",
+            "match_status": "MATCHED",
+            "match_reason": "exact_name_state",
+            "match_candidates": [],
+            "per_100g": {
+              "kcal": 884.0,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 100.0
+            },
+            "nutrient_sources": {
+              "kcal": "DATABASE",
+              "protein_g": "DATABASE",
+              "carbs_g": "DATABASE",
+              "fat_g": "DATABASE"
+            },
+            "contribution": {
+              "kcal": 17.68,
+              "protein_g": 0.0,
+              "carbs_g": 0.0,
+              "fat_g": 2.0
+            },
+            "uncertainty": "Small amount inferred from the sheen on the rice and meat."
+          }
+        ],
+        "total_estimated_mass_g": 97.0,
+        "database_mass_coverage": 0.8969072164948454,
+        "database_only_mass_coverage": 0.8969072164948454,
+        "fallback_ingredient_count": 1,
+        "predicted_ingredient_count": 4
+      }
+    }
+  ],
+  "merge_trace": [
+    {
+      "identity": "basil fresh|cooked",
+      "support_count": 1,
+      "member_grams": [
+        10.0,
+        0
+      ],
+      "mean_grams": 5.0
+    },
+    {
+      "identity": "food:SR_Legacy:2018-04:168878",
+      "support_count": 2,
+      "member_grams": [
+        60.0,
+        45.0
+      ],
+      "mean_grams": 52.5
+    },
+    {
+      "identity": "food:SR_Legacy:2018-04:171411",
+      "support_count": 2,
+      "member_grams": [
+        5.0,
+        2.0
+      ],
+      "mean_grams": 3.5
+    },
+    {
+      "identity": "food:SR_Legacy:2018-04:171477",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        40.0
+      ],
+      "mean_grams": 20.0
+    },
+    {
+      "identity": "greens leafy cooked|cooked",
+      "support_count": 1,
+      "member_grams": [
+        0,
+        10.0
+      ],
+      "mean_grams": 5.0
+    },
+    {
+      "identity": "pork lean cooked braised or stir fried|cooked",
+      "support_count": 1,
+      "member_grams": [
+        40.0,
+        0
+      ],
+      "mean_grams": 20.0
+    }
+  ],
+  "current_attempt_call_count": 5
+}

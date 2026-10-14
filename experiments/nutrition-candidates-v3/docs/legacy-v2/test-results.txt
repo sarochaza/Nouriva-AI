@@ -1,0 +1,115 @@
+test_duplicate_ids_not_silent (tests.test_dataset.DatasetTests.test_duplicate_ids_not_silent) ... ok
+test_fields_and_image_id_join (tests.test_dataset.DatasetTests.test_fields_and_image_id_join) ... ok
+test_id_filename_mismatch_rejected (tests.test_dataset.DatasetTests.test_id_filename_mismatch_rejected) ... ok
+test_inference_manifest_contains_no_labels (tests.test_dataset.DatasetTests.test_inference_manifest_contains_no_labels) ... ok
+test_missing_nutrient_not_imputed (tests.test_dataset.DatasetTests.test_missing_nutrient_not_imputed) ... ok
+test_path_traversal_rejected (tests.test_dataset.DatasetTests.test_path_traversal_rejected) ... ok
+test_unknown_schema_not_guessed (tests.test_dataset.DatasetTests.test_unknown_schema_not_guessed) ... ok
+test_all_unmatched (tests.test_engine.EngineTests.test_all_unmatched) ... ok
+test_ambiguous_measure_requires_review (tests.test_engine.EngineTests.test_ambiguous_measure_requires_review) ... ok
+test_conflicting_duplicate_id_rejected (tests.test_engine.EngineTests.test_conflicting_duplicate_id_rejected) ... ok
+test_exact_duplicate_id_deduplicated (tests.test_engine.EngineTests.test_exact_duplicate_id_deduplicated) ... ok
+test_identical_description_uses_declared_source_priority (tests.test_engine.EngineTests.test_identical_description_uses_declared_source_priority) ... ok
+test_invalid_numeric_weight (tests.test_engine.EngineTests.test_invalid_numeric_weight) ... ok
+test_known_arithmetic_and_provenance (tests.test_engine.EngineTests.test_known_arithmetic_and_provenance) ... ok
+test_missing_is_not_zero (tests.test_engine.EngineTests.test_missing_is_not_zero) ... ok
+test_negative_source_nutrient_quarantined_not_zero (tests.test_engine.EngineTests.test_negative_source_nutrient_quarantined_not_zero) ... ok
+test_no_substitute_and_no_complete_partial_total (tests.test_engine.EngineTests.test_no_substitute_and_no_complete_partial_total) ... ok
+test_wrong_state_rejected (tests.test_engine.EngineTests.test_wrong_state_rejected) ... ok
+test_duplicate_within_member_does_not_create_votes (tests.test_methods.MethodTests.test_duplicate_within_member_does_not_create_votes) ... ok
+test_ensemble_independent (tests.test_methods.MethodTests.test_ensemble_independent) ... ok
+test_invalid_schema (tests.test_methods.MethodTests.test_invalid_schema) ... ok
+test_majority_and_state_specific_median (tests.test_methods.MethodTests.test_majority_and_state_specific_median) ... ok
+test_multi_actual_dependencies (tests.test_methods.MethodTests.test_multi_actual_dependencies) ... ok
+test_multi_model_requires_distinct_ids (tests.test_methods.MethodTests.test_multi_model_requires_distinct_ids) ... ok
+test_single_one_call (tests.test_methods.MethodTests.test_single_one_call) ... ok
+test_common_success_ingredient_denominator_is_filtered (tests.test_review_regressions.ReviewRegressions.test_common_success_ingredient_denominator_is_filtered) ... ok
+test_cooked_dry_heat_is_not_dried (tests.test_review_regressions.ReviewRegressions.test_cooked_dry_heat_is_not_dried) ... ok
+test_interrupted_trial_retains_billed_events (tests.test_review_regressions.ReviewRegressions.test_interrupted_trial_retains_billed_events) ... ok
+test_merged_ensemble_must_obey_total_mass_limit (tests.test_review_regressions.ReviewRegressions.test_merged_ensemble_must_obey_total_mass_limit) ... ok
+test_failed_prediction_keeps_billed_tokens (tests.test_runs.APITests.test_failed_prediction_keeps_billed_tokens) ... ok
+test_payload_only_image_and_prompt_no_filename_or_labels (tests.test_runs.APITests.test_payload_only_image_and_prompt_no_filename_or_labels) ... ok
+test_retry_retains_all_attempts (tests.test_runs.APITests.test_retry_retains_all_attempts) ... ok
+test_empty_not_zero (tests.test_runs.MetricTests.test_empty_not_zero) ... ok
+test_ingredient_weights_only_on_matched_identity (tests.test_runs.MetricTests.test_ingredient_weights_only_on_matched_identity) ... ok
+test_known_metrics_and_zero_mape_exclusion (tests.test_runs.MetricTests.test_known_metrics_and_zero_mape_exclusion) ... ok
+test_45_mock_evaluations_and_105_calls (tests.test_runs.RunTests.test_45_mock_evaluations_and_105_calls) ... [MOCK] round=1 mock_0000 single: SUCCESS calls=1
+[MOCK] round=1 mock_0000 multi: SUCCESS calls=3
+[MOCK] round=1 mock_0000 ensemble: SUCCESS calls=3
+[MOCK] round=1 mock_0001 single: SUCCESS calls=1
+[MOCK] round=1 mock_0001 multi: SUCCESS calls=3
+[MOCK] round=1 mock_0001 ensemble: SUCCESS calls=3
+[MOCK] round=1 mock_0002 single: SUCCESS calls=1
+[MOCK] round=1 mock_0002 multi: SUCCESS calls=3
+[MOCK] round=1 mock_0002 ensemble: SUCCESS calls=3
+[MOCK] round=1 mock_0003 single: SUCCESS calls=1
+[MOCK] round=1 mock_0003 multi: SUCCESS calls=3
+[MOCK] round=1 mock_0003 ensemble: SUCCESS calls=3
+[MOCK] round=1 mock_0004 single: SUCCESS calls=1
+[MOCK] round=1 mock_0004 multi: SUCCESS calls=3
+[MOCK] round=1 mock_0004 ensemble: SUCCESS calls=3
+[MOCK] round=2 mock_0000 single: SUCCESS calls=1
+[MOCK] round=2 mock_0000 multi: SUCCESS calls=3
+[MOCK] round=2 mock_0000 ensemble: SUCCESS calls=3
+[MOCK] round=2 mock_0001 single: SUCCESS calls=1
+[MOCK] round=2 mock_0001 multi: SUCCESS calls=3
+[MOCK] round=2 mock_0001 ensemble: SUCCESS calls=3
+[MOCK] round=2 mock_0002 single: SUCCESS calls=1
+[MOCK] round=2 mock_0002 multi: SUCCESS calls=3
+[MOCK] round=2 mock_0002 ensemble: SUCCESS calls=3
+[MOCK] round=2 mock_0003 single: SUCCESS calls=1
+[MOCK] round=2 mock_0003 multi: SUCCESS calls=3
+[MOCK] round=2 mock_0003 ensemble: SUCCESS calls=3
+[MOCK] round=2 mock_0004 single: SUCCESS calls=1
+[MOCK] round=2 mock_0004 multi: SUCCESS calls=3
+[MOCK] round=2 mock_0004 ensemble: SUCCESS calls=3
+[MOCK] round=3 mock_0000 single: SUCCESS calls=1
+[MOCK] round=3 mock_0000 multi: SUCCESS calls=3
+[MOCK] round=3 mock_0000 ensemble: SUCCESS calls=3
+[MOCK] round=3 mock_0001 single: SUCCESS calls=1
+[MOCK] round=3 mock_0001 multi: SUCCESS calls=3
+[MOCK] round=3 mock_0001 ensemble: SUCCESS calls=3
+[MOCK] round=3 mock_0002 single: SUCCESS calls=1
+[MOCK] round=3 mock_0002 multi: SUCCESS calls=3
+[MOCK] round=3 mock_0002 ensemble: SUCCESS calls=3
+[MOCK] round=3 mock_0003 single: SUCCESS calls=1
+[MOCK] round=3 mock_0003 multi: SUCCESS calls=3
+[MOCK] round=3 mock_0003 ensemble: SUCCESS calls=3
+[MOCK] round=3 mock_0004 single: SUCCESS calls=1
+[MOCK] round=3 mock_0004 multi: SUCCESS calls=3
+[MOCK] round=3 mock_0004 ensemble: SUCCESS calls=3
+ok
+test_freeze_rejects_configuration_change (tests.test_runs.RunTests.test_freeze_rejects_configuration_change) ... [MOCK] round=1 mock_0000 single: SUCCESS calls=1
+[MOCK] round=1 mock_0001 single: SUCCESS calls=1
+[MOCK] round=1 mock_0002 single: SUCCESS calls=1
+[MOCK] round=1 mock_0003 single: SUCCESS calls=1
+[MOCK] round=1 mock_0004 single: SUCCESS calls=1
+ok
+test_mock_real_separation (tests.test_runs.RunTests.test_mock_real_separation) ... ok
+test_no_ground_truth_needed_for_inference (tests.test_runs.RunTests.test_no_ground_truth_needed_for_inference) ... [MOCK] round=1 mock_0000 single: SUCCESS calls=1
+[MOCK] round=1 mock_0001 single: SUCCESS calls=1
+[MOCK] round=1 mock_0002 single: SUCCESS calls=1
+[MOCK] round=1 mock_0003 single: SUCCESS calls=1
+[MOCK] round=1 mock_0004 single: SUCCESS calls=1
+ok
+test_not_run_and_failed_have_no_error_zero (tests.test_runs.RunTests.test_not_run_and_failed_have_no_error_zero) ... [MOCK] round=1 mock_0000 single: SUCCESS calls=1
+[MOCK] round=1 mock_0001 single: SUCCESS calls=1
+[MOCK] round=1 mock_0002 single: SUCCESS calls=1
+[MOCK] round=1 mock_0003 single: SUCCESS calls=1
+[MOCK] round=1 mock_0004 single: SUCCESS calls=1
+ok
+test_resume_is_idempotent (tests.test_runs.RunTests.test_resume_is_idempotent) ... [MOCK] round=1 mock_0000 single: SUCCESS calls=1
+[MOCK] round=1 mock_0001 single: SUCCESS calls=1
+[MOCK] round=1 mock_0002 single: SUCCESS calls=1
+[MOCK] round=1 mock_0003 single: SUCCESS calls=1
+[MOCK] round=1 mock_0004 single: SUCCESS calls=1
+ok
+test_fndds_legacy_nutrient_numbers_are_joined_explicitly (tests.test_source_audit.SourceAuditTests.test_fndds_legacy_nutrient_numbers_are_joined_explicitly) ... ok
+test_raw_reference_reconciles_and_mismatch_detected (tests.test_source_audit.SourceAuditTests.test_raw_reference_reconciles_and_mismatch_detected) ... ok
+test_unreviewed_rows_rejected (tests.test_thai_import.ThaiImportTests.test_unreviewed_rows_rejected) ... ok
+test_verified_thai_name_searchable (tests.test_thai_import.ThaiImportTests.test_verified_thai_name_searchable) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 0.863s
+
+OK

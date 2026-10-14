@@ -1,0 +1,444 @@
+{
+  "schema_version": 3,
+  "mode": "REAL",
+  "round": 3,
+  "method": "single",
+  "dish_id": "dish_1563900205",
+  "fingerprint": "b2d07e4e2054a807aa9e773e9f974f95dfe296e2f74174b38cab14c725705068",
+  "status": "COMPLETE_WITH_ESTIMATES",
+  "started_at": "2026-10-14T10:35:34.578653+00:00",
+  "prediction": {
+    "dish_name": "Scrambled eggs, roasted broccoli, and raw cantaloupe",
+    "ingredients": [
+      {
+        "name": "Eggs, scrambled",
+        "name_th": "ไข่ต้ม",
+        "state": "cooked",
+        "grams": 90.0,
+        "evidence": "visible",
+        "confidence": 0.9,
+        "uncertainty": "Mass estimated visually; preparation identified as scrambled based on texture and color.",
+        "estimated_per_100g": {
+          "kcal": 120.0,
+          "protein_g": 10.0,
+          "carbs_g": 1.0,
+          "fat_g": 9.0
+        }
+      },
+      {
+        "name": "Broccoli, roasted",
+        "name_th": "บรอกโคลีอบ",
+        "state": "roasted",
+        "grams": 60.0,
+        "evidence": "visible",
+        "confidence": 0.8,
+        "uncertainty": "Identity is visible; state inferred as roasted due to browning on stems. Mass estimated.",
+        "estimated_per_100g": {
+          "kcal": 45.0,
+          "protein_g": 3.0,
+          "carbs_g": 7.0,
+          "fat_g": 0.5
+        }
+      },
+      {
+        "name": "Melon, cantaloupe, raw",
+        "name_th": "เมลอน",
+        "state": "raw",
+        "grams": 70.0,
+        "evidence": "visible",
+        "confidence": 0.8,
+        "uncertainty": "Identity estimated as cantaloupe based on flesh color. Mass of cut pieces estimated.",
+        "estimated_per_100g": {
+          "kcal": 34.0,
+          "protein_g": 1.3,
+          "carbs_g": 8.0,
+          "fat_g": 0.3
+        }
+      }
+    ]
+  },
+  "nutrition": {
+    "status": "COMPLETE_WITH_ESTIMATES",
+    "complete": true,
+    "nutrients": {
+      "kcal": 158.8,
+      "protein_g": 11.71,
+      "carbs_g": 10.7,
+      "fat_g": 8.61
+    },
+    "partial_nutrients": {
+      "kcal": 158.8,
+      "protein_g": 11.71,
+      "carbs_g": 10.7,
+      "fat_g": 8.61
+    },
+    "ingredients": [
+      {
+        "identity": "eggs scrambled|cooked",
+        "prediction": {
+          "name": "Eggs, scrambled",
+          "name_th": "ไข่ต้ม",
+          "state": "cooked",
+          "grams": 90.0,
+          "evidence": "visible",
+          "confidence": 0.9,
+          "uncertainty": "Mass estimated visually; preparation identified as scrambled based on texture and color.",
+          "estimated_per_100g": {
+            "kcal": 120.0,
+            "protein_g": 10.0,
+            "carbs_g": 1.0,
+            "fat_g": 9.0
+          }
+        },
+        "grams": 90.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:173272",
+            "name": "Fast foods, egg, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.7179
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:172187",
+            "name": "Egg, whole, cooked, scrambled",
+            "state": "cooked",
+            "lexical_score": 0.6829
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169904",
+            "name": "Eggs, scrambled, frozen mixture",
+            "state": "cooked",
+            "lexical_score": 0.6512
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707176",
+            "name": "Duck egg, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5333
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707177",
+            "name": "Goose egg, cooked",
+            "state": "cooked",
+            "lexical_score": 0.5161
+          }
+        ],
+        "per_100g": {
+          "kcal": 120.0,
+          "protein_g": 10.0,
+          "carbs_g": 1.0,
+          "fat_g": 9.0
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 108.0,
+          "protein_g": 9.0,
+          "carbs_g": 0.9,
+          "fat_g": 8.1
+        },
+        "uncertainty": "Mass estimated visually; preparation identified as scrambled based on texture and color."
+      },
+      {
+        "identity": "broccoli roasted|roasted",
+        "prediction": {
+          "name": "Broccoli, roasted",
+          "name_th": "บรอกโคลีอบ",
+          "state": "roasted",
+          "grams": 60.0,
+          "evidence": "visible",
+          "confidence": 0.8,
+          "uncertainty": "Identity is visible; state inferred as roasted due to browning on stems. Mass estimated.",
+          "estimated_per_100g": {
+            "kcal": 45.0,
+            "protein_g": 3.0,
+            "carbs_g": 7.0,
+            "fat_g": 0.5
+          }
+        },
+        "grams": 60.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "FNDDS:2021-2023:2706142",
+            "name": "Goose, wild, roasted",
+            "state": "roasted",
+            "lexical_score": 0.6471
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709402",
+            "name": "Potato, roasted, NFS",
+            "state": "roasted",
+            "lexical_score": 0.5556
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2707491",
+            "name": "Almonds, honey roasted",
+            "state": "roasted",
+            "lexical_score": 0.5405
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:175295",
+            "name": "Game meat, beaver, cooked, roasted",
+            "state": "roasted",
+            "lexical_score": 0.5106
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:174608",
+            "name": "Chicken breast, roll, oven-roasted",
+            "state": "roasted",
+            "lexical_score": 0.5
+          }
+        ],
+        "per_100g": {
+          "kcal": 45.0,
+          "protein_g": 3.0,
+          "carbs_g": 7.0,
+          "fat_g": 0.5
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 27.0,
+          "protein_g": 1.7999999999999998,
+          "carbs_g": 4.2,
+          "fat_g": 0.3
+        },
+        "uncertainty": "Identity is visible; state inferred as roasted due to browning on stems. Mass estimated."
+      },
+      {
+        "identity": "melon cantaloupe raw|raw",
+        "prediction": {
+          "name": "Melon, cantaloupe, raw",
+          "name_th": "เมลอน",
+          "state": "raw",
+          "grams": 70.0,
+          "evidence": "visible",
+          "confidence": 0.8,
+          "uncertainty": "Identity estimated as cantaloupe based on flesh color. Mass of cut pieces estimated.",
+          "estimated_per_100g": {
+            "kcal": 34.0,
+            "protein_g": 1.3,
+            "carbs_g": 8.0,
+            "fat_g": 0.3
+          }
+        },
+        "grams": 70.0,
+        "basis_g": 100,
+        "food_id": null,
+        "source_id": null,
+        "source_food_id": null,
+        "reference_name": null,
+        "reference_state": null,
+        "provenance": null,
+        "match_status": "REVIEW_REQUIRED",
+        "match_reason": "no_reviewed_identity_match",
+        "match_candidates": [
+          {
+            "food_id": "SR_Legacy:2018-04:169092",
+            "name": "Melons, cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.9756
+          },
+          {
+            "food_id": "Foundation:2025-12:746770",
+            "name": "Melons, cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.9756
+          },
+          {
+            "food_id": "Foundation:2025-12:327198",
+            "name": "Melons, cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.9756
+          },
+          {
+            "food_id": "FNDDS:2021-2023:2709226",
+            "name": "Cantaloupe, raw",
+            "state": "raw",
+            "lexical_score": 0.8235
+          },
+          {
+            "food_id": "SR_Legacy:2018-04:169093",
+            "name": "Melons, casaba, raw",
+            "state": "raw",
+            "lexical_score": 0.7027
+          }
+        ],
+        "per_100g": {
+          "kcal": 34.0,
+          "protein_g": 1.3,
+          "carbs_g": 8.0,
+          "fat_g": 0.3
+        },
+        "nutrient_sources": {
+          "kcal": "AI_ESTIMATE",
+          "protein_g": "AI_ESTIMATE",
+          "carbs_g": "AI_ESTIMATE",
+          "fat_g": "AI_ESTIMATE"
+        },
+        "contribution": {
+          "kcal": 23.799999999999997,
+          "protein_g": 0.9099999999999999,
+          "carbs_g": 5.6,
+          "fat_g": 0.21
+        },
+        "uncertainty": "Identity estimated as cantaloupe based on flesh color. Mass of cut pieces estimated."
+      }
+    ],
+    "total_estimated_mass_g": 220.0,
+    "database_mass_coverage": 0.0,
+    "database_only_mass_coverage": 0.0,
+    "fallback_ingredient_count": 3,
+    "predicted_ingredient_count": 3
+  },
+  "nominal_model_calls": 1,
+  "trial_attempt": 4,
+  "error_type": null,
+  "error": null,
+  "call_metadata": [
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:15:52.525295+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.683199599996442,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:21:25.245039+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.7130665000004228,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:28:32.370958+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.3764643000031356,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 1,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:35:34.585948+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.24847789999330416,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 36.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 2,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:36:10.840264+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "API_ERROR",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "cost_usd": null,
+      "http_status": 429,
+      "error_type": "HTTP_ERROR",
+      "latency_seconds": 0.38706330000422895,
+      "provider_error_code": "rate_limit_exceeded",
+      "provider_error_type": "tokens",
+      "retry_wait_seconds": 10.0
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "stage": "candidate",
+      "attempt": 3,
+      "prompt_version": "noura-candidate-image-v3.0",
+      "started_at": "2026-10-14T10:36:21.233253+00:00",
+      "image_sha256": "f2b3247b52140670b5d8dd0047cba45eaf4a9b8660884a0799100ec04729a594",
+      "request_sha256": "50b54e774da77c795d127f7c62d74000571f149f3dbb7dec69d242666526c550",
+      "status": "SUCCESS",
+      "prompt_tokens": 2741,
+      "completion_tokens": 470,
+      "total_tokens": 3211,
+      "cost_usd": null,
+      "latency_seconds": 1.6468652000185102,
+      "response_id": "chatcmpl-98144405-a80f-47e3-8c69-631c2b2c45f0"
+    }
+  ],
+  "latency_seconds": 48.468331699987175,
+  "cumulative_latency_seconds": 50.29648259998066,
+  "members": [],
+  "merge_trace": [],
+  "current_attempt_call_count": 3
+}

@@ -1,0 +1,16 @@
+<!doctype html><html lang="th"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noura candidate experiment</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6f5;color:#172d29;font:16px/1.7 system-ui,sans-serif}
+main{max-width:1150px;margin:40px auto;padding:28px}header{padding:32px;background:#174c43;color:white;border-radius:22px}
+h1{font-size:30px;line-height:1.4;margin:8px 0}.tag{letter-spacing:.14em;font-size:12px}section{background:white;padding:26px;border-radius:20px;margin-top:22px}
+.scroll{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:14px;text-align:left;border-bottom:1px solid #e4ebe8;white-space:nowrap}
+th{color:#64756f}strong{color:#176853}a{color:#176853}.status{padding:14px 20px;background:#e5f1ec;border-radius:12px;margin-top:18px;overflow-wrap:anywhere}
+li{margin-bottom:10px}code{font-size:13px}@media(max-width:600px){main{padding:12px;margin:8px auto}header,section{padding:20px}h1{font-size:24px}}
+</style><main><header><div class="tag">NOURA / NUTRITION AGENT CANDIDATES / V3</div><h1>MOCK · ตรวจซอฟต์แวร์เท่านั้น ไม่ใช่ความแม่นยำจริง</h1>
+<p>ภาพเดียวกัน · ฐานข้อมูลเดียวกัน · 3 รอบ · ดึงค่าฐานข้อมูลก่อนประมาณ</p></header>
+<section><h2>ความคลาดเคลื่อนบนคู่ทดลองเดียวกัน</h2><div class="scroll"><table><thead><tr>
+<th>Candidate</th><th>Scored / planned</th><th>kcal MAE</th><th>Protein MAE</th><th>Carbs MAE</th><th>Fat MAE</th><th>Ingredient F1</th><th>HTTP attempts</th>
+</tr></thead><tbody><tr><td>single</td><td>15/15</td><td>8.2000</td><td>0.1860</td><td>1.9160</td><td>0.0480</td><td>1.0000</td><td>15</td></tr><tr><td>ensemble2</td><td>15/15</td><td>5.7400</td><td>0.1302</td><td>1.3412</td><td>0.0336</td><td>1.0000</td><td>30</td></tr></tbody></table></div><div class="status"><strong>MOCK_NOT_ELIGIBLE</strong> · None<br>Mock responses cannot select a nutrition agent</div></section>
+<section><h2>อ่านผลและตรวจที่มาของค่า</h2><ul><li>ผลเลือก candidate: MOCK_NOT_ELIGIBLE; selected=None</li><li>Mock responses cannot select a nutrition agent</li><li>ค่าต่อจาน = กรัมที่คาด / 100 × ค่าต่อ 100g; DATABASE มาก่อน AI_ESTIMATE; ค่าที่ขาดเป็น null</li><li>Ensemble เฉลี่ย contributions จาก 2 ตัว; วัตถุดิบพบตัวเดียวใช้กรัมเฉลี่ยกับ 0g ของตัวที่ไม่พบ</li><li>รายงานหลักใช้คู่ภาพ/รอบที่ทั้งสองวิธีคำนวณครบ; FAILED, INCOMPLETE, NOT_RUN ไม่ใช่ error=0</li><li>แยก cohort ที่ทั้งคู่ใช้ DB ล้วนและ cohort ที่มี AI estimate ใน CSV เพื่อตรวจผลของ fallback</li><li>Single ใช้ 1 response; Ensemble ใช้ 2 responses ต่อภาพต่อรอบ จึงใช้งบต่างกัน</li><li>F1 ใช้ชื่อที่ normalize + synonym จำกัด ไม่ใช่การจับความหมายอัตโนมัติ; ตรวจกรณีชื่อเฉพาะ/ชื่อทั่วไป</li><li>Bootstrap ใช้จานเป็นหน่วยหลังเฉลี่ย 3 รอบ; 3 รอบของภาพเดิมไม่ใช่ภาพอิสระ 3 ภาพ</li><li>ดูสัดส่วนและแหล่งค่ารายวัตถุดิบใน ingredient_breakdown.csv และ JSON trial</li><li>ไม่มีการเลือก Agent จาก MOCK; ผู้ชนะจริงเป็น candidate สำหรับ pilot และควรยืนยันด้วยภาพชุดใหม่</li></ul><p>
+<a href="per_evaluation.csv">ผลรายภาพ/รอบ CSV</a> · <a href="ingredient_breakdown.csv">วัตถุดิบและสัดส่วน CSV</a> ·
+<a href="summary_by_method_round.csv">สรุปแต่ละรอบ CSV</a> · <a href="winner_selection.json">ผลเลือก Agent JSON</a></p></section></main></html>

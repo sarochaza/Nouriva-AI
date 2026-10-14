@@ -1,0 +1,23 @@
+{
+  "derived_from_uploaded_file": "Noura-AI-Nutrition-Benchmark-v2(1).zip",
+  "original_database_sha256": "184878fc11046883d9c344ad321deeb8e3eff9f70f8c4a4c50ec50667e3aea49",
+  "workspace_database_sha256": "184878fc11046883d9c344ad321deeb8e3eff9f70f8c4a4c50ec50667e3aea49",
+  "unchanged_database": true,
+  "food_count": 13661,
+  "reviewed_alias_count": 46,
+  "sources": {
+    "FNDDS:2021-2023": 5432,
+    "Foundation:2025-12": 436,
+    "SR_Legacy:2018-04": 7793
+  },
+  "nutrition_fields": [
+    "kcal",
+    "protein_g",
+    "carbs_g",
+    "fat_g"
+  ],
+  "basis_g": 100,
+  "ai_estimates_written_to_database": false,
+  "compact_repair": true,
+  "original_usda_zip_archives_included": false
+}

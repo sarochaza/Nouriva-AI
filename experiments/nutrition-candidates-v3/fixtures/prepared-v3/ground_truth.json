@@ -1,0 +1,147 @@
+{
+  "mode": "MOCK",
+  "source": "SYNTHETIC_TEST_ONLY",
+  "metadata_sha256": "40856ce92ce8727ce8203ca8aeef8bf40a86030170c3c2564a1441cc4aa43053",
+  "schema_mapping": {
+    "image": "file_name",
+    "id": "id",
+    "ingredients": "ingredients",
+    "kcal": "total_calories",
+    "mass_g": "total_mass",
+    "fat_g": "total_fat",
+    "carbs_g": "total_carb",
+    "protein_g": "total_protein"
+  },
+  "records": [
+    {
+      "dish_id": "mock_0000",
+      "ingredients": [
+        {
+          "id": "TEST_CARROT",
+          "name": "Carrots, raw",
+          "grams": 100.0,
+          "kcal": 41.0,
+          "fat_g": 0.24,
+          "carbs_g": 9.58,
+          "protein_g": 0.9299999999999999
+        }
+      ],
+      "kcal": 41.0,
+      "mass_g": 100.0,
+      "fat_g": 0.24,
+      "carbs_g": 9.58,
+      "protein_g": 0.9299999999999999,
+      "metadata_line": 1,
+      "label_sum_discrepancy": {
+        "kcal": 0.0,
+        "fat_g": 0.0,
+        "carbs_g": 0.0,
+        "protein_g": 0.0
+      }
+    },
+    {
+      "dish_id": "mock_0001",
+      "ingredients": [
+        {
+          "id": "TEST_CARROT",
+          "name": "Carrots, raw",
+          "grams": 110.0,
+          "kcal": 45.099999999999994,
+          "fat_g": 0.26399999999999996,
+          "carbs_g": 10.538,
+          "protein_g": 1.023
+        }
+      ],
+      "kcal": 45.099999999999994,
+      "mass_g": 110.0,
+      "fat_g": 0.26399999999999996,
+      "carbs_g": 10.538,
+      "protein_g": 1.023,
+      "metadata_line": 2,
+      "label_sum_discrepancy": {
+        "kcal": 0.0,
+        "fat_g": 0.0,
+        "carbs_g": 0.0,
+        "protein_g": 0.0
+      }
+    },
+    {
+      "dish_id": "mock_0002",
+      "ingredients": [
+        {
+          "id": "TEST_CARROT",
+          "name": "Carrots, raw",
+          "grams": 120.0,
+          "kcal": 49.199999999999996,
+          "fat_g": 0.288,
+          "carbs_g": 11.495999999999999,
+          "protein_g": 1.1159999999999999
+        }
+      ],
+      "kcal": 49.199999999999996,
+      "mass_g": 120.0,
+      "fat_g": 0.288,
+      "carbs_g": 11.495999999999999,
+      "protein_g": 1.1159999999999999,
+      "metadata_line": 3,
+      "label_sum_discrepancy": {
+        "kcal": 0.0,
+        "fat_g": 0.0,
+        "carbs_g": 0.0,
+        "protein_g": 0.0
+      }
+    },
+    {
+      "dish_id": "mock_0003",
+      "ingredients": [
+        {
+          "id": "TEST_CARROT",
+          "name": "Carrots, raw",
+          "grams": 130.0,
+          "kcal": 53.3,
+          "fat_g": 0.312,
+          "carbs_g": 12.453999999999999,
+          "protein_g": 1.2089999999999999
+        }
+      ],
+      "kcal": 53.3,
+      "mass_g": 130.0,
+      "fat_g": 0.312,
+      "carbs_g": 12.453999999999999,
+      "protein_g": 1.2089999999999999,
+      "metadata_line": 4,
+      "label_sum_discrepancy": {
+        "kcal": 0.0,
+        "fat_g": 0.0,
+        "carbs_g": 0.0,
+        "protein_g": 0.0
+      }
+    },
+    {
+      "dish_id": "mock_0004",
+      "ingredients": [
+        {
+          "id": "TEST_CARROT",
+          "name": "Carrots, raw",
+          "grams": 140.0,
+          "kcal": 57.4,
+          "fat_g": 0.33599999999999997,
+          "carbs_g": 13.411999999999999,
+          "protein_g": 1.3019999999999998
+        }
+      ],
+      "kcal": 57.4,
+      "mass_g": 140.0,
+      "fat_g": 0.33599999999999997,
+      "carbs_g": 13.411999999999999,
+      "protein_g": 1.3019999999999998,
+      "metadata_line": 5,
+      "label_sum_discrepancy": {
+        "kcal": 0.0,
+        "fat_g": 0.0,
+        "carbs_g": 0.0,
+        "protein_g": 0.0
+      }
+    }
+  ]
+}

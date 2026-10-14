@@ -1,0 +1,16 @@
+# Nutrition Agent Candidate Experiment v3
+
+Goal: identify the more accurate nutrition agent candidate using the user local food-nutrients images and expected labels, comparing Single with exactly two independent ensemble samples. Extend the provided v2 database and local dataset loader. Deliver a separate ready-to-run Windows workspace.
+
+- Shared SQLite ingredients.sqlite is copied byte-for-byte from the user ZIP; no database download or API key required for lookup.
+- Each image prediction lists ingredients, edible grams as presented, preparation, visible/inferred evidence, confidence, and provisional per-100g kcal/protein/carbs/fat. The exact same prompt is used by Single and both ensemble members; the members never see each other or truth.
+- Reviewed database matches take precedence for each nutrient. A missing nutrient or unmatched identity uses that member provisional estimate. Null stays missing, never becomes zero. Record database / AI_ESTIMATE / MISSING per field, match reason, source ID and uncertainty. AI estimates are not written to the database.
+- Single uses one vision response. Ensemble uses two independent responses; each uses the shared calculator before a deterministic arithmetic mean of nutrient contributions. Ingredient identities are unioned by exact reviewed database ID or conservative normalized name + preparation; missing member ingredient means zero grams in that member, so union mass is averaged over both. A single failed member fails the ensemble; no silent downgrade.
+- Default is same-model two-sample self-consistency (Groq currently documents one supported vision model). Two distinct verified vision models can be configured as multi_model. No sequential reviewer or third AI call.
+- Three fixed rounds, same selected images/DB/prompt and shared fallback policy. Same per-call settings, unequal total call budgets reported explicitly. No claim that architecture alone causes any improvement.
+- Freeze config, code, DB, manifest and truth integrity. Resume skips completed trials, only explicit retry repeats failed/incomplete trials and preserves attempts. Inference reads manifest and label hash only; evaluator reads expected labels after inference.
+- Evaluate calories/macros MAE/RMSE/MAPE, total mass MAE, ingredient F1 and union mass error, shares, DB coverage, fallback usage, failures, calls/tokens/time. Use paired complete trials, aggregate three repeats by dish for uncertainty.
+- Selection primary: mean scaled absolute nutrient error, scales max(expected, 50 kcal/5g protein/5g carbs/5g fat). Minimum five distinct images, both methods >=90% completion, >=80% images complete in every round for both, >=5% relative improvement and paired dish bootstrap CI excluding zero. Mock and incomplete data cannot select. Five images gives provisional pilot selection; recommend independent larger held-out validation.
+- Output winner_selection.json with selected method/config only when criteria pass. Reuse winner via candidate.analyze without ground truth. Do not train or claim measured accuracy before real API/dataset runs.
+
+User authorization: requested a ready workspace implementing these already described methods; complete the artifact without an additional approval handoff.

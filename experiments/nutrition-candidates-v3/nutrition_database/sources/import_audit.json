@@ -1,0 +1,42 @@
+[
+  {
+    "source": "SR_Legacy",
+    "release": "2018-04",
+    "food_csv_rows": 7793,
+    "curated_food_rows": 7793,
+    "kcal_rows": 7793,
+    "complete_core_rows": 7793,
+    "missing_kcal": 0,
+    "conflicting_nutrients": 0
+  },
+  {
+    "source": "Foundation",
+    "release": "2025-12",
+    "food_csv_rows": 78026,
+    "curated_food_rows": 436,
+    "kcal_rows": 377,
+    "complete_core_rows": 376,
+    "missing_kcal": 59,
+    "conflicting_nutrients": 0
+  },
+  {
+    "source": "FNDDS",
+    "release": "2021-2023",
+    "food_csv_rows": 5432,
+    "curated_food_rows": 5432,
+    "kcal_rows": 5431,
+    "complete_core_rows": 5431,
+    "missing_kcal": 1,
+    "conflicting_nutrients": 0,
+    "recipe_ingredient_rows": 18584
+  },
+  {
+    "source": "AUSNUT_Food_Measures_Only",
+    "release": "2023",
+    "measure_rows": 9816,
+    "unique_survey_ids": 3713,
+    "unique_public_food_keys": 3713,
+    "nutrition_rows": 0,
+    "comment": "This XLSX has portion/gram weight measures but NO kcal/macros; do NOT treat as a nutrition table."
+  }
+]

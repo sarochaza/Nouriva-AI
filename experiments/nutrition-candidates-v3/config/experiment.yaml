@@ -1,0 +1,9 @@
+{
+  "experiment_id": "noura-nutrition-image-benchmark-v2",
+  "rounds": 3,
+  "methods": ["single", "multi", "ensemble"],
+  "seed": 20261013,
+  "temperature": 0.7,
+  "default_dataset_root": "C:\\Users\\CHOMP2O\\food-nutrients",
+  "selection_note": "Use local JSONL. Selection is frozen separately for smoke (5) and pilot (30)."
+}

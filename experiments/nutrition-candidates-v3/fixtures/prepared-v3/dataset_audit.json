@@ -1,0 +1,114 @@
+{
+  "metadata_path": "C:\\Users\\CHOMP2O\\Downloads\\Noura-Repaired\\Noura-Nutrition-Agent-Candidates-v3\\fixtures\\dataset\\metadata.jsonl",
+  "metadata_sha256": "40856ce92ce8727ce8203ca8aeef8bf40a86030170c3c2564a1441cc4aa43053",
+  "valid_records": 5,
+  "invalid_records": 0,
+  "duplicate_ids": 0,
+  "errors": [],
+  "observed_fields": {
+    "file_name": "test/mock_0004.pngtest/mock_0003.pngtest/mock_0002.pngtest/mock_0001.pngtest/mock_0000.png",
+    "id": "mock_0004mock_0003mock_0002mock_0001mock_0000",
+    "split": "testtesttesttesttest",
+    "ingredients": [
+      {
+        "id": "TEST_CARROT",
+        "name": "Carrots, raw",
+        "grams": 140,
+        "calories": 57.4,
+        "fat": 0.33599999999999997,
+        "carb": 13.411999999999999,
+        "protein": 1.3019999999999998
+      },
+      {
+        "id": "TEST_CARROT",
+        "name": "Carrots, raw",
+        "grams": 130,
+        "calories": 53.3,
+        "fat": 0.312,
+        "carb": 12.453999999999999,
+        "protein": 1.2089999999999999
+      },
+      {
+        "id": "TEST_CARROT",
+        "name": "Carrots, raw",
+        "grams": 120,
+        "calories": 49.199999999999996,
+        "fat": 0.288,
+        "carb": 11.495999999999999,
+        "protein": 1.1159999999999999
+      },
+      {
+        "id": "TEST_CARROT",
+        "name": "Carrots, raw",
+        "grams": 110,
+        "calories": 45.099999999999994,
+        "fat": 0.26399999999999996,
+        "carb": 10.538,
+        "protein": 1.023
+      },
+      {
+        "id": "TEST_CARROT",
+        "name": "Carrots, raw",
+        "grams": 100,
+        "calories": 41.0,
+        "fat": 0.24,
+        "carb": 9.58,
+        "protein": 0.9299999999999999
+      }
+    ],
+    "total_calories": 245.99999999999997,
+    "total_mass": 600,
+    "total_fat": 1.44,
+    "total_carb": 57.48,
+    "total_protein": 5.579999999999999
+  },
+  "field_types": {
+    "file_name": {
+      "str": 5
+    },
+    "id": {
+      "str": 5
+    },
+    "split": {
+      "str": 5
+    },
+    "ingredients": {
+      "list": 5
+    },
+    "total_calories": {
+      "float": 5
+    },
+    "total_mass": {
+      "int": 5
+    },
+    "total_fat": {
+      "float": 5
+    },
+    "total_carb": {
+      "float": 5
+    },
+    "total_protein": {
+      "float": 5
+    }
+  },
+  "schema_mapping": {
+    "image": "file_name",
+    "id": "id",
+    "ingredients": "ingredients",
+    "kcal": "total_calories",
+    "mass_g": "total_mass",
+    "fat_g": "total_fat",
+    "carbs_g": "total_carb",
+    "protein_g": "total_protein"
+  },
+  "units": {
+    "mass_g": "g",
+    "kcal": "kcal",
+    "fat_g": "g",
+    "carbs_g": "g",
+    "protein_g": "g"
+  },
+  "units_basis": "Publisher food-nutrients metadata contract; local values checked, units not inferable from numbers alone.",
+  "repeated_plate_groups": 0,
+  "label_sum_discrepancies": []
+}
